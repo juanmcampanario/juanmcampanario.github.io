@@ -7,6 +7,8 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 
 ### School Board Elections and Superintendents
 There are many papers on how school boards effect school outcomes. School board responsibilities include setting a vision and goals for their public schools, approving textbooks and other curriculum materials, and hiring a superintendent. This idea centers on the superintendent, as they're akin to CEO of the schools. Superintendents are the ones overseeing day-to-day operations, they recruit teachers and principals, and they are responsible for evaluating employees with duties related to tenure and termination. 
+
+The questions I was most interested in asking were whether the racial composition of the school board influenced the decisions.
  
  [Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
  

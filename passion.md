@@ -1,4 +1,4 @@
 # Passion Projects
-During my limited free time I typically enjoy learning to code and gathering data from other sources.
+During my limited free time, I enjoy creating new datasets and highlighting new insights about topics. 
 
 ### MMA Fights

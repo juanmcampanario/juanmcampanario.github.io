@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+markdown: kramdown
 title: Juan Manuel Campanario
 logo: "IMG-4228.JPG"
 description: 

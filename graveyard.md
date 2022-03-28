@@ -4,13 +4,6 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 
 ---
 
-### School Board Elections and Superintendents
-There are many papers on how school boards effect school outcomes. School boards responsibilities include setting a vision and and goals for their public schools, approving textbooks and other curriculum materials, and hire the superintendent. This idea centers on the superintendent, as they're akin to CEO of the schools. Superintendents are the ones overseeing day-to-day operations, they recruit teachers and principals, and they are responsible for evaluating employees with duties related to tenure and termination. 
-
-[Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
- 
----
-
 ### The Digital Divide and Consequences of Computer-Based Testing
 This project started out of interest in learning and reading about the experiences of English Langauge Learners (EL), i.e. K-12 students in the US that did not speak English. I started with reading academic papers that were estimating differences in test scores by mode of instruction, which then moved to reading more about reclassification into mainstream classrooms. I learned that in the past few years, most states have transitioned to administering the test via computer as opposed to hand-written tests. From an administrative and grading persepective, this is a cost saving move, but what if students are not able to use the technology or typing slows them down, or even they make more mistakes when typing? I decided to test to see if switching from paper to computer hurts students. 
 

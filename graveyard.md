@@ -8,7 +8,7 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 There are many papers on how school boards effect school outcomes. School boards responsibilities include setting a vision and and goals for their public schools, approving textbooks and other curriculum materials, and hire the superintendent. This idea centers on the superintendent, as they're akin to CEO of the schools. Superintendents are the ones overseeing day-to-day operations, they recruit teachers and principals, and they are responsible for evaluating employees with duties related to tenure and termination. 
 
 [Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
-         
+ 
 ---
 
 ### The Digital Divide and Consequences of Computer-Based Testing

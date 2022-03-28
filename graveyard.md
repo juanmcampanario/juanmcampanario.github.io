@@ -5,7 +5,7 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 ---
 
 ### School Board Elections and Superintendents
-[Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?)
+[Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
          
 ---
 

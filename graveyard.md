@@ -4,7 +4,7 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 
 <br><br>
 ### School Board Elections and Superintendents
-<a href="https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?">Slides <\a>
+[Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?)
          
 <br><br>
 ### The Digital Divide and Consequences of Computer-Based Testing

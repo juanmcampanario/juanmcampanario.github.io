@@ -6,8 +6,6 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 
 ### School Board Elections and Superintendents
 There are many papers on how school boards effect school outcomes. School boards responsibilities include setting a vision and and goals for their public schools, approving textbooks and other curriculum materials, and hire the superintendent. This idea centers on the superintendent, as they're akin to CEO of the schools. Superintendents are the ones overseeing day-to-day operations, they recruit teachers and principals, and they are responsible for evaluating employees with duties related to tenure and termination. 
-
-[Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
  
 ---
 
@@ -19,6 +17,4 @@ Most people working in this space use administrative records, accessing individu
 * According to an education consultant in the Bureau of Student Assessment for CT's Department of Ed, there is not a list of when schools switched or a reason why.
    * The first point can be overcome by emailing the person responsible for EL students in each district or school, but that would be quite labor intensive.
    * The second point is very problematic as it implies that schools might select into switching before the deadline in a way that is unobservable and correlated with student achievement. For example, imagine the only reason schools switch earlier is if there are enough computers in a computer-lab for all the students to take the test at the same time. These schools are likely better funded and have more resources, and EL students may use computers more often in these schools for other activities or even during test prep. Therefore, comparing their test scores when switching from paper to computer to students in other schools would bias the estimate towards a null result.
-
-[Slides](https://drive.google.com/file/d/1dadyKR3FuzQR4HTd1PwVcbCzxcLxCFli/view?usp=sharing?){:target="_blank"}
 

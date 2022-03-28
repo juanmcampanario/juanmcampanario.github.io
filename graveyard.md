@@ -1,11 +1,12 @@
 # Project Graveyard
 For my PhD, like most others, many projects have been abandoned for one reason or another. Most often, either data limitations or the size of the contribution cause me to refocus my effort into new ideas. It has always upset me that we hide these projects, mainly because others will likely consider or try a similar idea and they could use more information. Either they can see why it didn't work out for me or they can take the data to pursue their own project. If you'd like access to any of the data I used, email me. 
+
 ### Mining Deaths and Voting
 
 ---
 
 ### School Board Elections and Superintendents
-There are many papers on how school boards effect school outcomes. School boards responsibilities include setting a vision and and goals for their public schools, approving textbooks and other curriculum materials, and hire the superintendent. This idea centers on the superintendent, as they're akin to CEO of the schools. Superintendents are the ones overseeing day-to-day operations, they recruit teachers and principals, and they are responsible for evaluating employees with duties related to tenure and termination. 
+There are many papers on how school boards effect school outcomes. 
  
  [Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
  

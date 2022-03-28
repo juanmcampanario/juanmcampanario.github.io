@@ -1,15 +1,21 @@
 # Project Graveyard
 For my PhD, like most others, many projects have been abandoned for one reason or another. Most often, either data limitations or the size of the contribution cause me to refocus my effort into new ideas. It has always upset me that we hide these projects, mainly because others will likely consider or try a similar idea and they could use more information. Either they can see why it didn't work out for me or they can take the data to pursue their own project. If you'd like access to any of the data I used, email me. 
 
-### Mining Deaths and Voting
+### Mining Deaths and Voting 
+While trying to come up with a final chapter for my disseration, I was trying to find employment data for Peru's mining industry dating back to 1945. As of writing this, I have not found that set of documents. However, I did find data on mortality within the mining industry since 2001. Mining is a very important industry, both historically and today, in Peru. It accounts for 10% of GDP and it has been estimated that each additional job in the sector creates 6 additional jobs in other sectors. There has been research devoted to social conflict that aries due to new and old projects, and one thing that stands out is that local communities often do not have a way to deter companies from mining. 
 
 ---
 
 ### School Board Elections and Superintendents
 There are many papers on how school boards effect school outcomes. School board responsibilities include setting a vision and goals for their public schools, approving textbooks and other curriculum materials, and hiring a superintendent. This idea centers on the superintendent, as they're akin to CEO of the schools. Superintendents are the ones overseeing day-to-day operations, they recruit teachers and principals, and they are responsible for evaluating employees with duties related to tenure and termination. 
 
-The questions I was most interested in asking were whether the racial composition of the school board influenced their decision on hiring a superintendent and if that could affect superintendent retention. I obtained the roster of superintendents dating back to 1997 in California and school board election data for the same period. My proposed method of identification was to use close elections. Over the years, there would be elections with small margins of victories between white and non-white candidates so I would compare the length of tenure for superintendents in districts The first issue is that the roster does not have ethnicity or race for most of the superintendents, this I attempted to solve this by merging with census data. The 2000 Census includes the racial and ethnic distribution for the top 100 most common surnames, but I had high rate of false negatives.
- 
+The questions I was most interested in asking were whether the racial composition of the school board influenced their decision on hiring a superintendent and if that could affect superintendent retention. I obtained the roster of superintendents dating back to 1997 in California and school board election data for the same period. My proposed method of identification was to use a regression discontinuity around close elections. Over the years, there would be elections with small margins of victories between white and non-white candidates so I would compare the length of tenure for superintendents in districts in which a non-white candidate wins by a few votes to those in districts where a non-white candidate lost by a few votes. I encountered two many issues with project.
+
+1. The roster does not have ethnicity or race for most of the superintendents; I attempted to solve this by merging with census data. The 2000 Census includes the racial and ethnic distribution for the top 100 most common surnames, but I had high rate of false negatives for non-white candidates. This is particularly problematic because regression discontinuity requires many observations around the cut-off so losing observations is a major concern, but also any effect would be biased towards a null result since I would have treated units within my control group. 
+2. I do not observe any additional information about the superintendents besides if they taught in CA in the data I have. Important information such as their education, experience, or why superintendents leave their position (fired,retired,etc).
+
+To really pin down and explain hiring decisions and retention, much more information is needed. One solution would be to obtain data from another state, such as North Carolina that has much more data available about the individuals employed in its school districts. 
+
  [Slides](https://drive.google.com/file/d/1EyU29A9BA5E-_4G_vkFu5Z0XrgmvsLEJ/view?usp=sharing?){:target="_blank"}
  
 ---

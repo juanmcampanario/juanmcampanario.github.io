@@ -10,4 +10,4 @@ For my PhD, like most others, many projects have been abandoned for one reason o
 ---
 
 ### The Digital Divide and Consequences of Computer-Based Testing
-[Slides](https://drive.google.com/file/d/1dadyKR3FuzQR4HTd1PwVcbCzxcLxCFli/view?usp=sharing?)         
+[Slides](https://drive.google.com/file/d/1dadyKR3FuzQR4HTd1PwVcbCzxcLxCFli/view?usp=sharing?){:target="_blank"}

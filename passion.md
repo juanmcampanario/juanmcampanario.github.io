@@ -10,7 +10,6 @@ I wrote the script to extract all the data on the table for one fighter, then st
 
 <div id="fig:subfigures" class="subfigures" data-caption="Caption for figure">
 ![Caption for subfigure (a).](henry_cejudo.PNG)
-
 ![Caption for subfigure (b).](henry_cejudo.PNG)
 </div>
 

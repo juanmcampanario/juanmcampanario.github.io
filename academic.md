@@ -1,4 +1,5 @@
-# Active Academic Projects
+# Working Papers and Works in Progress
+The working papers are in active revision and will be uploaded once ready to circulate. 
 
 ### Air Quality and Infant Health: Closing La Oroya's Metallurgical Complex
 *Abstract*: This paper estimates the effect of temporary closure of a refinery in La Oroya, Peru on infant health. Using Peru's Live Birth Registry, I expoit the unanticipated closure of the infamous refinery and compare the incidence of low birth weights and premature births of infants born downwind the complex to those born upwind. I find the closure had no effect on the incidence of low birth weights or premature births, but had a small negative effect on total birth weight. Heterogeneity analysis shows that infants born to mothers with low levels of education had a 5% reduction in the incidence of low birth weights and no effect for infants born to mothers that had migrated downwind from other areas of Peru.
@@ -11,5 +12,6 @@
 ---
 
 ### Access to Credit: The Case of Mid-Sized Mining in Peru
+
 
 ---

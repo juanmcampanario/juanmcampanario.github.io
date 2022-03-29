@@ -8,12 +8,6 @@ During the pandemic, I started to watch a lot of UFC events. I realized that the
 
 I wrote the script to extract all the data on the table for one fighter, then store the Wikipedia links for each fighter he had fought, then go to the pages for those fighters and extract the same information, and repeat. As you can see in the table, some fighters do not have a link. While I can create a list of their observed fights by using other fighters' tables, I will not see fights that are not recorded. The same applies even for linked fighters, for example if their first professional fight was not recorded to Wikipedia. In other words, the data set suffers from survivorship bias. For fighters that eventually fight in more established organizations or begin their careers in later years, this is less of an issue. 
 
-<div id="fig:subfigures" class="subfigures" data-caption="Caption for figure">
-![Caption for subfigure (a).](IMG-4228.PNG)
-  
-![Caption for subfigure (b).](henry_cejudo.PNG)
-</div>
-
 The next step will be to take the scoring cards, which contain the judge names and judging decisions, and merge the data so that I observe round-by-round judging decisions within the data. 
 
 ---

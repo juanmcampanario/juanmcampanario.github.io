@@ -1,3 +1,7 @@
+<head>
+
+</head> 
+
 Welcome to my website. 
 
 3 types of things are available here: [academic works](/academic.md), [side projects](/side.md), and [abandoned projects](/graveyard.md).

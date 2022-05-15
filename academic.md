@@ -2,7 +2,8 @@
 The working papers are in active revision and will be uploaded once ready to circulate. 
 
 ### Air Quality and Infant Health: Closing La Oroya's Metallurgical Complex
-*Abstract*: This paper estimates the effect of temporary closure of La Oroya's Metallurgical Complex on infant health. Using Peru's Live Birth Registry, I exploit the unanticipated closure of the infamous refinery and compare the incidence of low birth weights and premature births of infants born downwind the complex to those born upwind. I find the closure had no effect on the incidence of low birth weights or premature births, but had a small negative effect on total birth weight. Heterogeneity analysis shows that infants born to mothers with low levels of education experienced a 5% reduction in the incidence of low birth weights.
+*Abstract*: La Oroya, Peru has suffered from poor air quality since the early 1920s. In 2009, the
+refining and smelting operation responsible for envirnonmental degradation unexpectedly closed. Using a difference in differences approach, I show infant health worsened during the closure. Birth weights fell by an average of 60 grams, relative to infants born upwind the complex, and women experienced slightly shorter gestational periods. Birth weights fell for those born in publicly funded hospitals but not those in private hospitals. The negative consequences were concentrated in infants who mothers were less educated, and infants born to migrants or non-migrant experienced statistically similar reductions.
 
 ---
 

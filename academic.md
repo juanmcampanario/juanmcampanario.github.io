@@ -3,7 +3,7 @@ The working papers are in active revision and will be uploaded once ready to cir
 
 ### Air Quality and Infant Health: Closing La Oroya's Metallurgical Complex
 *Abstract*: La Oroya, Peru has suffered from poor air quality since the early 1920s. In 2009, the
-refining and smelting operation responsible for envirnonmental degradation unexpectedly closed. Using a difference in differences approach, I show infant health worsened during the closure. Birth weights fell by an average of 60 grams, relative to infants born upwind the complex, and women experienced slightly shorter gestational periods. Birth weights fell for those born in publicly funded hospitals but not those in private hospitals. The negative consequences were concentrated in infants who mothers were less educated, and infants born to migrants or non-migrant experienced statistically similar reductions.
+refining and smelting operation responsible for environmental degradation unexpectedly closed. Using a difference in differences approach, I show infant health worsened during the closure. Birth weights fell by an average of 60 grams, relative to infants born upwind the complex, and women experienced slightly shorter gestational periods. Birth weights fell for those born in publicly funded hospitals but not those in private hospitals. The negative consequences were concentrated in infants who mothers were less educated, and infants born to migrants or non-migrant experienced statistically similar reductions.
 
 ---
 

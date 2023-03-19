@@ -8,7 +8,7 @@ refining and smelting operation responsible for environmental degradation unexpe
 ---
 
 ### The Influence of Colonial Institutions during Economic Booms and Distributional Policies (with Jorge Ag&uuml;ero)
-[Link to paper](https://www.dropbox.com/s/1fbkun2zd4uiu50/mita_latest_version.pdf?dl=0){:target="_blank"}
+[Link to paper](https://drive.google.com/file/d/1Ljzc3Uux94a-e7e0zrlYRih8ti5-b-Y5/view?usp=sharing){:target="_blank"}
 
 *Abstract*: Many studies have documented long-lasting negative effects of colonial institutions. Yet, little is known about whether there are current policies reducing those impacts. We focus on the *mita*, a forced labor system implemented in 1573 and abolished in 1812 in Peru. Prior work has shown large penalties for living with the area at the beginning of the 21st century. We find that in the last two decades, characterized by an economic boom, the negative effects of the mita have worsen. However, the creation of cash transfer programs targeting the poorest households nationwide, has eliminated the *mita*’s effects among the ultra-poor.
 

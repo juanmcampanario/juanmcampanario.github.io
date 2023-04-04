@@ -15,7 +15,7 @@ Welcome to my website.
 3 things can be found here: [academic works](/academic.md), [side projects](/side.md), and [abandoned projects](/graveyard.md).
 
 # Spotlight
-Forecasting demand for neonatal services using birth registrations. Read the full report on [side projects](/side.md)
+Forecasting demand for neonatal services using birth registrations. Read the full report [here.](https://drive.google.com/file/d/13UZmbyC9lfAdlP1Upj2bDJeJ6PC40ZCW/view?usp=sharing){:target="_blank"}
 
 ![Main](/log_growths2018_web.png)
 

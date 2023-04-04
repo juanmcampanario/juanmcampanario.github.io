@@ -12,8 +12,10 @@
 
 Welcome to my website. 
 # Portfolio
-*[Academic Works](/academic.md) \n
+*[Academic Works](/academic.md) 
+
 *[Side Projects](/side.md)
+
 *[Abandoned Projects](/graveyard.md)
 
 # Spotlight

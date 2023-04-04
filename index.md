@@ -12,11 +12,9 @@
 
 Welcome to my website. 
 # Portfolio
-* [Academic Works](/academic.md) 
-
-* [Side Projects](/side.md)
-
-* [Abandoned Projects](/graveyard.md)
++ [Academic Works](/academic.md) 
++ [Side Projects](/side.md)
++ [Abandoned Projects](/graveyard.md)
 
 # Spotlight
 Forecasting demand for neonatal services using birth registrations. Read the full report [here.](https://drive.google.com/file/d/13UZmbyC9lfAdlP1Upj2bDJeJ6PC40ZCW/view?usp=sharing){:target="_blank"}

@@ -16,7 +16,6 @@ Welcome to my website.
 
 # Spotlight
 Forecasting demand for neonatal services using birth registrations. Read the full report [here.](https://drive.google.com/file/d/13UZmbyC9lfAdlP1Upj2bDJeJ6PC40ZCW/view?usp=sharing){:target="_blank"}
-
 ![Main](/log_growths2018_web.png)
 
 # About Me

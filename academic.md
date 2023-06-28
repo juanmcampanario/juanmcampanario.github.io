@@ -3,7 +3,7 @@
 ### Air Quality and Infant Health: Closing La Oroya's Metallurgical Complex
 [Link to Paper](https://drive.google.com/file/d/17B6Q377l9IkMrj9oRHBWexytIuVbejbr/view?usp=share_link){:target="_blank"}
 
-*Abstract*: La Oroya, Peru has suffered from poor air quality since the early 1920s. In 2009, the company responsible unexpectedly closed. Using a difference in differences approach, I show infant health worsened during the closure likely due to the shutdown's impact on local government tax revenue and a subsequent reduction in government budgets. Birth weights fell by an average of 60 grams, a $.14\sigma$ decline relative to infants born upwind the complex, and women reported 5\% more miscarriages and stillbirths.  I find evidence that those least likely to be financially impacted experience greater declines.
+*Abstract*: La Oroya, Peru has suffered from poor air quality since the early 1920s. In 2009, the company responsible unexpectedly closed. Using a difference in differences approach, I show infant health worsened during the closure likely due to the shutdown's impact on local government tax revenue and a subsequent reduction in government budgets. Birth weights fell by an average of 60 grams, a 14σ decline relative to infants born upwind the complex, and women reported 5\% more miscarriages and stillbirths.  I find evidence that those least likely to be financially impacted experience greater declines.
 
 ---
 

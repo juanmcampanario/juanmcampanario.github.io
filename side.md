@@ -4,7 +4,8 @@ During my limited free time, I enjoy creating new datasets and highlighting new 
 ### McDonalds Locations 
 In the car with a friend, she said it would be cool to be able to make maps of store fronts. I decided to spend time between graduating and starting my first job writing code to do exactly that for McDonalds. The code will be posted soon, but for now click here to download the resulting [map](https://drive.google.com/file/d/1Ly7ZYq2VvAfSJLOJTnsvvgPAKqrO3YiL/view?usp=drive_link){:target="_blank"}.
 
-![Main](/mcdonalds_by_zipcodes.pdf)
+Here is the png version:
+![Main](/mcdonalds_by_zipcodes.png)
 
 ---
 

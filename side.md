@@ -1,6 +1,15 @@
 # Side Projects
 During my limited free time, I enjoy creating new datasets and highlighting new insights about topics. 
 
+### McDonalds Locations 
+In the car with a friend, she said it would be cool to be able to make maps of store fronts. I decided to spend time between graduating and starting my first job writing code to do exactly that for McDonalds. The code will be posted soon, but for now click here to download the resulting [map](https://drive.google.com/file/d/1Ly7ZYq2VvAfSJLOJTnsvvgPAKqrO3YiL/view?usp=drive_link){:target="_blank"}.
+
+It looks like this:
+
+
+
+---
+
 ### MMA Fights
 During the pandemic, I started to watch a lot of UFC events. I realized that there wasn't really any time series data. Most statistics would be about individual fighters, telling us about their personal records. I decided I wanted to change that. I wrote a script to scrape [Sherdog](https://www.sherdog.com){:target="_blank"} tables related to all fighters. Sherdog has data on all professional fighters, with tables recording information about fights during their careers. For example, on [Daniel Cormier's page](https://www.sherdog.com/fighter/Daniel-Cormier-52311){:target="_blank"}, we know the opponent, the event, the date, the result, how the fight ended, the duration, and the referee for each of his professional fights.  
 

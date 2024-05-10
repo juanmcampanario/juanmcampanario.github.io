@@ -18,7 +18,7 @@ Welcome to my website.
 
 # Spotlight
 Using ML, I forecasted district-level birth rates in Peru. More about the process on [Side Projects](/side.md).
-![Main](/log_growths2018_web.png)
+![Main](/pictures/log_growths2018_web.png)
 
 # About Me
 I received my PhD (econ) from the University of Pittsburgh and my BA from the University of Connecticut. I am passionate about quantitative analysis, with a specific interest in causal and reduced form work. My dissertation focuses on health and economic development, which you can find [here](http://d-scholarship.pitt.edu/44976/){:target="_blank"}. I also have some short-lived assignments on tax assessments, education, and housing vouchers, some of which is featured in the abandoned projects section. Aside from projects, I like to stay active. I played tennis, mainly doubles, in high school and still play on occassion. I've moved to more solo activities during graduate school, such as lifting weights and running.

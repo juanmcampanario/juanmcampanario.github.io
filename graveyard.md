@@ -21,7 +21,7 @@ The question I was most interested in asking was whether the racial composition 
 
 To explain hiring decisions and retention, the additional information would be neccessary. One solution would be to obtain data from another state, such as North Carolina that has much more data available about the individuals employed in its school districts. Another solution I thought of, but did not pursue, is searching for news articles and Linkedin profiles for the superintendents in the roster. I chose not to pursue this option as I do not think the reward for completing the project would offset the time cost. 
 
- [Slides](/ext/supers_ESP.pdf){:target="_blank"}
+ [Slides](/research/supers_ESP.pdf){:target="_blank"}
  
 ---
 
@@ -35,4 +35,4 @@ According to an education consultant from the Bureau of Student Assessment for C
 * The first point can be overcome by emailing the person responsible for EL students in each district or school, but that would be quite labor intensive.
 * The second point is very problematic as schools might select into switching before the deadline in a way that is unobservable and correlated with student achievement. For example, imagine the only reason schools switch earlier is if there are enough computers in a computer-lab for all the students to take the test at the same time. These schools are likely better funded and have more resources, and EL students may use computers more often in these schools for other activities or even for test prep. Therefore, comparing their test scores when switching from paper to computer to students in other schools would bias the estimate towards a null result. 
 
-[Slides](/ext/digital_divide.pdf){:target="_blank"}
+[Slides](/research/digital_divide.pdf){:target="_blank"}

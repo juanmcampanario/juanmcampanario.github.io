@@ -17,7 +17,7 @@ Welcome to my website.
 + [Abandoned Projects](/graveyard.md)
 
 # Spotlight
-While writing code for my dissertation, I "discovered" this trend in reported birth dates in Peru's Live Birth Registry. More to come, maybe.
+While writing code for my dissertation, I "discovered" this trend in reported birth dates in Peru's Live Birth Registry. More to come.
 ![Main](/pictures/peru_hospital_vs_other_births2005-2018.svg) 
 
 # About Me

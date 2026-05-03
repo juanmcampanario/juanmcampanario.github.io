@@ -1,32 +1,28 @@
 ---
 layout: null
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Latin America's Unions</title>
+<title>Latin America Labour Dashboard</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    --bg:      #f5f0e8;
-    --surface: #faf7f2;
-    --surf2:   #ede8df;
-    --border:  #d8d0c4;
-    --text:    #1a1612;
-    --muted:   #7a7268;
-    --au:      #c0392b;
-    --aw:      #2980b9;
-    --colombia:#c0392b;
-    --mexico:  #27ae60;
-    --brazil:  #2980b9;
-    --peru:    #e67e22;
+    --bg:       #f5f0e8;
+    --surface:  #faf7f2;
+    --surf2:    #ede8df;
+    --border:   #d8d0c4;
+    --text:     #1a1612;
+    --muted:    #7a7268;
+    --au:       #c0392b;
+    --colombia: #c0392b;
+    --mexico:   #27ae60;
+    --brazil:   #2980b9;
+    --peru:     #e67e22;
     --guatemala:#8e44ad;
-    --dot-grid: rgba(0,0,0,0.10);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -35,515 +31,429 @@ layout: null
   }
   body::before {
     content: ''; position: fixed; inset: 0;
-    background-image: radial-gradient(circle, var(--dot-grid) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(0,0,0,0.10) 1px, transparent 1px);
     background-size: 28px 28px; pointer-events: none; z-index: 0;
   }
-  .wrap { position: relative; z-index: 1; max-width: 1080px; margin: 0 auto; padding: 52px 32px 88px; }
+  .wrap {
+    position: relative; z-index: 1;
+    max-width: 1080px; margin: 0 auto; padding: 52px 32px 88px;
+  }
 
   /* HEADER */
-  .eyebrow { display:inline-flex; align-items:center; gap:8px; font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
-  .eyebrow::before { content:''; display:block; width:24px; height:1px; background:var(--muted); }
-  h1 { font-family:'DM Serif Display',serif; font-size:clamp(2rem,5vw,3.4rem); font-weight:400; line-height:1.08; margin-bottom:14px; }
-  h1 em { font-style:italic; color:var(--au); }
-  .sub { font-size:14px; color:var(--muted); font-weight:300; max-width:540px; line-height:1.7; margin-bottom:40px; }
-
-  /* UPLOAD ZONE */
-  .upload-section { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:36px; animation: up 0.6s ease both; }
-  .upload-box {
-    background:var(--surface); border:2px dashed var(--border); border-radius:6px;
-    padding:24px 20px; display:flex; flex-direction:column; align-items:center; gap:10px;
-    cursor:pointer; transition:border-color 0.2s, background 0.2s; position:relative;
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 14px;
   }
-  .upload-box:hover { border-color:var(--text); background:var(--surf2); }
-  .upload-box.loaded { border-style:solid; }
-  .upload-box.union.loaded { border-color:var(--au); }
-  .upload-box.wage.loaded  { border-color:var(--aw); }
-  .upload-box input[type=file] { position:absolute; inset:0; opacity:0; cursor:pointer; }
-  .upload-icon { font-size:1.6rem; }
-  .upload-label { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); text-align:center; }
-  .upload-status { font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); }
-  .upload-box.union.loaded .upload-status { color:var(--au); }
-  .upload-box.wage.loaded  .upload-status { color:var(--aw); }
-  .upload-cols { font-family:'DM Mono',monospace; font-size:9px; color:var(--muted); text-align:center; line-height:1.6; }
+  .eyebrow::before { content: ''; display: block; width: 24px; height: 1px; background: var(--muted); }
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-weight: 400; line-height: 1.08; margin-bottom: 14px;
+  }
+  h1 em { font-style: italic; color: var(--au); }
+  .sub {
+    font-size: 14px; color: var(--muted); font-weight: 300;
+    max-width: 540px; line-height: 1.7; margin-bottom: 40px;
+  }
 
-  /* ERROR */
-  .parse-error { display:none; background:#fff0f0; border:1px solid #e88; border-radius:4px; padding:10px 14px; font-family:'DM Mono',monospace; font-size:11px; color:#a00; margin-bottom:16px; }
-  .parse-error.show { display:block; }
-
-  /* TABS */
-  .tab-bar { display:flex; border-bottom:2px solid var(--border); margin-bottom:32px; animation: up 0.6s 0.05s ease both; }
-  .tab-btn { display:flex; align-items:center; gap:9px; padding:13px 26px; font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); background:none; border:none; border-bottom:2px solid transparent; margin-bottom:-2px; cursor:pointer; transition:color 0.2s,border-color 0.2s; }
-  .tab-btn .td { width:7px; height:7px; border-radius:50%; background:var(--border); transition:background 0.2s; }
-  .tab-btn.au { color:var(--au); border-bottom-color:var(--au); }
-  .tab-btn.au .td { background:var(--au); }
-  .tab-btn.aw { color:var(--aw); border-bottom-color:var(--aw); }
-  .tab-btn.aw .td { background:var(--aw); }
-  .tab-btn:not(.au):not(.aw):hover { color:var(--text); }
-
-  /* PANELS */
-  .panel { display:none; }
-  .panel.active { display:block; }
-
-  /* EMPTY STATE */
-  .empty-state { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; padding:64px 32px; background:var(--surface); border:1.5px dashed var(--border); border-radius:6px; text-align:center; }
-  .empty-state .ei { font-size:2.5rem; opacity:0.4; }
-  .empty-state p { font-family:'DM Mono',monospace; font-size:12px; color:var(--muted); }
+  /* LOADING / ERROR */
+  .status-bar {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 18px; border-radius: 4px; margin-bottom: 28px;
+    font-family: 'DM Mono', monospace; font-size: 12px;
+  }
+  .status-bar.loading { background: var(--surf2); color: var(--muted); border: 1px solid var(--border); }
+  .status-bar.error   { background: #fff0f0; color: #a00; border: 1px solid #e88; }
+  .status-bar.hidden  { display: none; }
+  .spinner {
+    width: 14px; height: 14px; border: 2px solid var(--border);
+    border-top-color: var(--muted); border-radius: 50%;
+    animation: spin 0.8s linear infinite; flex-shrink: 0;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
   /* CONTROLS */
-  .controls { display:flex; flex-wrap:wrap; gap:14px; margin-bottom:22px; animation: up 0.5s 0.1s ease both; }
-  .cg { display:flex; flex-direction:column; gap:5px; }
-  .cl { font-family:'DM Mono',monospace; font-size:9px; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); }
-  select { appearance:none; background:var(--surface); border:1.5px solid var(--border); color:var(--text); padding:9px 36px 9px 12px; font-family:'DM Sans',sans-serif; font-size:13px; border-radius:3px; cursor:pointer; outline:none; min-width:160px; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237a7268' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 12px center; transition:border-color 0.2s; }
-  .union-panel select:hover,.union-panel select:focus { border-color:var(--au); }
-  .wage-panel  select:hover,.wage-panel  select:focus { border-color:var(--aw); }
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 14px;
+    margin-bottom: 22px; animation: up 0.5s ease both;
+  }
+  .cg { display: flex; flex-direction: column; gap: 5px; }
+  .cl {
+    font-family: 'DM Mono', monospace; font-size: 9px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
+  }
+  select {
+    appearance: none; background: var(--surface);
+    border: 1.5px solid var(--border); color: var(--text);
+    padding: 9px 36px 9px 12px; font-family: 'DM Sans', sans-serif;
+    font-size: 13px; border-radius: 3px; cursor: pointer; outline: none; min-width: 160px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237a7268' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center;
+    transition: border-color 0.2s;
+  }
+  select:hover, select:focus { border-color: var(--au); }
 
   /* PILLS */
-  .pills { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px; }
-  .pill { display:flex; align-items:center; gap:7px; padding:7px 13px; border-radius:2px; border:1.5px solid var(--border); background:var(--surface); font-family:'DM Mono',monospace; font-size:11px; cursor:pointer; transition:all 0.15s; color:var(--muted); user-select:none; }
-  .pill .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
-  .pill.on { background:var(--surf2); }
-  .pill:hover { border-color:var(--text); color:var(--text); }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .pill {
+    display: flex; align-items: center; gap: 7px;
+    padding: 7px 13px; border-radius: 2px;
+    border: 1.5px solid var(--border); background: var(--surface);
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    cursor: pointer; transition: all 0.15s; color: var(--muted); user-select: none;
+  }
+  .pill .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .pill.on { background: var(--surf2); }
+  .pill:hover { border-color: var(--text); color: var(--text); }
 
-  /* CARD */
-  .card { background:var(--surface); border:1.5px solid var(--border); border-radius:4px; padding:28px; position:relative; overflow:hidden; animation: up 0.5s 0.2s ease both; }
-  .card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; border-radius:4px 4px 0 0; }
-  .union-card::before { background:linear-gradient(90deg,var(--au),#e67e22,transparent 70%); }
-  .wage-card::before  { background:linear-gradient(90deg,var(--aw),#27ae60,transparent 70%); }
-  .card-head { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:24px; flex-wrap:wrap; gap:12px; }
-  .card-title { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); }
-  .big-num { font-family:'DM Serif Display',serif; font-size:2.2rem; line-height:1; }
-  .union-card .big-num { color:var(--au); }
-  .wage-card  .big-num { color:var(--aw); }
-  .stat-lbl { font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); margin-top:4px; text-align:right; }
-  canvas { max-height:400px; }
+  /* CHART CARD */
+  .card {
+    background: var(--surface); border: 1.5px solid var(--border);
+    border-radius: 4px; padding: 28px; position: relative;
+    overflow: hidden; animation: up 0.5s 0.15s ease both;
+  }
+  .card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--au), #e67e22, transparent 70%);
+    border-radius: 4px 4px 0 0;
+  }
+  .card-head {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 24px; flex-wrap: wrap; gap: 12px;
+  }
+  .card-title {
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+  }
+  .big-num { font-family: 'DM Serif Display', serif; font-size: 2.2rem; line-height: 1; color: var(--au); }
+  .stat-lbl { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); margin-top: 4px; text-align: right; }
+  canvas { max-height: 420px; }
 
   /* GAP NOTE */
-  .gap-note { display:flex; align-items:center; gap:10px; margin-top:12px; padding:9px 13px; background:var(--surf2); border:1px dashed var(--border); border-radius:3px; font-family:'DM Mono',monospace; font-size:10px; color:var(--muted); }
-  .gap-dash { display:inline-block; width:22px; border-top:2px dashed var(--muted); flex-shrink:0; }
+  .gap-note {
+    display: flex; align-items: center; gap: 10px; margin-top: 12px;
+    padding: 9px 13px; background: var(--surf2);
+    border: 1px dashed var(--border); border-radius: 3px;
+    font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted);
+  }
+  .gap-dash { display: inline-block; width: 22px; border-top: 2px dashed var(--muted); flex-shrink: 0; }
 
-  /* STAT ROW */
-  .stats-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(155px,1fr)); gap:12px; margin-top:22px; animation: up 0.5s 0.3s ease both; }
-  .scard { background:var(--surface); border:1.5px solid var(--border); border-radius:3px; padding:16px; transition:border-color 0.18s; }
-  .union-panel .scard:hover { border-color:var(--au); }
-  .wage-panel  .scard:hover { border-color:var(--aw); }
-  .sl { font-family:'DM Mono',monospace; font-size:9px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:7px; }
-  .sv { font-family:'DM Serif Display',serif; font-size:1.7rem; color:var(--text); line-height:1; }
-  .sc { font-family:'DM Mono',monospace; font-size:10px; margin-top:5px; }
-  .up   { color:#27ae60; }
-  .down { color:#c0392b; }
-  .na   { color:var(--muted); font-style:italic; }
+  /* STAT CARDS */
+  .stats-row {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    gap: 12px; margin-top: 22px; animation: up 0.5s 0.25s ease both;
+  }
+  .scard {
+    background: var(--surface); border: 1.5px solid var(--border);
+    border-radius: 3px; padding: 16px; transition: border-color 0.18s;
+  }
+  .scard:hover { border-color: var(--au); }
+  .sl { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
+  .sv { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: var(--text); line-height: 1; }
+  .sc { font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 5px; }
+  .up   { color: #27ae60; }
+  .down { color: #c0392b; }
+  .na   { color: var(--muted); font-style: italic; }
 
   /* FOOTER */
-  .footer { margin-top:52px; text-align:center; font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.07em; color:var(--muted); }
+  .footer {
+    margin-top: 52px; text-align: center;
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    letter-spacing: 0.07em; color: var(--muted);
+  }
+  .footer a { color: var(--muted); }
 
-  @keyframes up { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+  @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 
-  @media(max-width:640px){
-    .wrap{padding:24px 16px 60px}
-    .upload-section{grid-template-columns:1fr}
-    .card{padding:18px 12px}
-    .tab-btn{padding:11px 14px;font-size:10px}
-    select{min-width:130px}
+  @media (max-width: 640px) {
+    .wrap { padding: 24px 16px 60px; }
+    .card { padding: 18px 12px; }
+    select { min-width: 130px; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <header style="animation:up 0.6s ease both">
+  <header style="animation: up 0.6s ease both">
     <div class="eyebrow">Labour Market Research · Latin America</div>
-    <h1>Labour <em>Trends</em><br>in Latin America</h1>
-    <p class="sub">Upload your two Excel files below to populate the charts. Gaps in lines indicate years with missing data (e.g. Covid disruptions).</p>
+    <h1>Trade Union <em>Density</em><br>in Latin America</h1>
+    <p class="sub">Trade union density across Colombia, Mexico, Brazil, Peru, and Guatemala. Toggle countries and use the dropdowns to filter by group, age band, and time period. Gaps in lines indicate years with no available data.</p>
   </header>
 
-  <!-- UPLOAD -->
-  <div class="upload-section">
-    <div class="upload-box union" id="box-union" ondragover="ev.preventDefault()" ondrop="handleDrop(event,'union')">
-      <input type="file" accept=".xlsx,.xls" onchange="handleFile(this,'union')"/>
-      <div class="upload-icon">📊</div>
-      <div class="upload-label">Union Density File</div>
-      <div class="upload-status" id="status-union">No file loaded</div>
-      <div class="upload-cols">Required columns:<br>country · year · group · age_band · union_density</div>
+  <!-- STATUS -->
+  <div class="status-bar loading" id="status-bar">
+    <div class="spinner"></div>
+    Loading data from union_density_data.json…
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls" id="controls" style="display:none">
+    <div class="cg">
+      <span class="cl">Group</span>
+      <select id="sel-group">
+        <option value="Total">All workers (Total)</option>
+        <option value="Men">Men</option>
+        <option value="Women">Women</option>
+      </select>
     </div>
-    <div class="upload-box wage" id="box-wage" ondragover="ev.preventDefault()" ondrop="handleDrop(event,'wage')">
-      <input type="file" accept=".xlsx,.xls" onchange="handleFile(this,'wage')"/>
-      <div class="upload-icon">💰</div>
-      <div class="upload-label">Median Wage File</div>
-      <div class="upload-status" id="status-wage">No file loaded</div>
-      <div class="upload-cols">Required columns:<br>country · year · group · age_band · median_wage_usd · median_wage_local</div>
+    <div class="cg">
+      <span class="cl">Age band</span>
+      <select id="sel-age"></select>
+    </div>
+    <div class="cg">
+      <span class="cl">Time range</span>
+      <select id="sel-range">
+        <option value="all">All years</option>
+        <option value="pre">Pre-Covid (up to 2019)</option>
+        <option value="post">Post-Covid (2021 onwards)</option>
+      </select>
     </div>
   </div>
 
-  <div class="parse-error" id="parse-error"></div>
+  <!-- COUNTRY PILLS -->
+  <div class="pills" id="pills"></div>
 
-  <!-- TABS -->
-  <div class="tab-bar">
-    <button class="tab-btn au" id="tab-union" onclick="switchTab('union')">
-      <span class="td"></span>Union Membership
-    </button>
-    <button class="tab-btn" id="tab-wage" onclick="switchTab('wage')">
-      <span class="td"></span>Median Wage (Union Members)
-    </button>
-  </div>
-
-  <!-- UNION PANEL -->
-  <div class="panel union-panel active" id="panel-union">
-    <div id="u-empty" class="empty-state">
-      <div class="ei">📂</div>
-      <p>Upload the union density Excel file above to see the chart.</p>
-    </div>
-    <div id="u-content" style="display:none">
-      <div class="controls">
-        <div class="cg"><span class="cl">Group</span>
-          <select id="u-group"><option value="total">All workers (total)</option><option value="men">Men</option><option value="women">Women</option></select>
-        </div>
-        <div class="cg"><span class="cl">Age band</span>
-          <select id="u-age"></select>
-        </div>
-        <div class="cg"><span class="cl">Time range</span>
-          <select id="u-range">
-            <option value="all">All years</option>
-            <option value="pre">Pre-Covid (up to 2019)</option>
-            <option value="post">Post-Covid (2021+)</option>
-          </select>
-        </div>
+  <!-- CHART -->
+  <div class="card" id="card" style="display:none">
+    <div class="card-head">
+      <span class="card-title" id="card-title">Trade union density (%) over time</span>
+      <div>
+        <div class="big-num" id="avg-num">—</div>
+        <div class="stat-lbl">avg. latest available</div>
       </div>
-      <div class="pills" id="u-pills"></div>
-      <div class="card union-card">
-        <div class="card::before"></div>
-        <div class="card-head">
-          <span class="card-title" id="u-card-title">Union density (%) over time</span>
-          <div><div class="big-num" id="u-avg">—</div><div class="stat-lbl">avg. latest available</div></div>
-        </div>
-        <canvas id="u-chart"></canvas>
-        <div class="gap-note"><span class="gap-dash"></span>Gaps = years with no data in your file (e.g. Covid survey disruptions).</div>
-      </div>
-      <div class="stats-row" id="u-stats"></div>
+    </div>
+    <canvas id="chart"></canvas>
+    <div class="gap-note">
+      <span class="gap-dash"></span>
+      Gaps indicate years with no survey data available (e.g. Covid-19 disruptions).
     </div>
   </div>
 
-  <!-- WAGE PANEL -->
-  <div class="panel wage-panel" id="panel-wage">
-    <div id="w-empty" class="empty-state">
-      <div class="ei">📂</div>
-      <p>Upload the median wage Excel file above to see the chart.</p>
-    </div>
-    <div id="w-content" style="display:none">
-      <div class="controls">
-        <div class="cg"><span class="cl">Currency</span>
-          <select id="w-currency"><option value="median_wage_usd">USD (PPP adjusted)</option><option value="median_wage_local">Local currency</option></select>
-        </div>
-        <div class="cg"><span class="cl">Group</span>
-          <select id="w-group"><option value="total">All union members (total)</option><option value="men">Men</option><option value="women">Women</option></select>
-        </div>
-        <div class="cg"><span class="cl">Age band</span>
-          <select id="w-age"></select>
-        </div>
-        <div class="cg"><span class="cl">Time range</span>
-          <select id="w-range">
-            <option value="all">All years</option>
-            <option value="pre">Pre-Covid (up to 2019)</option>
-            <option value="post">Post-Covid (2021+)</option>
-          </select>
-        </div>
-      </div>
-      <div class="pills" id="w-pills"></div>
-      <div class="card wage-card">
-        <div class="card-head">
-          <span class="card-title" id="w-card-title">Median wage · union members · USD PPP</span>
-          <div><div class="big-num" id="w-avg">—</div><div class="stat-lbl">avg. latest available</div></div>
-        </div>
-        <canvas id="w-chart"></canvas>
-        <div class="gap-note"><span class="gap-dash"></span>Gaps = years with no data in your file (e.g. Covid survey disruptions).</div>
-      </div>
-      <div class="stats-row" id="w-stats"></div>
-    </div>
+  <!-- STAT CARDS -->
+  <div class="stats-row" id="stats-row"></div>
+
+  <div class="footer" id="footer" style="display:none">
+    Sources: ILOSTAT · National Statistical Offices ·
+    <span id="data-years"></span>
   </div>
 
-  <div class="footer">
-    Data loaded from your Excel files · Gaps where value is blank or null in source data
-  </div>
 </div>
 
 <script>
-// ═══════════════════════════════════════════════════════
-// CONSTANTS
-// ═══════════════════════════════════════════════════════
+// ─── CONFIG ──────────────────────────────────────────────────────────────────
+// Path to your JSON file — must be in the same folder as this HTML file.
+// When you update your data, just replace union_density_data.json in your repo.
+const JSON_FILE = 'union_density_data.json';
+
 const COUNTRY_COLORS = {
-  Colombia: '#c0392b', Mexico: '#27ae60', Brazil: '#2980b9',
-  Peru: '#e67e22', Guatemala: '#8e44ad',
+  Brazil:    '#2980b9',
+  Colombia:  '#c0392b',
+  Guatemala: '#8e44ad',
+  Mexico:    '#27ae60',
+  Peru:      '#e67e22',
 };
 
-// ═══════════════════════════════════════════════════════
-// PARSED DATA STORES
-// ═══════════════════════════════════════════════════════
-// rows: array of {country, year, group, age_band, union_density}
-// wrows: array of {country, year, group, age_band, median_wage_usd, median_wage_local}
-let uRows = [], wRows = [];
-let uCountries = [], wCountries = [];
-let uAgeBands = [], wAgeBands = [];
+// ─── STATE ───────────────────────────────────────────────────────────────────
+let ALL_ROWS = [];
+let COUNTRIES = [];
+let AGE_BANDS = [];
+let YEARS     = [];
+let activeCountries = new Set();
+let chart;
 
-const uState = { active: new Set(), group:'total', age:'', range:'all' };
-const wState = { active: new Set(), group:'total', age:'', range:'all', col:'median_wage_usd' };
+const state = { group: 'Total', age: 'All Ages', range: 'all' };
 
-let uChart, wChart;
+// ─── LOAD JSON ───────────────────────────────────────────────────────────────
+fetch(JSON_FILE)
+  .then(r => {
+    if (!r.ok) throw new Error(`Could not load ${JSON_FILE} (HTTP ${r.status})`);
+    return r.json();
+  })
+  .then(data => {
+    ALL_ROWS   = data;
+    COUNTRIES  = [...new Set(data.map(r => r.Country))].sort();
+    AGE_BANDS  = [...new Set(data.map(r => r['Age Band']))].sort();
+    YEARS      = [...new Set(data.map(r => +r.Year))].sort((a, b) => a - b);
+    activeCountries = new Set(COUNTRIES);
+    state.age  = AGE_BANDS.includes('All Ages') ? 'All Ages' : AGE_BANDS[0];
 
-// ═══════════════════════════════════════════════════════
-// FILE HANDLING
-// ═══════════════════════════════════════════════════════
-function handleDrop(e, type) {
-  e.preventDefault();
-  const file = e.dataTransfer.files[0];
-  if (file) parseFile(file, type);
-}
+    populateAgeBands();
+    renderPills();
+    drawChart();
 
-function handleFile(input, type) {
-  if (input.files[0]) parseFile(input.files[0], type);
-}
-
-function showError(msg) {
-  const el = document.getElementById('parse-error');
-  el.textContent = msg;
-  el.classList.add('show');
-  setTimeout(() => el.classList.remove('show'), 8000);
-}
-
-function parseFile(file, type) {
-  const reader = new FileReader();
-  reader.onload = e => {
-    try {
-      const wb = XLSX.read(e.target.result, { type:'array' });
-      const ws = wb.Sheets[wb.SheetNames[0]];
-      const rows = XLSX.utils.sheet_to_json(ws, { defval: null });
-
-      if (rows.length === 0) { showError('The file appears to be empty.'); return; }
-
-      // Normalise column names (lowercase, trim)
-      const norm = rows.map(r => {
-        const out = {};
-        for (const k in r) out[k.trim().toLowerCase()] = r[k];
-        return out;
-      });
-
-      if (type === 'union') {
-        const required = ['country','year','group','age_band','union_density'];
-        const missing = required.filter(c => !(c in norm[0]));
-        if (missing.length) { showError(`Missing columns in union file: ${missing.join(', ')}`); return; }
-        uRows = norm;
-        uCountries = [...new Set(norm.map(r => r.country))].sort();
-        uAgeBands  = [...new Set(norm.map(r => r.age_band))].sort();
-        uState.active = new Set(uCountries);
-        uState.age = uAgeBands[0] ?? '';
-        document.getElementById('status-union').textContent = `✓ ${file.name} · ${uRows.length} rows`;
-        document.getElementById('box-union').classList.add('loaded');
-        populateAgeBandSelect('u-age', uAgeBands, uState);
-        renderUnionContent();
-      } else {
-        const required = ['country','year','group','age_band','median_wage_usd','median_wage_local'];
-        const missing = required.filter(c => !(c in norm[0]));
-        if (missing.length) { showError(`Missing columns in wage file: ${missing.join(', ')}`); return; }
-        wRows = norm;
-        wCountries = [...new Set(norm.map(r => r.country))].sort();
-        wAgeBands  = [...new Set(norm.map(r => r.age_band))].sort();
-        wState.active = new Set(wCountries);
-        wState.age = wAgeBands[0] ?? '';
-        document.getElementById('status-wage').textContent = `✓ ${file.name} · ${wRows.length} rows`;
-        document.getElementById('box-wage').classList.add('loaded');
-        populateAgeBandSelect('w-age', wAgeBands, wState);
-        if (document.getElementById('panel-wage').classList.contains('active')) {
-          renderWageContent();
-        }
-      }
-    } catch(err) {
-      showError('Could not parse file: ' + err.message);
-    }
-  };
-  reader.readAsArrayBuffer(file);
-}
-
-function populateAgeBandSelect(id, bands, state) {
-  const sel = document.getElementById(id);
-  sel.innerHTML = bands.map(b => `<option value="${b}">${b}</option>`).join('');
-  state.age = bands[0] ?? '';
-}
-
-// ═══════════════════════════════════════════════════════
-// DATA EXTRACTION
-// ═══════════════════════════════════════════════════════
-// Returns sorted unique years filtered by range
-function getYears(rows, range) {
-  let years = [...new Set(rows.map(r => +r.year))].sort((a,b)=>a-b);
-  if (range === 'pre')  years = years.filter(y => y <= 2019);
-  if (range === 'post') years = years.filter(y => y >= 2021);
-  return years;
-}
-
-// For one country + filters, return array parallel to years with null for missing
-function getSeries(rows, country, group, ageBand, valueCol, years) {
-  const lookup = {};
-  rows.filter(r =>
-    r.country === country &&
-    String(r.group).toLowerCase() === group &&
-    String(r.age_band).toLowerCase() === String(ageBand).toLowerCase()
-  ).forEach(r => { lookup[+r.year] = r[valueCol]; });
-  return years.map(y => {
-    const v = lookup[y];
-    return (v === null || v === undefined || v === '') ? null : +v;
+    // Show UI
+    document.getElementById('status-bar').classList.add('hidden');
+    document.getElementById('controls').style.display = 'flex';
+    document.getElementById('card').style.display = 'block';
+    document.getElementById('footer').style.display = 'block';
+    document.getElementById('data-years').textContent =
+      `Data: ${YEARS[0]}–${YEARS[YEARS.length - 1]}`;
+  })
+  .catch(err => {
+    const bar = document.getElementById('status-bar');
+    bar.classList.remove('loading');
+    bar.classList.add('error');
+    bar.innerHTML = `⚠ ${err.message}. Make sure <strong>union_density_data.json</strong> is in the same folder as this HTML file.`;
   });
+
+// ─── AGE BAND DROPDOWN ───────────────────────────────────────────────────────
+function populateAgeBands() {
+  const sel = document.getElementById('sel-age');
+  sel.innerHTML = AGE_BANDS.map(b =>
+    `<option value="${b}" ${b === state.age ? 'selected' : ''}>${b}</option>`
+  ).join('');
 }
 
-// ═══════════════════════════════════════════════════════
-// CHART HELPERS
-// ═══════════════════════════════════════════════════════
-function buildDatasets(countries, activeSet, rows, group, ageBand, valueCol, years) {
-  return [...activeSet].filter(c => countries.includes(c)).map(c => {
-    const color = COUNTRY_COLORS[c] || '#888';
-    const data  = getSeries(rows, c, group, ageBand, valueCol, years);
-    return {
-      label: c, data,
-      borderColor: color, backgroundColor: color+'20',
-      borderWidth: 2.5,
-      pointRadius: data.map(v => v !== null ? 3 : 0),
-      pointHoverRadius: 6, pointBackgroundColor: color,
-      fill: false, tension: 0.35, spanGaps: false,
-    };
-  });
-}
-
-function chartOptions(unit) {
-  return {
-    responsive: true, interaction:{ mode:'index', intersect:false },
-    plugins:{
-      legend:{ display:false },
-      tooltip:{
-        backgroundColor:'#faf7f2', borderColor:'#d8d0c4', borderWidth:1,
-        titleColor:'#7a7268', bodyColor:'#1a1612',
-        titleFont:{ family:'DM Mono', size:10 }, bodyFont:{ family:'DM Sans', size:13 }, padding:12,
-        callbacks:{ label: ctx => ctx.parsed.y !== null
-          ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}${unit}`
-          : ` ${ctx.dataset.label}: no data` }
-      }
-    },
-    scales:{
-      x:{ grid:{color:'rgba(0,0,0,0.06)'}, border:{color:'#d8d0c4'}, ticks:{color:'#7a7268',font:{family:'DM Mono',size:11},maxTicksLimit:12} },
-      y:{ grid:{color:'rgba(0,0,0,0.06)'}, border:{color:'#d8d0c4'}, ticks:{color:'#7a7268',font:{family:'DM Mono',size:11},callback:v=>v+unit} }
-    },
-    animation:{ duration:420, easing:'easeInOutQuart' },
-  };
-}
-
-function renderPills(id, countries, state, updateFn) {
-  const el = document.getElementById(id);
+// ─── PILLS ───────────────────────────────────────────────────────────────────
+function renderPills() {
+  const el = document.getElementById('pills');
   el.innerHTML = '';
-  countries.forEach(c => {
+  COUNTRIES.forEach(c => {
     const color  = COUNTRY_COLORS[c] || '#888';
-    const active = state.active.has(c);
+    const active = activeCountries.has(c);
     const pill   = document.createElement('div');
     pill.className = 'pill' + (active ? ' on' : '');
-    pill.style.color = active ? color : '#7a7268';
+    pill.style.color       = active ? color : '#7a7268';
     pill.style.borderColor = active ? color : '#d8d0c4';
-    pill.innerHTML = `<span class="dot" style="background:${active?color:'#d8d0c4'}"></span>${c}`;
+    pill.innerHTML = `<span class="dot" style="background:${active ? color : '#d8d0c4'}"></span>${c}`;
     pill.addEventListener('click', () => {
-      if (state.active.has(c)) { if (state.active.size===1) return; state.active.delete(c); }
-      else state.active.add(c);
-      renderPills(id, countries, state, updateFn);
-      updateFn();
+      if (activeCountries.has(c)) {
+        if (activeCountries.size === 1) return; // keep at least one
+        activeCountries.delete(c);
+      } else {
+        activeCountries.add(c);
+      }
+      renderPills();
+      drawChart();
     });
     el.appendChild(pill);
   });
 }
 
-function updateStatCards(id, panelClass, countries, activeSet, rows, group, ageBand, valueCol, years, unit) {
-  const cards = [...activeSet].filter(c => countries.includes(c)).map(c => {
-    const vals = getSeries(rows, c, group, ageBand, valueCol, years).filter(v => v !== null);
-    const latest = vals.length ? vals[vals.length-1] : null;
-    const prev   = vals.length > 1 ? vals[vals.length-2] : null;
-    return { c, latest, change: (latest!==null&&prev!==null) ? latest-prev : null };
-  });
-  const avail = cards.filter(x=>x.latest!==null);
-  const avgEl = document.getElementById(id==='u-stats' ? 'u-avg' : 'w-avg');
-  avgEl.textContent = avail.length
-    ? (avail.reduce((s,x)=>s+x.latest,0)/avail.length).toFixed(1)+unit : '—';
+// ─── FILTER YEARS BY RANGE ───────────────────────────────────────────────────
+function filteredYears() {
+  if (state.range === 'pre')  return YEARS.filter(y => y <= 2019);
+  if (state.range === 'post') return YEARS.filter(y => y >= 2021);
+  return YEARS;
+}
 
-  document.getElementById(id).innerHTML = cards.map(({c,latest,change})=>{
-    const color = COUNTRY_COLORS[c]||'#888';
-    const val   = latest!==null ? latest.toFixed(1)+unit : '—';
-    const chg   = change!==null
-      ? `<span class="${change>=0?'up':'down'}">${change>=0?'↑':'↓'} ${Math.abs(change).toFixed(1)}${unit}</span>`
+// ─── GET SERIES FOR ONE COUNTRY ──────────────────────────────────────────────
+// Returns array parallel to years — null where data is missing → gap in chart
+function getSeries(country, years) {
+  const lookup = {};
+  ALL_ROWS
+    .filter(r =>
+      r.Country === country &&
+      r.Sex === state.group &&
+      r['Age Band'] === state.age
+    )
+    .forEach(r => {
+      const v = r['Trade Union Density (%)'];
+      lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
+    });
+  return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
+}
+
+// ─── DRAW / UPDATE CHART ─────────────────────────────────────────────────────
+function drawChart() {
+  const years = filteredYears();
+  const datasets = [...activeCountries].map(c => {
+    const color = COUNTRY_COLORS[c] || '#888';
+    const data  = getSeries(c, years);
+    return {
+      label: c, data,
+      borderColor: color, backgroundColor: color + '20',
+      borderWidth: 2.5,
+      pointRadius:      data.map(v => v !== null ? 3 : 0),
+      pointHoverRadius: 6,
+      pointBackgroundColor: color,
+      fill: false, tension: 0.35,
+      spanGaps: false,   // ← creates visual break where data is null
+    };
+  });
+
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById('chart'), {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#faf7f2', borderColor: '#d8d0c4', borderWidth: 1,
+          titleColor: '#7a7268', bodyColor: '#1a1612',
+          titleFont: { family: 'DM Mono', size: 10 },
+          bodyFont:  { family: 'DM Sans', size: 13 },
+          padding: 12,
+          callbacks: {
+            label: ctx => ctx.parsed.y !== null
+              ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}%`
+              : ` ${ctx.dataset.label}: no data`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          grid:   { color: 'rgba(0,0,0,0.06)' },
+          border: { color: '#d8d0c4' },
+          ticks:  { color: '#7a7268', font: { family: 'DM Mono', size: 11 }, maxTicksLimit: 12 },
+        },
+        y: {
+          min: 0,
+          grid:   { color: 'rgba(0,0,0,0.06)' },
+          border: { color: '#d8d0c4' },
+          ticks:  { color: '#7a7268', font: { family: 'DM Mono', size: 11 }, callback: v => v + '%' },
+        },
+      },
+      animation: { duration: 420, easing: 'easeInOutQuart' },
+    },
+  });
+
+  // Update card title
+  document.getElementById('card-title').textContent =
+    `Trade union density (%) · ${state.group} · ${state.age}`;
+
+  // Update stat cards + average
+  updateStats(years);
+}
+
+// ─── STAT CARDS ──────────────────────────────────────────────────────────────
+function updateStats(years) {
+  const cards = [...activeCountries].map(c => {
+    const vals   = getSeries(c, years).filter(v => v !== null);
+    const latest = vals.length ? vals[vals.length - 1] : null;
+    const prev   = vals.length > 1 ? vals[vals.length - 2] : null;
+    return { c, latest, change: (latest !== null && prev !== null) ? latest - prev : null };
+  });
+
+  const avail = cards.filter(x => x.latest !== null);
+  document.getElementById('avg-num').textContent = avail.length
+    ? (avail.reduce((s, x) => s + x.latest, 0) / avail.length).toFixed(1) + '%'
+    : '—';
+
+  document.getElementById('stats-row').innerHTML = cards.map(({ c, latest, change }) => {
+    const color = COUNTRY_COLORS[c] || '#888';
+    const val   = latest !== null ? latest.toFixed(1) + '%' : '—';
+    const chg   = change !== null
+      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${Math.abs(change).toFixed(1)} pp</span>`
       : `<span class="na">no recent data</span>`;
-    return `<div class="scard" style="border-left:3px solid ${color}">
-      <div class="sl">${c}</div><div class="sv">${val}</div><div class="sc">${chg}</div></div>`;
+    return `<div class="scard" style="border-left: 3px solid ${color}">
+      <div class="sl">${c}</div>
+      <div class="sv">${val}</div>
+      <div class="sc">${chg}</div>
+    </div>`;
   }).join('');
 }
 
-// ═══════════════════════════════════════════════════════
-// UNION RENDER
-// ═══════════════════════════════════════════════════════
-function renderUnionContent() {
-  document.getElementById('u-empty').style.display   = 'none';
-  document.getElementById('u-content').style.display = 'block';
-  renderPills('u-pills', uCountries, uState, drawUnionChart);
-  drawUnionChart();
-}
-
-function drawUnionChart() {
-  const years = getYears(uRows, uState.range);
-  const ds    = buildDatasets(uCountries, uState.active, uRows, uState.group, uState.age, 'union_density', years);
-  if (uChart) uChart.destroy();
-  uChart = new Chart(document.getElementById('u-chart'), {
-    type:'line', data:{ labels:years, datasets:ds }, options:chartOptions('%'),
-  });
-  document.getElementById('u-card-title').textContent =
-    `Union density (%) · ${uState.group} · ${uState.age}`;
-  updateStatCards('u-stats','union-panel',uCountries,uState.active,uRows,uState.group,uState.age,'union_density',years,'%');
-}
-
-// ═══════════════════════════════════════════════════════
-// WAGE RENDER
-// ═══════════════════════════════════════════════════════
-function renderWageContent() {
-  document.getElementById('w-empty').style.display   = 'none';
-  document.getElementById('w-content').style.display = 'block';
-  renderPills('w-pills', wCountries, wState, drawWageChart);
-  drawWageChart();
-}
-
-function drawWageChart() {
-  if (!wRows.length) return;
-  const years = getYears(wRows, wState.range);
-  const ds    = buildDatasets(wCountries, wState.active, wRows, wState.group, wState.age, wState.col, years);
-  const unit  = wState.col === 'median_wage_usd' ? ' USD' : '';
-  if (wChart) wChart.destroy();
-  wChart = new Chart(document.getElementById('w-chart'), {
-    type:'line', data:{ labels:years, datasets:ds }, options:chartOptions(unit),
-  });
-  document.getElementById('w-card-title').textContent =
-    `Median wage · union members · ${wState.col==='median_wage_usd'?'USD PPP':'Local currency'} · ${wState.group} · ${wState.age}`;
-  updateStatCards('w-stats','wage-panel',wCountries,wState.active,wRows,wState.group,wState.age,wState.col,years,unit);
-}
-
-// ═══════════════════════════════════════════════════════
-// EVENT LISTENERS
-// ═══════════════════════════════════════════════════════
-document.getElementById('u-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
-document.getElementById('u-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
-document.getElementById('u-range').addEventListener('change', e => { uState.range = e.target.value; drawUnionChart(); });
-
-document.getElementById('w-currency').addEventListener('change', e => { wState.col   = e.target.value; drawWageChart(); });
-document.getElementById('w-group').addEventListener('change',    e => { wState.group = e.target.value; drawWageChart(); });
-document.getElementById('w-age').addEventListener('change',      e => { wState.age   = e.target.value; drawWageChart(); });
-document.getElementById('w-range').addEventListener('change',    e => { wState.range = e.target.value; drawWageChart(); });
-
-// ═══════════════════════════════════════════════════════
-// TAB SWITCH
-// ═══════════════════════════════════════════════════════
-function switchTab(tab) {
-  document.getElementById('panel-union').classList.toggle('active', tab==='union');
-  document.getElementById('panel-wage').classList.toggle('active',  tab==='wage');
-  document.getElementById('tab-union').className = 'tab-btn'+(tab==='union'?' au':'');
-  document.getElementById('tab-wage').className  = 'tab-btn'+(tab==='wage' ?' aw':'');
-  if (tab==='wage' && wRows.length) renderWageContent();
-}
+// ─── EVENTS ──────────────────────────────────────────────────────────────────
+document.getElementById('sel-group').addEventListener('change', e => { state.group = e.target.value; drawChart(); });
+document.getElementById('sel-age').addEventListener('change',   e => { state.age   = e.target.value; drawChart(); });
+document.getElementById('sel-range').addEventListener('change', e => { state.range = e.target.value; drawChart(); });
 </script>
 </body>
 </html>

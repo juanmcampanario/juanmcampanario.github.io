@@ -231,10 +231,6 @@ layout: null
   <div class="card" id="card" style="display:none">
     <div class="card-head">
       <span class="card-title" id="card-title">Trade union density (%) over time</span>
-      <div>
-        <div class="big-num" id="avg-num">—</div>
-        <div class="stat-lbl">avg. latest available</div>
-      </div>
     </div>
     <canvas id="chart"></canvas>
     <div class="gap-note">
@@ -443,9 +439,6 @@ function updateStats(years) {
   });
 
   const avail = cards.filter(x => x.latest !== null);
-  document.getElementById('avg-num').textContent = avail.length
-    ? (avail.reduce((s, x) => s + x.latest, 0) / avail.length).toFixed(1) + '%'
-    : '—';
 
   document.getElementById('stats-row').innerHTML = cards.map(({ c, latest, change }) => {
     const color = COUNTRY_COLORS[c] || '#888';

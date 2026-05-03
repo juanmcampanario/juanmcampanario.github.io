@@ -12,7 +12,7 @@
 
 Welcome to my website. 
 # Portfolio
-+ [Latin America's Unions](/union-density-dashboard.html)
+{% comment %} + [Latin America's Unions](/union-density-dashboard.html) {% endcomment %}
 + [Academic Works](/academic.md) 
 + [Side Projects](/side.md)
 + [Abandoned Projects](/graveyard.md)

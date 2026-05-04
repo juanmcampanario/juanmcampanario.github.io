@@ -274,6 +274,13 @@ layout: null
   <div class="panel wage-panel" id="panel-wage">
     <div class="controls" id="w-controls" style="display:none">
       <div class="cg">
+        <span class="cl">Currency</span>
+        <select id="w-sel-currency">
+          <option value="Median Wage (USD)">USD</option>
+          <option value="Median Wage (Local Currency)">Local Currency</option>
+        </select>
+      </div>
+      <div class="cg">
         <span class="cl">Group</span>
         <select id="w-sel-group">
           <option value="Total">All union members (Total)</option>
@@ -328,7 +335,7 @@ let uChart, wChart;
 let uLoaded = false, wLoaded = false, wageTabInited = false;
 
 const uState = { group: 'Total', age: 'All Ages' };
-const wState = { group: 'Total', age: 'All Ages' };
+const wState = { group: 'Total', age: 'All Ages', currency: 'Median Wage (USD)' };
 
 // ─── LOAD BOTH JSON FILES IN PARALLEL ────────────────────────────────────────
 Promise.allSettled([
@@ -433,7 +440,7 @@ function getWageSeries(country, years) {
   const lookup = {};
   W_ROWS.filter(r => r.Country === country && r.Sex === wState.group && r['Age Band'] === wState.age)
     .forEach(r => {
-      const v = r['Median Wage (Local Currency)'];
+      const v = r[wState.currency];
       lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
     });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
@@ -529,7 +536,7 @@ function drawWageChart() {
   });
 
   document.getElementById('w-card-title').textContent =
-    `Median wage · union members · local currency · ${wState.group} · ${wState.age}`;
+    `Median wage · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
   updateStatCards('w-stats-row', wActive, c => getWageSeries(c, years), v => v.toLocaleString());
 }
 
@@ -576,6 +583,7 @@ function switchTab(tab) {
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
 document.getElementById('u-sel-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
 document.getElementById('u-sel-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
+document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawWageChart(); });
 document.getElementById('w-sel-group').addEventListener('change', e => { wState.group = e.target.value; drawWageChart(); });
 document.getElementById('w-sel-age').addEventListener('change',   e => { wState.age   = e.target.value; drawWageChart(); });
 </script>

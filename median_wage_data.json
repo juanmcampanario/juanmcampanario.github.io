@@ -1,0 +1,8822 @@
+[
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1250.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":901.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1364.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1100.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":955.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1356.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":860.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1082.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":980.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1100.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1576.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1760.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1960.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1100.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1650.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1874.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1900.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1100.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1998.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1908.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1900.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2424.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2300.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1780.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2640.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1900.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2824.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2824.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1350.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":15.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1090.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":360.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1460.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1480.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1090.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":920.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1510.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1471.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":833.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1445.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":920.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1657.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":350.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":350.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1720.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1620.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1767.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2250.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1750.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2250.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1820.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1780.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1780.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1725.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1900.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2100.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2260.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":930.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2218.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3550.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2265.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":930.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":930.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":830.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2695.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":830.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1295.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2770.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2760.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1295.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2700.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":970.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":90.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":981.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":900.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":960.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":90.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":970.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":917.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":981.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":981.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":864.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1050.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":520.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1059.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":984.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1050.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":520.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1061.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":979.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1050.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1050.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":995.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1113.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":220.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1128.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1054.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1135.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":220.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1150.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1048.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1100.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1100.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1085.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":120.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1220.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":550.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1230.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1254.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":312.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1256.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1266.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1289.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":600.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1299.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1220.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":15.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1225.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1215.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1256.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":100.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1250.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1296.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1241.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":100.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1239.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1260.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1290.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":21.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1348.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1310.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1290.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1310.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1272.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":650.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1272.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1250.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":800.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1250.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1274.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":450.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1280.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2450.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2390.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2465.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2300.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Peru",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4300.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6500.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4300.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4945.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6880.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6880.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4730.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4300.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7200.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5160.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7200.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5160.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7482.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7200.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4601.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5460.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8200.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5590.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":7740.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5160.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5504.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":7740.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9170.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5160.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5590.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":5590.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":9460.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":7310.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":9800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10320.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":9460.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":7740.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":9600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":11000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":9600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6880.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":8000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10750.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":8170.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":10750.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10750.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":7740.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":11450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":9030.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":11750.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":12600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":11266.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":9030.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":11800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":12600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":11600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":8860.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":11610.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":12040.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3225.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3440.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3010.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3440.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5200.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5160.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3354.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5310.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5590.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3818.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3870.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5200.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3612.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3960.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3655.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4085.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4300.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4300.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4365.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6020.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":6400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4085.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":6540.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":8600.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":9400.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6880.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":8800.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":6450.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":9000.0
+  },
+  {
+    "Country":"Mexico",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1587000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2029000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1565000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":780000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1560000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1600000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2160000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1327000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1324000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1360000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":720000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1370000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1850000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1320000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":630000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1300000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2100000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":616700.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1420000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":640000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1440000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":616240.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1471000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2170000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1457000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1450000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1450000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1450000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1492000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":703000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1470000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1682300.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":800000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1600000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2450000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1613800.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":820000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1600000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2120000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":750000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1620000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2650000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":840000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1910000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":840000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2660000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1950000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":800000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2864000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":1920000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":800000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1850000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2864000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":820000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":926000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2092000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2600000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3068815.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2700000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1160000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2510000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3336000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1160000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3150000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1160000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2709000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2800000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1300000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2603000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3650000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1462000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3100000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":1960000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2800000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2400000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":900000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2300000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":908526.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2200000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":910000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":908526.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2300000.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3200000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2900.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2300.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2900.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2977.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2300.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2900.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2740.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":2750.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2012.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3300.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3280.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2013.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":10000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3100.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2014.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4700.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2990.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4300.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2990.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2015.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2016.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2897.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2017.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2018.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3100.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3100.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2019.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5420.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4400.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":4000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2022.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":6500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2023.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2024.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2004.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2005.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2006.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2007.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2008.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2009.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2700.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3600.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2254.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2010.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1900.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":2500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":1800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3200.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2011.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":3800.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2020.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4550.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":4500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":2875.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":4700.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":7000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":3500.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":5000.0
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2021.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":5000.0
+  }
+]

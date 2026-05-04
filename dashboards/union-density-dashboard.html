@@ -311,7 +311,7 @@ layout: null
   <div class="footer" id="footer" style="display:none">
     Sources: Author calculations based on national surveys, USD conversions using the World Bank's <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF" target="_blank" style="color:var(--muted);text-decoration:underline;">Official Exchange Rate (LCU per US$)</a>. Dashboard built with the assistance of Claude (Anthropic).
     <br><br>
-    Cite as: Campanario, Juan. <em>Trade Union Density Estimates for Latin America</em>. Dataset. 2026.
+    <strong>Cite as:</strong> Campanario, Juan. <em>Trade Union Density Estimates for Latin America</em>. Dataset. 2026.
     <span id="data-years"></span>
   </div>
 </div>
@@ -382,7 +382,7 @@ Promise.allSettled([
     document.getElementById('footer').style.display = 'block';
     const allYears = [...new Set([...U_YEARS, ...W_YEARS])].sort((a,b)=>a-b);
     document.getElementById('data-years').textContent =
-      allYears.length ? ` · Data: ${allYears[0]}–${allYears[allYears.length-1]}` : '';
+      '';
   }
 });
 

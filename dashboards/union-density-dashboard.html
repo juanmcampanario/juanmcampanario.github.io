@@ -529,14 +529,14 @@ function drawWageChart() {
     type: 'line',
     data: { labels: years, datasets },
     options: makeOptions(
-      v => v.toLocaleString(),
-      ctx => ctx.parsed.y !== null ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toLocaleString()}` : ` ${ctx.dataset.label}: no data`
+      v => v.toFixed(2),
+      ctx => ctx.parsed.y !== null ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}` : ` ${ctx.dataset.label}: no data`
     ),
   });
 
   document.getElementById('w-card-title').textContent =
     `Median Monthly Wage · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
-  updateStatCards('w-stats-row', wActive, c => getWageSeries(c, years), v => v.toLocaleString());
+  updateStatCards('w-stats-row', wActive, c => getWageSeries(c, years), v => v.toFixed(2));
 }
 
 // ─── STAT CARDS ───────────────────────────────────────────────────────────────

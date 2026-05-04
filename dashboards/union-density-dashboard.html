@@ -535,7 +535,7 @@ function drawWageChart() {
   });
 
   document.getElementById('w-card-title').textContent =
-    `Median wage · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
+    `Median Monthly Wage · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
   updateStatCards('w-stats-row', wActive, c => getWageSeries(c, years), v => v.toLocaleString());
 }
 

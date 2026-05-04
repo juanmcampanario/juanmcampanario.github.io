@@ -1,6 +1,6 @@
 Welcome to my website. 
 # Portfolio
-{% comment %} + [Latin America's Unions](/union-density-dashboard.html) {% endcomment %}
+{% comment %} + [Latin America's Unions](/dashboards/union-density-dashboard.html) {% endcomment %}
 + [Academic Works](/academic.md) 
 + [Side Projects](/side.md)
 + [Abandoned Projects](/graveyard.md)

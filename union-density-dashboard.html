@@ -209,14 +209,6 @@ layout: null
       <span class="cl">Age band</span>
       <select id="sel-age"></select>
     </div>
-    <div class="cg">
-      <span class="cl">Time range</span>
-      <select id="sel-range">
-        <option value="all">All years</option>
-        <option value="pre">Pre-Covid (up to 2019)</option>
-        <option value="post">Post-Covid (2021 onwards)</option>
-      </select>
-    </div>
   </div>
 
   <!-- COUNTRY PILLS -->
@@ -337,13 +329,6 @@ function renderPills() {
   });
 }
 
-// ─── FILTER YEARS BY RANGE ───────────────────────────────────────────────────
-function filteredYears() {
-  if (state.range === 'pre')  return YEARS.filter(y => y <= 2019);
-  if (state.range === 'post') return YEARS.filter(y => y >= 2021);
-  return YEARS;
-}
-
 // ─── GET SERIES FOR ONE COUNTRY ──────────────────────────────────────────────
 // Returns array parallel to years — null where data is missing → gap in chart
 function getSeries(country, years) {
@@ -363,7 +348,7 @@ function getSeries(country, years) {
 
 // ─── DRAW / UPDATE CHART ─────────────────────────────────────────────────────
 function drawChart() {
-  const years = filteredYears();
+  const years = YEARS;
   const datasets = [...activeCountries].map(c => {
     const color = COUNTRY_COLORS[c] || '#888';
     const data  = getSeries(c, years);
@@ -454,7 +439,6 @@ function updateStats(years) {
 // ─── EVENTS ──────────────────────────────────────────────────────────────────
 document.getElementById('sel-group').addEventListener('change', e => { state.group = e.target.value; drawChart(); });
 document.getElementById('sel-age').addEventListener('change',   e => { state.age   = e.target.value; drawChart(); });
-document.getElementById('sel-range').addEventListener('change', e => { state.range = e.target.value; drawChart(); });
 </script>
 </body>
 </html>

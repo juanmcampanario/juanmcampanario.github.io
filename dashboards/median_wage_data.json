@@ -2016,6 +2016,102 @@
     "Median Wage (USD)":null
   },
   {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
     "Country":"Peru",
     "Year":2012.0,
     "Sex":"Total",
@@ -4030,6 +4126,102 @@
     "Age Band":"55+",
     "Median Wage (Local Currency)":2400.0,
     "Median Wage (USD)":618.4683730076
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
   },
   {
     "Country":"Mexico",
@@ -6048,6 +6240,102 @@
     "Median Wage (USD)":493.2813031177
   },
   {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":12000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":10320.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":12040.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":12900.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":12470.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":10750.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":12900.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":12900.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":12000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":9924.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":12000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":12900.0,
+    "Median Wage (USD)":null
+  },
+  {
     "Country":"Colombia",
     "Year":2012.0,
     "Sex":"Total",
@@ -7060,16 +7348,16 @@
     "Year":2024.0,
     "Sex":"Men",
     "Age Band":"25-54",
-    "Median Wage (Local Currency)":2603000.0,
-    "Median Wage (USD)":638.8617151543
+    "Median Wage (Local Currency)":2700000.0,
+    "Median Wage (USD)":662.6687018504
   },
   {
     "Country":"Colombia",
     "Year":2024.0,
     "Sex":"Men",
     "Age Band":"55+",
-    "Median Wage (Local Currency)":3650000.0,
-    "Median Wage (USD)":895.8299117608
+    "Median Wage (Local Currency)":3800000.0,
+    "Median Wage (USD)":932.6448396413
   },
   {
     "Country":"Colombia",
@@ -7084,16 +7372,16 @@
     "Year":2024.0,
     "Sex":"Women",
     "Age Band":"15-24",
-    "Median Wage (Local Currency)":1462000.0,
-    "Median Wage (USD)":358.8228304094
+    "Median Wage (Local Currency)":1300000.0,
+    "Median Wage (USD)":319.0627082984
   },
   {
     "Country":"Colombia",
     "Year":2024.0,
     "Sex":"Women",
     "Age Band":"25-54",
-    "Median Wage (Local Currency)":3100000.0,
-    "Median Wage (USD)":760.8418428653
+    "Median Wage (Local Currency)":3000000.0,
+    "Median Wage (USD)":736.2985576116
   },
   {
     "Country":"Colombia",
@@ -8062,6 +8350,102 @@
     "Age Band":"55+",
     "Median Wage (Local Currency)":3200000.0,
     "Median Wage (USD)":854.6451186299
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3200000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1423500.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4200000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3000000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1423500.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3000000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4000000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":3500000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":1423500.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":3200000.0,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":4500000.0,
+    "Median Wage (USD)":null
   },
   {
     "Country":"Guatemala",
@@ -10078,5 +10462,101 @@
     "Age Band":"55+",
     "Median Wage (Local Currency)":5000.0,
     "Median Wage (USD)":646.4635320225
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Median Wage (Local Currency)":null,
+    "Median Wage (USD)":null
   }
 ]

@@ -1764,6 +1764,90 @@
     "Trade Union Density (%)":null
   },
   {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
     "Country":"Peru",
     "Year":2012.0,
     "Sex":"Total",
@@ -3526,6 +3610,90 @@
     "Sex":"Women",
     "Age Band":"55+",
     "Trade Union Density (%)":3.3
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
   },
   {
     "Country":"Mexico",
@@ -5292,6 +5460,90 @@
     "Trade Union Density (%)":8.7
   },
   {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":9.6
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":4.9
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":11.3
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.3
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":8.7
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":4.6
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":10.3
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.1
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":10.8
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":5.4
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":12.6
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.5
+  },
+  {
     "Country":"Colombia",
     "Year":2012.0,
     "Sex":"Total",
@@ -6143,7 +6395,7 @@
     "Year":2024.0,
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":1.0
+    "Trade Union Density (%)":1.2
   },
   {
     "Country":"Colombia",
@@ -6157,7 +6409,7 @@
     "Year":2024.0,
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":9.6
+    "Trade Union Density (%)":9.4
   },
   {
     "Country":"Colombia",
@@ -6171,7 +6423,7 @@
     "Year":2024.0,
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":1.1
+    "Trade Union Density (%)":1.2
   },
   {
     "Country":"Colombia",
@@ -6185,21 +6437,21 @@
     "Year":2024.0,
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":7.5
+    "Trade Union Density (%)":7.3
   },
   {
     "Country":"Colombia",
     "Year":2024.0,
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":5.2
+    "Trade Union Density (%)":5.1
   },
   {
     "Country":"Colombia",
     "Year":2024.0,
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":1.0
+    "Trade Union Density (%)":1.1
   },
   {
     "Country":"Colombia",
@@ -6213,7 +6465,7 @@
     "Year":2024.0,
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":12.8
+    "Trade Union Density (%)":12.7
   },
   {
     "Country":"Colombia",
@@ -7054,6 +7306,90 @@
     "Sex":"Women",
     "Age Band":"55+",
     "Trade Union Density (%)":9.4
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.9
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":4.8
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":9.4
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.6
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.7
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":4.6
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.7
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":5.3
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.5
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":5.0
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":12.0
   },
   {
     "Country":"Guatemala",
@@ -8818,5 +9154,89 @@
     "Sex":"Women",
     "Age Band":"55+",
     "Trade Union Density (%)":7.2
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null
   }
 ]

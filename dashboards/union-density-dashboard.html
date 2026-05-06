@@ -13,10 +13,10 @@ layout: null
   :root {
     --bg:       #ffffff;
     --surface:  #f8f8f8;
-    --surf2:    #f0f0f0;
-    --border:   #e0e0e0;
+    --surf2:    #f4f4f4;
+    --border:   #e5e5e5;
     --text:     #222222;
-    --muted:    #555555;
+    --muted:    #777777;
     --au:       #c0392b;
     --aw:       #2980b9;
     --colombia: #c0392b;
@@ -406,9 +406,9 @@ function renderPills(containerId, countries, activeSet, onUpdate) {
     const active = activeSet.has(c);
     const pill   = document.createElement('div');
     pill.className = 'pill' + (active ? ' on' : '');
-    pill.style.color       = active ? color : '#7a7268';
-    pill.style.borderColor = active ? color : '#d8d0c4';
-    pill.innerHTML = `<span class="dot" style="background:${active ? color : '#d8d0c4'}"></span>${c}`;
+    pill.style.color       = active ? color : '#777777';
+    pill.style.borderColor = active ? color : '#e5e5e5';
+    pill.innerHTML = `<span class="dot" style="background:${active ? color : '#e5e5e5'}"></span>${c}`;
     pill.addEventListener('click', () => {
       if (activeSet.has(c)) { if (activeSet.size === 1) return; activeSet.delete(c); }
       else activeSet.add(c);
@@ -448,8 +448,8 @@ function makeOptions(yCallback, tooltipLabel) {
     plugins: {
       legend: { display: false },
       tooltip: {
-        backgroundColor: '#faf7f2', borderColor: '#d8d0c4', borderWidth: 1,
-        titleColor: '#7a7268', bodyColor: '#1a1612',
+        backgroundColor: '#ffffff', borderColor: '#e5e5e5', borderWidth: 1,
+        titleColor: '#777777', bodyColor: '#222222',
         titleFont: { family: 'DM Mono', size: 10 },
         bodyFont:  { family: 'DM Sans', size: 13 },
         padding: 12,
@@ -458,13 +458,13 @@ function makeOptions(yCallback, tooltipLabel) {
     },
     scales: {
       x: {
-        grid: { color: 'rgba(0,0,0,0.06)' }, border: { color: '#d8d0c4' },
-        ticks: { color: '#7a7268', font: { family: 'DM Mono', size: 11 }, maxTicksLimit: 12 },
+        grid: { color: 'rgba(0,0,0,0.06)' }, border: { color: '#e5e5e5' },
+        ticks: { color: '#777777', font: { family: 'DM Mono', size: 11 }, maxTicksLimit: 12 },
       },
       y: {
         min: 0,
-        grid: { color: 'rgba(0,0,0,0.06)' }, border: { color: '#d8d0c4' },
-        ticks: { color: '#7a7268', font: { family: 'DM Mono', size: 11 }, callback: yCallback },
+        grid: { color: 'rgba(0,0,0,0.06)' }, border: { color: '#e5e5e5' },
+        ticks: { color: '#777777', font: { family: 'DM Mono', size: 11 }, callback: yCallback },
       },
     },
     animation: { duration: 420, easing: 'easeInOutQuart' },

@@ -6,11 +6,13 @@ layout: null
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="color-scheme" content="light">
 <title>Latin America's Unions</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
+    color-scheme: light;
     --bg:       #ffffff;
     --surface:  #f8f8f8;
     --surf2:    #f4f4f4;
@@ -191,17 +193,6 @@ layout: null
   .footer a { color: var(--muted); }
 
   @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg:      #ffffff;
-      --surface: #f8f8f8;
-      --surf2:   #f4f4f4;
-      --border:  #e5e5e5;
-      --text:    #222222;
-      --muted:   #777777;
-    }
-  }
 
   @media (max-width: 640px) {
     .wrap { padding: 24px 16px 60px; }

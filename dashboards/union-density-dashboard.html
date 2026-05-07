@@ -191,6 +191,14 @@ layout: null
     letter-spacing: 0.07em; color: #000000;
   }
   .footer a { color: #000000; }
+  .download-row { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+  .dl-btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 8px 16px; border: 1.5px solid #000; background: #fff;
+    font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500;
+    cursor: pointer; color: #000; text-decoration: none; transition: background 0.15s, color 0.15s;
+  }
+  .dl-btn:hover { background: #000; color: #fff; }
 
   @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -306,6 +314,10 @@ layout: null
 
   <!-- FOOTER -->
   <div class="footer" id="footer" style="display:none">
+    <div class="download-row">
+      <button class="dl-btn" onclick="downloadCSV('union')">&#8595; Download Union Density (CSV)</button>
+      <button class="dl-btn" onclick="downloadCSV('wage')">&#8595; Download Median Wages (CSV)</button>
+    </div>
     Sources: Author calculations based on national surveys, USD conversions using the World Bank's <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF" target="_blank" style="color:var(--muted);text-decoration:underline;">Official Exchange Rate (LCU per US$)</a>. Dashboard built with the assistance of Claude (Anthropic).
     <br><br>
     <strong>Cite as:</strong> Campanario, Juan. <em>Trade Union Density Estimates for Latin America</em>. Dataset. 2026.
@@ -582,6 +594,26 @@ document.getElementById('u-sel-age').addEventListener('change',   e => { uState.
 document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawWageChart(); });
 document.getElementById('w-sel-group').addEventListener('change', e => { wState.group = e.target.value; drawWageChart(); });
 document.getElementById('w-sel-age').addEventListener('change',   e => { wState.age   = e.target.value; drawWageChart(); });
+
+// ─── CSV DOWNLOAD ─────────────────────────────────────────────────────────────
+function downloadCSV(type) {
+  const rows = type === 'union' ? U_ROWS : W_ROWS;
+  if (!rows.length) return;
+  const headers = Object.keys(rows[0]);
+  const csv = [
+    headers.join(','),
+    ...rows.map(r => headers.map(h => {
+      const v = r[h] === null || r[h] === undefined ? '' : String(r[h]);
+      return v.includes(',') || v.includes('"') ? `"${v.replace(/"/g,'""')}"` : v;
+    }).join(','))
+  ].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = type === 'union' ? 'union_density_LAC.csv' : 'median_wages_LAC.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
 </script>
 </body>
 </html>

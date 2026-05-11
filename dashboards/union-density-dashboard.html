@@ -116,7 +116,7 @@ layout: null
     transition: border-color 0.2s;
   }
   .union-panel select:hover, .union-panel select:focus { border-color: var(--au); }
-  .wage-panel  select:hover, .wage-panel  select:focus { border-color: var(--aw); }
+  .earnings-panel  select:hover, .earnings-panel  select:focus { border-color: var(--aw); }
 
   /* PILLS */
   .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
@@ -142,7 +142,7 @@ layout: null
     background: linear-gradient(90deg, var(--au), #e67e22, transparent 70%);
     border-radius: 4px 4px 0 0;
   }
-  .wage-card::before {
+  .earnings-card::before {
     content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
     background: linear-gradient(90deg, var(--aw), #27ae60, transparent 70%);
     border-radius: 4px 4px 0 0;
@@ -176,7 +176,7 @@ layout: null
     border-radius: 3px; padding: 16px; transition: border-color 0.18s;
   }
   .union-panel .scard:hover { border-color: var(--au); }
-  .wage-panel  .scard:hover { border-color: var(--aw); }
+  .earnings-panel  .scard:hover { border-color: var(--aw); }
   .sl { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
   .sv { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: var(--text); line-height: 1; }
   .sc { font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 5px; }
@@ -217,7 +217,7 @@ layout: null
     <div class="eyebrow">Union Statistics · Latin America</div>
     <h1>Trade Union <em>Density</em><br>in Latin America</h1>
     <p class="sub">
-      This dashboard presents estimates of trade union density and median monthly wages across Latin America based on publicly available national surveys (labor/household) data.
+      This dashboard presents estimates of trade union density and median monthly earnings across Latin America based on publicly available national surveys (labor/household) data.
       The countries included are Brazil, Colombia, Guatemala, Mexico, and Peru.
       <br><br>
       Gaps in the lines indicate years where no survey data were available. Country-level estimates may differ from other sources,
@@ -230,9 +230,9 @@ layout: null
     <div class="spinner"></div>
     Loading union density data…
   </div>
-  <div class="status-bar loading" id="status-bar-wage" style="display:none">
+  <div class="status-bar loading" id="status-bar-earnings" style="display:none">
     <div class="spinner"></div>
-    Loading wage data…
+    Loading earnings data…
   </div>
 
   <!-- TABS (shown once at least one dataset loads) -->
@@ -240,8 +240,8 @@ layout: null
     <button class="tab-btn au" id="tab-union" onclick="switchTab('union')">
       <span class="td"></span>Union Density
     </button>
-    <button class="tab-btn" id="tab-wage" onclick="switchTab('wage')">
-      <span class="td"></span>Median Monthly Wage
+    <button class="tab-btn" id="tab-earnings" onclick="switchTab('earnings')">
+      <span class="td"></span>Median Monthly Earnings
     </button>
   </div>
 
@@ -276,7 +276,7 @@ layout: null
   </div>
 
   <!-- ══ WAGE PANEL ══ -->
-  <div class="panel wage-panel" id="panel-wage">
+  <div class="panel earnings-panel" id="panel-earnings">
     <div class="controls" id="w-controls" style="display:none">
       <div class="cg">
         <span class="cl">Currency</span>
@@ -299,9 +299,9 @@ layout: null
       </div>
     </div>
     <div class="pills" id="w-pills"></div>
-    <div class="card wage-card" id="w-card" style="display:none">
+    <div class="card earnings-card" id="w-card" style="display:none">
       <div class="card-head">
-        <span class="card-title" id="w-card-title">Median Monthly Wage · union members (local currency) over time</span>
+        <span class="card-title" id="w-card-title">Median Monthly Earnings · union members (local currency) over time</span>
       </div>
       <canvas id="w-chart"></canvas>
       <div class="gap-note">
@@ -316,7 +316,7 @@ layout: null
   <div class="footer" id="footer" style="display:none">
     <div class="download-row">
       <button class="dl-btn" onclick="downloadCSV('union')">&#8595; Download Union Density (CSV)</button>
-      <button class="dl-btn" onclick="downloadCSV('wage')">&#8595; Download Median Wages (CSV)</button>
+      <button class="dl-btn" onclick="downloadCSV('earnings')">&#8595; Download Median Earnings (CSV)</button>
     </div>
     Sources: Author calculations based on national surveys, USD conversions using the World Bank's <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF" target="_blank" style="color:var(--muted);text-decoration:underline;">Official Exchange Rate (LCU per US$)</a>. Dashboard built with the assistance of Claude (Anthropic).
     <br><br>
@@ -340,7 +340,7 @@ let U_ROWS = [], U_COUNTRIES = [], U_AGE_BANDS = [], U_YEARS = [];
 let W_ROWS = [], W_COUNTRIES = [], W_AGE_BANDS = [], W_YEARS = [];
 let uActive = new Set(), wActive = new Set();
 let uChart, wChart;
-let uLoaded = false, wLoaded = false, wageTabInited = false;
+let uLoaded = false, wLoaded = false, earningsTabInited = false;
 
 const uState = { group: 'Total', age: 'All Ages' };
 const wState = { group: 'Total', age: 'All Ages', currency: 'Median Wage (USD)' };
@@ -349,7 +349,7 @@ const wState = { group: 'Total', age: 'All Ages', currency: 'Median Wage (USD)' 
 Promise.allSettled([
   fetch('union_density_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
   fetch('median_wage_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
-]).then(([unionResult, wageResult]) => {
+]).then(([unionResult, earningsResult]) => {
 
   // ── Union data ──
   if (unionResult.status === 'fulfilled') {
@@ -370,9 +370,9 @@ Promise.allSettled([
     showError('status-bar-union', 'union_density_data.json', unionResult.reason.message);
   }
 
-  // ── Wage data ──
-  if (wageResult.status === 'fulfilled') {
-    W_ROWS      = wageResult.value;
+  // ── Earnings data ──
+  if (earningsResult.status === 'fulfilled') {
+    W_ROWS      = earningsResult.value;
     W_COUNTRIES = [...new Set(W_ROWS.map(r => r.Country))].sort();
     W_AGE_BANDS = [...new Set(W_ROWS.map(r => r['Age Band']))].sort();
     W_YEARS     = [...new Set(W_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
@@ -381,8 +381,8 @@ Promise.allSettled([
     wLoaded     = true;
     populateSelect('w-sel-age', W_AGE_BANDS, wState.age);
   } else {
-    // Wage file missing — hide wage tab silently, union tab still works
-    document.getElementById('tab-wage').style.display = 'none';
+    // Earnings file missing — hide earnings tab silently, union tab still works
+    document.getElementById('tab-earnings').style.display = 'none';
   }
 
   // Show tab bar and footer once at least union data is loaded
@@ -444,7 +444,7 @@ function getUnionSeries(country, years) {
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
 }
 
-function getWageSeries(country, years) {
+function getEarningsSeries(country, years) {
   const lookup = {};
   W_ROWS.filter(r => r.Country === country && r.Sex === wState.group && r['Age Band'] === wState.age)
     .forEach(r => {
@@ -516,13 +516,13 @@ function drawUnionChart() {
   updateStatCards('u-stats-row', uActive, c => getUnionSeries(c, years), v => v.toFixed(1) + '%');
 }
 
-// ─── DRAW WAGE CHART ──────────────────────────────────────────────────────────
-function drawWageChart() {
+// ─── DRAW EARNINGS CHART ──────────────────────────────────────────────────────
+function drawEarningsChart() {
   if (!wLoaded) return;
   const years    = W_YEARS;
   const datasets = [...wActive].map(c => {
     const color = COUNTRY_COLORS[c] || '#888';
-    const data  = getWageSeries(c, years);
+    const data  = getEarningsSeries(c, years);
     return {
       label: c, data,
       borderColor: color, backgroundColor: color + '20',
@@ -544,8 +544,8 @@ function drawWageChart() {
   });
 
   document.getElementById('w-card-title').textContent =
-    `Median Monthly Wage · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
-  updateStatCards('w-stats-row', wActive, c => getWageSeries(c, years), v => v.toFixed(2));
+    `Median Monthly Earnings · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
+  updateStatCards('w-stats-row', wActive, c => getEarningsSeries(c, years), v => v.toFixed(2));
 }
 
 // ─── STAT CARDS ───────────────────────────────────────────────────────────────
@@ -574,26 +574,26 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn) {
 // ─── TAB SWITCH ───────────────────────────────────────────────────────────────
 function switchTab(tab) {
   document.getElementById('panel-union').classList.toggle('active', tab === 'union');
-  document.getElementById('panel-wage').classList.toggle('active',  tab === 'wage');
+  document.getElementById('panel-earnings').classList.toggle('active',  tab === 'earnings');
   document.getElementById('tab-union').className = 'tab-btn' + (tab === 'union' ? ' au' : '');
-  document.getElementById('tab-wage').className  = 'tab-btn' + (tab === 'wage'  ? ' aw' : '');
+  document.getElementById('tab-earnings').className  = 'tab-btn' + (tab === 'earnings'  ? ' aw' : '');
 
-  // Lazy-init wage tab on first visit
-  if (tab === 'wage' && !wageTabInited && wLoaded) {
-    wageTabInited = true;
-    renderPills('w-pills', W_COUNTRIES, wActive, () => drawWageChart());
+  // Lazy-init earnings tab on first visit
+  if (tab === 'earnings' && !earningsTabInited && wLoaded) {
+    earningsTabInited = true;
+    renderPills('w-pills', W_COUNTRIES, wActive, () => drawEarningsChart());
     document.getElementById('w-controls').style.display = 'flex';
     document.getElementById('w-card').style.display = 'block';
-    drawWageChart();
+    drawEarningsChart();
   }
 }
 
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
 document.getElementById('u-sel-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
 document.getElementById('u-sel-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
-document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawWageChart(); });
-document.getElementById('w-sel-group').addEventListener('change', e => { wState.group = e.target.value; drawWageChart(); });
-document.getElementById('w-sel-age').addEventListener('change',   e => { wState.age   = e.target.value; drawWageChart(); });
+document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawEarningsChart(); });
+document.getElementById('w-sel-group').addEventListener('change', e => { wState.group = e.target.value; drawEarningsChart(); });
+document.getElementById('w-sel-age').addEventListener('change',   e => { wState.age   = e.target.value; drawEarningsChart(); });
 
 // ─── CSV DOWNLOAD ─────────────────────────────────────────────────────────────
 function downloadCSV(type) {
@@ -610,7 +610,7 @@ function downloadCSV(type) {
   const blob = new Blob([csv], { type: 'text/csv' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = type === 'union' ? 'union_density_LAC.csv' : 'median_wages_LAC.csv';
+  a.download = type === 'union' ? 'union_density_LAC.csv' : 'median_earnings_LAC.csv';
   a.click();
   URL.revokeObjectURL(a.href);
 }

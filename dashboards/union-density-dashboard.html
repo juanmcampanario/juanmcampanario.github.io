@@ -281,8 +281,8 @@ layout: null
       <div class="cg">
         <span class="cl">Currency</span>
         <select id="w-sel-currency">
-          <option value="Median Wage (USD)">USD</option>
-          <option value="Median Wage (Local Currency)">Local Currency</option>
+          <option value="Median Earnings (USD)">USD</option>
+          <option value="Median Earnings (Local Currency)">Local Currency</option>
         </select>
       </div>
       <div class="cg">
@@ -343,12 +343,12 @@ let uChart, wChart;
 let uLoaded = false, wLoaded = false, earningsTabInited = false;
 
 const uState = { group: 'Total', age: 'All Ages' };
-const wState = { group: 'Total', age: 'All Ages', currency: 'Median Wage (USD)' };
+const wState = { group: 'Total', age: 'All Ages', currency: 'Median Earnings (USD)' };
 
 // ─── LOAD BOTH JSON FILES IN PARALLEL ────────────────────────────────────────
 Promise.allSettled([
   fetch('union_density_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
-  fetch('median_wage_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
+  fetch('median_earnings_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
 ]).then(([unionResult, earningsResult]) => {
 
   // ── Union data ──
@@ -544,7 +544,7 @@ function drawEarningsChart() {
   });
 
   document.getElementById('w-card-title').textContent =
-    `Median Monthly Earnings · union members · ${wState.currency === 'Median Wage (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
+    `Median Monthly Earnings · union members · ${wState.currency === 'Median Earnings (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
   updateStatCards('w-stats-row', wActive, c => getEarningsSeries(c, years), v => v.toFixed(2));
 }
 

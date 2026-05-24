@@ -680,7 +680,7 @@ function drawUnionChart() {
 
   document.getElementById('u-card-title').textContent =
     `Trade union density (%) · ${uState.group} · ${uState.age}`;
-  updateStatCards('u-stats-row', uActive, c => getUnionSeries(c, years), v => v.toFixed(1) + '%', years);
+  updateStatCards('u-stats-row', uActive, c => getUnionSeries(c, years), v => v.toFixed(1) + '%', years, v => v.toFixed(1) + ' p.p.');
 }
 
 // ─── DRAW EARNINGS CHART ──────────────────────────────────────────────────────
@@ -776,7 +776,8 @@ function renderCombinationKey(combos) {
 }
 
 // ─── STAT CARDS ───────────────────────────────────────────────────────────────
-function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years) {
+function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years, changeFmtFn) {
+  changeFmtFn = changeFmtFn || formatFn;
   const cards = [...activeSet].map(c => {
     const series  = getSeriesFn(c);
     const nonNull = series.map((v, i) => ({ v, year: years[i] })).filter(x => x.v !== null);
@@ -796,7 +797,7 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years) {
     const val       = latest !== null ? formatFn(latest, c) : '—';
     const yearLabel = (prevYear && latestYear) ? `${prevYear} → ${latestYear}` : '';
     const chg       = change !== null
-      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${formatFn(Math.abs(change), c)}</span>`
+      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${changeFmtFn(Math.abs(change), c)}</span>`
       : `<span class="na">no recent data</span>`;
     return `<div class="scard" style="border-left: 3px solid ${color}">
       <div class="sl">${c}</div>

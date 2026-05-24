@@ -707,12 +707,24 @@ function drawEarningsChart() {
   });
 
   if (wChart) wChart.destroy();
-  const currLabel = wState.currency === 'Median Earnings (USD)' ? 'USD' : 'Local Currency';
+  const isUSD = wState.currency === 'Median Earnings (USD)';
+  const activeList = [...wActive];
+  let yCallback;
+  if (isUSD) {
+    yCallback = v => '$' + v.toFixed(0);
+  } else if (activeList.length === 1) {
+    const code = W_CURRENCY_MAP[activeList[0]] || '';
+    yCallback = v => v.toFixed(0) + (code ? ' ' + code : '');
+  } else {
+    yCallback = v => v.toFixed(0);
+  }
+
+  const currLabel = isUSD ? 'USD' : 'Local Currency';
   wChart = new Chart(document.getElementById('w-chart'), {
     type: 'line',
     data: { labels: years, datasets },
     options: makeOptions(
-      v => v.toFixed(0),
+      yCallback,
       ctx => {
         if (ctx.parsed.y === null) return ` ${ctx.dataset.label}: no data`;
         const val = ctx.parsed.y.toFixed(0);

@@ -753,7 +753,12 @@ function drawEarningsChart() {
   updateStatCards(
     'w-stats-row', wActive,
     c => getEarningsSeries(c, primaryCombo.unionStatus, primaryCombo.sex, primaryCombo.ageBand, years),
-    fmtEarnings
+    (v, country) => {
+      const formatted = fmtEarnings(v);
+      if (isUSD) return '$' + formatted;
+      const code = W_CURRENCY_MAP[country] || '';
+      return formatted + (code ? ' ' + code : '');
+    }
   );
 }
 
@@ -779,9 +784,9 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn) {
 
   document.getElementById(rowId).innerHTML = cards.map(({ c, latest, change }) => {
     const color = COUNTRY_COLORS[c] || '#888';
-    const val   = latest !== null ? formatFn(latest) : '—';
+    const val   = latest !== null ? formatFn(latest, c) : '—';
     const chg   = change !== null
-      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${formatFn(Math.abs(change))}</span>`
+      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${formatFn(Math.abs(change), c)}</span>`
       : `<span class="na">no recent data</span>`;
     return `<div class="scard" style="border-left: 3px solid ${color}">
       <div class="sl">${c}</div>

@@ -228,10 +228,10 @@ layout: null
   }
   .union-panel .scard:hover { border-color: var(--au); }
   .earnings-panel .scard:hover { border-color: var(--aw); }
-  .sl { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
+  .sl { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; display: flex; justify-content: space-between; align-items: center; }
+  .sy { text-transform: none; letter-spacing: 0.04em; }
   .sv { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: var(--text); line-height: 1; }
   .sc { font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 5px; }
-  .sy { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); margin-top: 3px; letter-spacing: 0.04em; }
   .up   { color: #27ae60; }
   .down { color: #c0392b; }
   .na   { color: var(--muted); font-style: italic; }
@@ -800,10 +800,9 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years, changeF
       ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${changeFmtFn(Math.abs(change), c)}</span>`
       : `<span class="na">no recent data</span>`;
     return `<div class="scard" style="border-left: 3px solid ${color}">
-      <div class="sl">${c}</div>
+      <div class="sl"><span>${c}</span>${yearLabel ? `<span class="sy">${yearLabel}</span>` : ''}</div>
       <div class="sv">${val}</div>
       <div class="sc">${chg}</div>
-      ${yearLabel ? `<div class="sy">${yearLabel}</div>` : ''}
     </div>`;
   }).join('');
 }

@@ -161,6 +161,7 @@ layout: null
   .ms-item.checked { background: #eaf3fb; color: var(--aw); font-weight: 500; }
   .ms-item.checked:hover { background: #daeaf7; }
   .ms-item.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
+  .ms-item.no-click { cursor: default; pointer-events: none; }
   .ms-item input[type="checkbox"] { accent-color: var(--aw); cursor: pointer; flex-shrink: 0; }
 
   /* CAP NOTE */
@@ -553,7 +554,10 @@ function renderFilterDimension(baseId, dimension, options, stateSet) {
     const disabled    = isLast || wouldExceed;
 
     const item = document.createElement('label');
-    item.className = 'ms-item' + (isActive ? ' checked' : '') + (disabled ? ' disabled' : '');
+    item.className = 'ms-item'
+      + (isActive    ? ' checked'  : '')
+      + (wouldExceed ? ' disabled' : '')
+      + (isLast      ? ' no-click' : '');
 
     const cb = document.createElement('input');
     cb.type    = 'checkbox';

@@ -135,14 +135,15 @@ layout: null
   .multi-select { position: relative; }
   .ms-trigger {
     appearance: none; background: var(--surface);
-    border: 1.5px solid var(--aw); color: var(--text);
+    border: 1.5px solid var(--border); color: var(--text);
     padding: 9px 36px 9px 12px; font-family: 'DM Sans', sans-serif;
     font-size: 13px; border-radius: 3px; cursor: pointer; outline: none;
     min-width: 160px; width: 100%; text-align: left;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%232980b9' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237a7268' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat; background-position: right 12px center;
     transition: border-color 0.2s;
   }
+  .earnings-panel .ms-trigger:hover { border-color: var(--aw); }
   .ms-trigger.open { border-color: var(--aw); }
   .ms-dropdown {
     display: none; position: absolute; top: calc(100% + 4px); left: 0;
@@ -157,6 +158,8 @@ layout: null
     transition: background 0.12s; user-select: none; white-space: nowrap;
   }
   .ms-item:hover { background: var(--surf2); }
+  .ms-item.checked { background: #eaf3fb; color: var(--aw); font-weight: 500; }
+  .ms-item.checked:hover { background: #daeaf7; }
   .ms-item.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
   .ms-item input[type="checkbox"] { accent-color: var(--aw); cursor: pointer; flex-shrink: 0; }
 
@@ -550,7 +553,7 @@ function renderFilterDimension(baseId, dimension, options, stateSet) {
     const disabled    = isLast || wouldExceed;
 
     const item = document.createElement('label');
-    item.className = 'ms-item' + (disabled ? ' disabled' : '');
+    item.className = 'ms-item' + (isActive ? ' checked' : '') + (disabled ? ' disabled' : '');
 
     const cb = document.createElement('input');
     cb.type    = 'checkbox';

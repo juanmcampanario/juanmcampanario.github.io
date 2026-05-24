@@ -131,18 +131,35 @@ layout: null
   .pill.on { background: var(--surf2); }
   .pill:hover { border-color: var(--text); color: var(--text); }
 
-  /* FILTER PILLS (multi-select dimensions in earnings panel) */
-  .fpills { display: flex; flex-wrap: wrap; gap: 6px; }
-  .filter-pill {
-    display: inline-flex; align-items: center;
-    padding: 5px 10px; border-radius: 2px;
-    border: 1.5px solid var(--border); background: var(--surface);
-    font-family: 'DM Mono', monospace; font-size: 11px;
-    cursor: pointer; transition: all 0.15s; color: var(--muted); user-select: none;
+  /* MULTI-SELECT DROPDOWNS (earnings panel) */
+  .multi-select { position: relative; }
+  .ms-trigger {
+    appearance: none; background: var(--surface);
+    border: 1.5px solid var(--border); color: var(--text);
+    padding: 9px 36px 9px 12px; font-family: 'DM Sans', sans-serif;
+    font-size: 13px; border-radius: 3px; cursor: pointer; outline: none;
+    min-width: 160px; width: 100%; text-align: left;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237a7268' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center;
+    transition: border-color 0.2s;
   }
-  .filter-pill.on { background: var(--surf2); color: var(--text); border-color: var(--aw); }
-  .filter-pill.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
-  .filter-pill:not(.on):not(.disabled):hover { border-color: var(--text); color: var(--text); }
+  .earnings-panel .ms-trigger:hover { border-color: var(--aw); }
+  .ms-trigger.open { border-color: var(--aw); }
+  .ms-dropdown {
+    display: none; position: absolute; top: calc(100% + 4px); left: 0;
+    background: var(--bg); border: 1.5px solid var(--border); border-radius: 3px;
+    z-index: 100; min-width: 100%; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+  .ms-dropdown.open { display: block; }
+  .ms-item {
+    display: flex; align-items: center; gap: 9px;
+    padding: 8px 12px; cursor: pointer;
+    font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text);
+    transition: background 0.12s; user-select: none; white-space: nowrap;
+  }
+  .ms-item:hover { background: var(--surf2); }
+  .ms-item.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
+  .ms-item input[type="checkbox"] { accent-color: var(--aw); cursor: pointer; flex-shrink: 0; }
 
   /* CAP NOTE */
   .cap-note {
@@ -320,15 +337,24 @@ layout: null
       </div>
       <div class="cg">
         <span class="cl">Union Status</span>
-        <div class="fpills" id="w-pills-union"></div>
+        <div class="multi-select" id="w-ms-union">
+          <button class="ms-trigger" id="w-ms-union-trigger">Unionized Workers</button>
+          <div class="ms-dropdown" id="w-ms-union-dropdown"></div>
+        </div>
       </div>
       <div class="cg">
         <span class="cl">Group</span>
-        <div class="fpills" id="w-pills-sex"></div>
+        <div class="multi-select" id="w-ms-sex">
+          <button class="ms-trigger" id="w-ms-sex-trigger">Total</button>
+          <div class="ms-dropdown" id="w-ms-sex-dropdown"></div>
+        </div>
       </div>
       <div class="cg">
         <span class="cl">Age Band</span>
-        <div class="fpills" id="w-pills-age"></div>
+        <div class="multi-select" id="w-ms-age">
+          <button class="ms-trigger" id="w-ms-age-trigger">All Ages</button>
+          <div class="ms-dropdown" id="w-ms-age-dropdown"></div>
+        </div>
       </div>
     </div>
     <div class="cap-note" id="w-cap-note" style="display:none">
@@ -477,7 +503,7 @@ function renderPills(containerId, countries, activeSet, onUpdate) {
   });
 }
 
-// ─── EARNINGS FILTER PILLS ────────────────────────────────────────────────────
+// ─── EARNINGS MULTI-SELECT DROPDOWNS ─────────────────────────────────────────
 function getCombinationCount() {
   return wState.unionStatuses.size * wState.sexGroups.size * wState.ageBands.size;
 }
@@ -489,37 +515,62 @@ function wouldExceedCap(dimension) {
   return nU * nS * nA > MAX_COMBINATIONS;
 }
 
+function closeAllDropdowns() {
+  document.querySelectorAll('.ms-dropdown.open').forEach(d => d.classList.remove('open'));
+  document.querySelectorAll('.ms-trigger.open').forEach(t => t.classList.remove('open'));
+}
+
+function toggleDropdown(baseId) {
+  const dropdown = document.getElementById(baseId + '-dropdown');
+  const trigger  = document.getElementById(baseId + '-trigger');
+  const isOpen   = dropdown.classList.contains('open');
+  closeAllDropdowns();
+  if (!isOpen) {
+    dropdown.classList.add('open');
+    trigger.classList.add('open');
+  }
+}
+
 function renderWFilterPills() {
-  renderFilterDimension('w-pills-union', 'union', W_UNION_STATUS_OPTIONS, wState.unionStatuses);
-  renderFilterDimension('w-pills-sex',   'sex',   W_SEX_OPTIONS,          wState.sexGroups);
-  renderFilterDimension('w-pills-age',   'age',   W_AGE_BANDS,            wState.ageBands);
+  renderFilterDimension('w-ms-union', 'union', W_UNION_STATUS_OPTIONS, wState.unionStatuses);
+  renderFilterDimension('w-ms-sex',   'sex',   W_SEX_OPTIONS,          wState.sexGroups);
+  renderFilterDimension('w-ms-age',   'age',   W_AGE_BANDS,            wState.ageBands);
   document.getElementById('w-cap-note').style.display =
     getCombinationCount() >= MAX_COMBINATIONS ? 'block' : 'none';
 }
 
-function renderFilterDimension(containerId, dimension, options, stateSet) {
-  const el = document.getElementById(containerId);
-  el.innerHTML = '';
+function renderFilterDimension(baseId, dimension, options, stateSet) {
+  const dropdown = document.getElementById(baseId + '-dropdown');
+  const trigger  = document.getElementById(baseId + '-trigger');
+
+  dropdown.innerHTML = '';
   options.forEach(opt => {
     const isActive    = stateSet.has(opt);
     const isLast      = isActive && stateSet.size === 1;
     const wouldExceed = !isActive && wouldExceedCap(dimension);
     const disabled    = isLast || wouldExceed;
 
-    const pill = document.createElement('span');
-    pill.className = 'filter-pill' + (isActive ? ' on' : '') + (disabled ? ' disabled' : '');
-    pill.textContent = opt;
+    const item = document.createElement('label');
+    item.className = 'ms-item' + (disabled ? ' disabled' : '');
 
-    if (!disabled) {
-      pill.addEventListener('click', () => {
-        if (stateSet.has(opt)) stateSet.delete(opt);
-        else stateSet.add(opt);
-        renderWFilterPills();
-        drawEarningsChart();
-      });
-    }
-    el.appendChild(pill);
+    const cb = document.createElement('input');
+    cb.type    = 'checkbox';
+    cb.checked  = isActive;
+    cb.disabled = disabled;
+    cb.addEventListener('change', () => {
+      if (stateSet.has(opt)) stateSet.delete(opt);
+      else stateSet.add(opt);
+      renderWFilterPills();
+      drawEarningsChart();
+    });
+
+    item.appendChild(cb);
+    item.appendChild(document.createTextNode(opt));
+    dropdown.appendChild(item);
   });
+
+  const selected = [...stateSet];
+  trigger.textContent = selected.length === 1 ? selected[0] : `${selected.length} selected`;
 }
 
 // ─── SERIES GETTERS ───────────────────────────────────────────────────────────
@@ -727,6 +778,17 @@ function switchTab(tab) {
 document.getElementById('u-sel-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
 document.getElementById('u-sel-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
 document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawEarningsChart(); });
+
+['w-ms-union', 'w-ms-sex', 'w-ms-age'].forEach(baseId => {
+  document.getElementById(baseId + '-trigger').addEventListener('click', e => {
+    e.stopPropagation();
+    toggleDropdown(baseId);
+  });
+});
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.multi-select')) closeAllDropdowns();
+});
 
 // ─── CSV DOWNLOAD ─────────────────────────────────────────────────────────────
 function downloadCSV(type) {

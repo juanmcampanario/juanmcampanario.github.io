@@ -413,6 +413,7 @@ const DASH_LABELS   = ['————', '– – –', '· · · ·', '–·–·
 // ─── STATE ───────────────────────────────────────────────────────────────────
 let U_ROWS = [], U_COUNTRIES = [], U_AGE_BANDS = [], U_YEARS = [];
 let W_ROWS = [], W_COUNTRIES = [], W_AGE_BANDS = [], W_YEARS = [];
+let W_CURRENCY_MAP = {};
 let uActive = new Set(), wActive = new Set();
 let uChart, wChart;
 let uLoaded = false, wLoaded = false, earningsTabInited = false;
@@ -457,6 +458,7 @@ Promise.allSettled([
     W_YEARS     = [...new Set(W_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
     wActive     = new Set(W_COUNTRIES);
     wState.ageBands = new Set([W_AGE_BANDS.includes('All Ages') ? 'All Ages' : W_AGE_BANDS[0]]);
+    W_CURRENCY_MAP  = Object.fromEntries(W_ROWS.filter(r => r.Currency).map(r => [r.Country, r.Currency]));
     wLoaded     = true;
   } else {
     document.getElementById('tab-earnings').style.display = 'none';
@@ -688,6 +690,7 @@ function drawEarningsChart() {
       const data = getEarningsSeries(country, combo.unionStatus, combo.sex, combo.ageBand, years);
       datasets.push({
         label: `${country} · ${combo.unionStatus} · ${combo.sex} · ${combo.ageBand}`,
+        country,
         data,
         borderColor: color,
         backgroundColor: color + '20',
@@ -710,14 +713,22 @@ function drawEarningsChart() {
     data: { labels: years, datasets },
     options: makeOptions(
       v => v.toFixed(0),
-      ctx => ctx.parsed.y !== null
-        ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(0)}`
-        : ` ${ctx.dataset.label}: no data`
+      ctx => {
+        if (ctx.parsed.y === null) return ` ${ctx.dataset.label}: no data`;
+        const val = ctx.parsed.y.toFixed(0);
+        if (wState.currency === 'Median Earnings (Local Currency)') {
+          const code = W_CURRENCY_MAP[ctx.dataset.country] || '';
+          return ` ${ctx.dataset.label}: ${val} ${code}`;
+        }
+        return ` ${ctx.dataset.label}: $${val}`;
+      }
     ),
   });
 
+  const activeCodes = [...wActive].map(c => W_CURRENCY_MAP[c]).filter(Boolean).join(' · ');
+  const titleCurr = wState.currency === 'Median Earnings (USD)' ? 'USD' : `Local Currency — ${activeCodes}`;
   document.getElementById('w-card-title').textContent =
-    `Median Monthly Earnings · ${currLabel}`;
+    `Median Monthly Earnings · ${titleCurr}`;
 
   renderCombinationKey(combos);
 

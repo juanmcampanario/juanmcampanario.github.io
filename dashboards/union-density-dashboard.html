@@ -581,6 +581,11 @@ function renderFilterDimension(baseId, dimension, options, stateSet) {
   trigger.textContent = selected.length === 1 ? selected[0] : `${selected.length} selected`;
 }
 
+// ─── FORMATTERS ───────────────────────────────────────────────────────────────
+function fmtEarnings(v) {
+  return v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
 // ─── SERIES GETTERS ───────────────────────────────────────────────────────────
 function getUnionSeries(country, years) {
   const lookup = {};
@@ -711,12 +716,12 @@ function drawEarningsChart() {
   const activeList = [...wActive];
   let yCallback;
   if (isUSD) {
-    yCallback = v => '$' + v.toFixed(0);
+    yCallback = v => '$' + fmtEarnings(v);
   } else if (activeList.length === 1) {
     const code = W_CURRENCY_MAP[activeList[0]] || '';
-    yCallback = v => v.toFixed(0) + (code ? ' ' + code : '');
+    yCallback = v => fmtEarnings(v) + (code ? ' ' + code : '');
   } else {
-    yCallback = v => v.toFixed(0);
+    yCallback = v => fmtEarnings(v);
   }
 
   const currLabel = isUSD ? 'USD' : 'Local Currency';
@@ -727,7 +732,7 @@ function drawEarningsChart() {
       yCallback,
       ctx => {
         if (ctx.parsed.y === null) return ` ${ctx.dataset.label}: no data`;
-        const val = ctx.parsed.y.toFixed(0);
+        const val = fmtEarnings(ctx.parsed.y);
         if (wState.currency === 'Median Earnings (Local Currency)') {
           const code = W_CURRENCY_MAP[ctx.dataset.country] || '';
           return ` ${ctx.dataset.label}: ${val} ${code}`;
@@ -748,7 +753,7 @@ function drawEarningsChart() {
   updateStatCards(
     'w-stats-row', wActive,
     c => getEarningsSeries(c, primaryCombo.unionStatus, primaryCombo.sex, primaryCombo.ageBand, years),
-    v => v.toFixed(0)
+    fmtEarnings
   );
 }
 

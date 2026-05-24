@@ -231,6 +231,7 @@ layout: null
   .sl { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
   .sv { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: var(--text); line-height: 1; }
   .sc { font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 5px; }
+  .sy { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); margin-top: 3px; letter-spacing: 0.04em; }
   .up   { color: #27ae60; }
   .down { color: #c0392b; }
   .na   { color: var(--muted); font-style: italic; }
@@ -679,7 +680,7 @@ function drawUnionChart() {
 
   document.getElementById('u-card-title').textContent =
     `Trade union density (%) · ${uState.group} · ${uState.age}`;
-  updateStatCards('u-stats-row', uActive, c => getUnionSeries(c, years), v => v.toFixed(1) + '%');
+  updateStatCards('u-stats-row', uActive, c => getUnionSeries(c, years), v => v.toFixed(1) + '%', years);
 }
 
 // ─── DRAW EARNINGS CHART ──────────────────────────────────────────────────────
@@ -758,7 +759,8 @@ function drawEarningsChart() {
       if (isUSD) return '$' + formatted;
       const code = W_CURRENCY_MAP[country] || '';
       return formatted + (code ? ' ' + code : '');
-    }
+    },
+    years
   );
 }
 
@@ -774,24 +776,33 @@ function renderCombinationKey(combos) {
 }
 
 // ─── STAT CARDS ───────────────────────────────────────────────────────────────
-function updateStatCards(rowId, activeSet, getSeriesFn, formatFn) {
+function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years) {
   const cards = [...activeSet].map(c => {
-    const vals   = getSeriesFn(c).filter(v => v !== null);
-    const latest = vals.length ? vals[vals.length - 1] : null;
-    const prev   = vals.length > 1 ? vals[vals.length - 2] : null;
-    return { c, latest, change: (latest !== null && prev !== null) ? latest - prev : null };
+    const series  = getSeriesFn(c);
+    const nonNull = series.map((v, i) => ({ v, year: years[i] })).filter(x => x.v !== null);
+    const latest  = nonNull.length     ? nonNull[nonNull.length - 1] : null;
+    const prev    = nonNull.length > 1 ? nonNull[nonNull.length - 2] : null;
+    return {
+      c,
+      latest:     latest ? latest.v    : null,
+      latestYear: latest ? latest.year : null,
+      prevYear:   prev   ? prev.year   : null,
+      change:     (latest && prev) ? latest.v - prev.v : null,
+    };
   });
 
-  document.getElementById(rowId).innerHTML = cards.map(({ c, latest, change }) => {
-    const color = COUNTRY_COLORS[c] || '#888';
-    const val   = latest !== null ? formatFn(latest, c) : '—';
-    const chg   = change !== null
+  document.getElementById(rowId).innerHTML = cards.map(({ c, latest, latestYear, prevYear, change }) => {
+    const color     = COUNTRY_COLORS[c] || '#888';
+    const val       = latest !== null ? formatFn(latest, c) : '—';
+    const yearLabel = (prevYear && latestYear) ? `${prevYear} → ${latestYear}` : '';
+    const chg       = change !== null
       ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${formatFn(Math.abs(change), c)}</span>`
       : `<span class="na">no recent data</span>`;
     return `<div class="scard" style="border-left: 3px solid ${color}">
       <div class="sl">${c}</div>
       <div class="sv">${val}</div>
       <div class="sc">${chg}</div>
+      ${yearLabel ? `<div class="sy">${yearLabel}</div>` : ''}
     </div>`;
   }).join('');
 }

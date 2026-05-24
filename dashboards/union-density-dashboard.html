@@ -32,7 +32,7 @@ layout: null
     background: var(--bg); color: var(--text);
     font-family: 'DM Sans', sans-serif; min-height: 100vh;
   }
-.wrap {
+  .wrap {
     position: relative; z-index: 1;
     max-width: 1080px; margin: 0 auto; padding: 52px 32px 88px;
   }
@@ -116,9 +116,9 @@ layout: null
     transition: border-color 0.2s;
   }
   .union-panel select:hover, .union-panel select:focus { border-color: var(--au); }
-  .earnings-panel  select:hover, .earnings-panel  select:focus { border-color: var(--aw); }
+  .earnings-panel select:hover, .earnings-panel select:focus { border-color: var(--aw); }
 
-  /* PILLS */
+  /* COUNTRY PILLS */
   .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
   .pill {
     display: flex; align-items: center; gap: 7px;
@@ -130,6 +130,25 @@ layout: null
   .pill .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .pill.on { background: var(--surf2); }
   .pill:hover { border-color: var(--text); color: var(--text); }
+
+  /* FILTER PILLS (multi-select dimensions in earnings panel) */
+  .fpills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .filter-pill {
+    display: inline-flex; align-items: center;
+    padding: 5px 10px; border-radius: 2px;
+    border: 1.5px solid var(--border); background: var(--surface);
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    cursor: pointer; transition: all 0.15s; color: var(--muted); user-select: none;
+  }
+  .filter-pill.on { background: var(--surf2); color: var(--text); border-color: var(--aw); }
+  .filter-pill.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
+  .filter-pill:not(.on):not(.disabled):hover { border-color: var(--text); color: var(--text); }
+
+  /* CAP NOTE */
+  .cap-note {
+    font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted);
+    margin-top: -10px; margin-bottom: 16px; letter-spacing: 0.04em;
+  }
 
   /* CHART CARD */
   .card {
@@ -157,6 +176,18 @@ layout: null
   }
   canvas { max-height: 420px; }
 
+  /* COMBINATION KEY */
+  .combo-key {
+    margin-top: 12px; padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  .combo-key-row {
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .combo-sym { min-width: 52px; letter-spacing: 1px; }
+
   /* GAP NOTE */
   .gap-note {
     display: flex; align-items: center; gap: 10px; margin-top: 12px;
@@ -176,7 +207,7 @@ layout: null
     border-radius: 3px; padding: 16px; transition: border-color 0.18s;
   }
   .union-panel .scard:hover { border-color: var(--au); }
-  .earnings-panel  .scard:hover { border-color: var(--aw); }
+  .earnings-panel .scard:hover { border-color: var(--aw); }
   .sl { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
   .sv { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: var(--text); line-height: 1; }
   .sc { font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 5px; }
@@ -221,8 +252,8 @@ layout: null
       The countries included are Brazil, Colombia, Guatemala, Mexico, and Peru.
       <br><br>
       Gaps in the lines indicate years where no survey data were available. Country-level estimates may differ from other sources,
-      as this dashboard applies a harmonized methodology to ensure cross-country comparability (Null membership is treated as 
-      non-membership, respondents reported positive, non-zero earnings, and ages 15 to 98). For more information on the methodology, 
+      as this dashboard applies a harmonized methodology to ensure cross-country comparability (Null membership is treated as
+      non-membership, respondents reported positive, non-zero earnings, and ages 15 to 98). For more information on the methodology,
       see the accompanying methods document.
     </p>
   </header>
@@ -237,7 +268,7 @@ layout: null
     Loading earnings data…
   </div>
 
-  <!-- TABS (shown once at least one dataset loads) -->
+  <!-- TABS -->
   <div class="tab-bar" id="tab-bar" style="display:none">
     <button class="tab-btn au" id="tab-union" onclick="switchTab('union')">
       <span class="td"></span>Union Density
@@ -277,7 +308,7 @@ layout: null
     <div class="stats-row" id="u-stats-row"></div>
   </div>
 
-  <!-- ══ WAGE PANEL ══ -->
+  <!-- ══ EARNINGS PANEL ══ -->
   <div class="panel earnings-panel" id="panel-earnings">
     <div class="controls" id="w-controls" style="display:none">
       <div class="cg">
@@ -288,24 +319,28 @@ layout: null
         </select>
       </div>
       <div class="cg">
-        <span class="cl">Group</span>
-        <select id="w-sel-group">
-          <option value="Total">All union members (Total)</option>
-          <option value="Men">Men</option>
-          <option value="Women">Women</option>
-        </select>
+        <span class="cl">Union Status</span>
+        <div class="fpills" id="w-pills-union"></div>
       </div>
       <div class="cg">
-        <span class="cl">Age band</span>
-        <select id="w-sel-age"></select>
+        <span class="cl">Group</span>
+        <div class="fpills" id="w-pills-sex"></div>
       </div>
+      <div class="cg">
+        <span class="cl">Age Band</span>
+        <div class="fpills" id="w-pills-age"></div>
+      </div>
+    </div>
+    <div class="cap-note" id="w-cap-note" style="display:none">
+      &#8856; Combination limit reached — deselect an option to add another
     </div>
     <div class="pills" id="w-pills"></div>
     <div class="card earnings-card" id="w-card" style="display:none">
       <div class="card-head">
-        <span class="card-title" id="w-card-title">Median Monthly Earnings · union members (local currency) over time</span>
+        <span class="card-title" id="w-card-title">Median Monthly Earnings over time</span>
       </div>
       <canvas id="w-chart"></canvas>
+      <div class="combo-key" id="w-combo-key" style="display:none"></div>
       <div class="gap-note">
         <span class="gap-dash"></span>
         Gaps indicate years with no survey data available.
@@ -328,7 +363,7 @@ layout: null
 </div>
 
 <script>
-// ─── COUNTRY COLOURS ─────────────────────────────────────────────────────────
+// ─── CONSTANTS ────────────────────────────────────────────────────────────────
 const COUNTRY_COLORS = {
   Brazil:    '#2980b9',
   Colombia:  '#c0392b',
@@ -336,6 +371,15 @@ const COUNTRY_COLORS = {
   Mexico:    '#27ae60',
   Peru:      '#e67e22',
 };
+
+const W_UNION_STATUS_OPTIONS = ['Unionized Workers', 'All Workers'];
+const W_SEX_OPTIONS          = ['Total', 'Men', 'Women'];
+const AGE_BAND_ORDER         = ['All Ages', '15-24', '25-54', '55+'];
+const MAX_COMBINATIONS       = 4;
+
+// Chart.js borderDash patterns and matching text symbols for the inline key
+const DASH_PATTERNS = [[], [8, 4], [2, 3], [10, 3, 2, 3]];
+const DASH_LABELS   = ['————', '– – –', '· · · ·', '–·–·–'];
 
 // ─── STATE ───────────────────────────────────────────────────────────────────
 let U_ROWS = [], U_COUNTRIES = [], U_AGE_BANDS = [], U_YEARS = [];
@@ -345,15 +389,19 @@ let uChart, wChart;
 let uLoaded = false, wLoaded = false, earningsTabInited = false;
 
 const uState = { group: 'Total', age: 'All Ages' };
-const wState = { group: 'Total', age: 'All Ages', currency: 'Median Earnings (USD)' };
+const wState = {
+  currency:      'Median Earnings (USD)',
+  unionStatuses: new Set(['Unionized Workers']),
+  sexGroups:     new Set(['Total']),
+  ageBands:      new Set(),
+};
 
-// ─── LOAD BOTH JSON FILES IN PARALLEL ────────────────────────────────────────
+// ─── LOAD DATA ────────────────────────────────────────────────────────────────
 Promise.allSettled([
   fetch('union_density_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
   fetch('median_earnings_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
 ]).then(([unionResult, earningsResult]) => {
 
-  // ── Union data ──
   if (unionResult.status === 'fulfilled') {
     U_ROWS      = unionResult.value;
     U_COUNTRIES = [...new Set(U_ROWS.map(r => r.Country))].sort();
@@ -372,48 +420,42 @@ Promise.allSettled([
     showError('status-bar-union', 'union_density_data.json', unionResult.reason.message);
   }
 
-  // ── Earnings data ──
   if (earningsResult.status === 'fulfilled') {
     W_ROWS      = earningsResult.value;
     W_COUNTRIES = [...new Set(W_ROWS.map(r => r.Country))].sort();
-    W_AGE_BANDS = [...new Set(W_ROWS.map(r => r['Age Band']))].sort();
+    W_AGE_BANDS = [...new Set(W_ROWS.map(r => r['Age Band']))]
+      .sort((a, b) => AGE_BAND_ORDER.indexOf(a) - AGE_BAND_ORDER.indexOf(b));
     W_YEARS     = [...new Set(W_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
     wActive     = new Set(W_COUNTRIES);
-    wState.age  = W_AGE_BANDS.includes('All Ages') ? 'All Ages' : W_AGE_BANDS[0];
+    wState.ageBands = new Set([W_AGE_BANDS.includes('All Ages') ? 'All Ages' : W_AGE_BANDS[0]]);
     wLoaded     = true;
-    populateSelect('w-sel-age', W_AGE_BANDS, wState.age);
   } else {
-    // Earnings file missing — hide earnings tab silently, union tab still works
     document.getElementById('tab-earnings').style.display = 'none';
   }
 
-  // Show tab bar and footer once at least union data is loaded
   if (uLoaded) {
     document.getElementById('tab-bar').style.display = 'flex';
     document.getElementById('footer').style.display = 'block';
-    const allYears = [...new Set([...U_YEARS, ...W_YEARS])].sort((a,b)=>a-b);
-    document.getElementById('data-years').textContent =
-      '';
+    document.getElementById('data-years').textContent = '';
   }
 });
 
-// ─── ERROR DISPLAY ────────────────────────────────────────────────────────────
+// ─── HELPERS ──────────────────────────────────────────────────────────────────
 function showError(barId, filename, msg) {
   const bar = document.getElementById(barId);
   bar.classList.remove('loading');
   bar.classList.add('error');
-  bar.innerHTML = `⚠ Could not load <strong>${filename}</strong> (${msg}). Make sure the file is in the same folder as this HTML.`;
+  bar.innerHTML = `&#9888; Could not load <strong>${filename}</strong> (${msg}). Make sure the file is in the same folder as this HTML.`;
   bar.style.display = 'flex';
 }
 
-// ─── POPULATE SELECT ──────────────────────────────────────────────────────────
 function populateSelect(id, options, selected) {
   document.getElementById(id).innerHTML = options.map(o =>
     `<option value="${o}" ${o === selected ? 'selected' : ''}>${o}</option>`
   ).join('');
 }
 
-// ─── PILLS ────────────────────────────────────────────────────────────────────
+// ─── COUNTRY PILLS ────────────────────────────────────────────────────────────
 function renderPills(containerId, countries, activeSet, onUpdate) {
   const el = document.getElementById(containerId);
   el.innerHTML = '';
@@ -435,7 +477,52 @@ function renderPills(containerId, countries, activeSet, onUpdate) {
   });
 }
 
-// ─── GET SERIES ───────────────────────────────────────────────────────────────
+// ─── EARNINGS FILTER PILLS ────────────────────────────────────────────────────
+function getCombinationCount() {
+  return wState.unionStatuses.size * wState.sexGroups.size * wState.ageBands.size;
+}
+
+function wouldExceedCap(dimension) {
+  const nU = wState.unionStatuses.size + (dimension === 'union' ? 1 : 0);
+  const nS = wState.sexGroups.size     + (dimension === 'sex'   ? 1 : 0);
+  const nA = wState.ageBands.size      + (dimension === 'age'   ? 1 : 0);
+  return nU * nS * nA > MAX_COMBINATIONS;
+}
+
+function renderWFilterPills() {
+  renderFilterDimension('w-pills-union', 'union', W_UNION_STATUS_OPTIONS, wState.unionStatuses);
+  renderFilterDimension('w-pills-sex',   'sex',   W_SEX_OPTIONS,          wState.sexGroups);
+  renderFilterDimension('w-pills-age',   'age',   W_AGE_BANDS,            wState.ageBands);
+  document.getElementById('w-cap-note').style.display =
+    getCombinationCount() >= MAX_COMBINATIONS ? 'block' : 'none';
+}
+
+function renderFilterDimension(containerId, dimension, options, stateSet) {
+  const el = document.getElementById(containerId);
+  el.innerHTML = '';
+  options.forEach(opt => {
+    const isActive    = stateSet.has(opt);
+    const isLast      = isActive && stateSet.size === 1;
+    const wouldExceed = !isActive && wouldExceedCap(dimension);
+    const disabled    = isLast || wouldExceed;
+
+    const pill = document.createElement('span');
+    pill.className = 'filter-pill' + (isActive ? ' on' : '') + (disabled ? ' disabled' : '');
+    pill.textContent = opt;
+
+    if (!disabled) {
+      pill.addEventListener('click', () => {
+        if (stateSet.has(opt)) stateSet.delete(opt);
+        else stateSet.add(opt);
+        renderWFilterPills();
+        drawEarningsChart();
+      });
+    }
+    el.appendChild(pill);
+  });
+}
+
+// ─── SERIES GETTERS ───────────────────────────────────────────────────────────
 function getUnionSeries(country, years) {
   const lookup = {};
   U_ROWS.filter(r => r.Country === country && r.Sex === uState.group && r['Age Band'] === uState.age)
@@ -446,14 +533,27 @@ function getUnionSeries(country, years) {
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
 }
 
-function getEarningsSeries(country, years) {
+function getEarningsSeries(country, unionStatus, sex, ageBand, years) {
   const lookup = {};
-  W_ROWS.filter(r => r.Country === country && r.Sex === wState.group && r['Age Band'] === wState.age)
-    .forEach(r => {
-      const v = r[wState.currency];
-      lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
-    });
+  W_ROWS.filter(r =>
+    r.Country === country &&
+    r['Union Status'] === unionStatus &&
+    r.Sex === sex &&
+    r['Age Band'] === ageBand
+  ).forEach(r => {
+    const v = r[wState.currency];
+    lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
+  });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
+}
+
+function getCombinations() {
+  const combos = [];
+  for (const u of wState.unionStatuses)
+    for (const s of wState.sexGroups)
+      for (const a of wState.ageBands)
+        combos.push({ unionStatus: u, sex: s, ageBand: a });
+  return combos;
 }
 
 // ─── CHART OPTIONS ────────────────────────────────────────────────────────────
@@ -521,33 +621,66 @@ function drawUnionChart() {
 // ─── DRAW EARNINGS CHART ──────────────────────────────────────────────────────
 function drawEarningsChart() {
   if (!wLoaded) return;
-  const years    = W_YEARS;
-  const datasets = [...wActive].map(c => {
-    const color = COUNTRY_COLORS[c] || '#888';
-    const data  = getEarningsSeries(c, years);
-    return {
-      label: c, data,
-      borderColor: color, backgroundColor: color + '20',
-      borderWidth: 2.5,
-      pointRadius: data.map(v => v !== null ? 3 : 0),
-      pointHoverRadius: 6, pointBackgroundColor: color,
-      fill: false, tension: 0.35, spanGaps: false,
-    };
+  const years  = W_YEARS;
+  const combos = getCombinations();
+
+  const datasets = [];
+  [...wActive].forEach(country => {
+    const color = COUNTRY_COLORS[country] || '#888';
+    combos.forEach((combo, ci) => {
+      const data = getEarningsSeries(country, combo.unionStatus, combo.sex, combo.ageBand, years);
+      datasets.push({
+        label: `${country} · ${combo.unionStatus} · ${combo.sex} · ${combo.ageBand}`,
+        data,
+        borderColor: color,
+        backgroundColor: color + '20',
+        borderWidth: 2.5,
+        borderDash: DASH_PATTERNS[ci],
+        pointRadius: data.map(v => v !== null ? 3 : 0),
+        pointHoverRadius: 6,
+        pointBackgroundColor: color,
+        fill: false,
+        tension: 0.35,
+        spanGaps: false,
+      });
+    });
   });
 
   if (wChart) wChart.destroy();
+  const currLabel = wState.currency === 'Median Earnings (USD)' ? 'USD' : 'Local Currency';
   wChart = new Chart(document.getElementById('w-chart'), {
     type: 'line',
     data: { labels: years, datasets },
     options: makeOptions(
-      v => v.toFixed(2),
-      ctx => ctx.parsed.y !== null ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}` : ` ${ctx.dataset.label}: no data`
+      v => v.toFixed(0),
+      ctx => ctx.parsed.y !== null
+        ? ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(0)}`
+        : ` ${ctx.dataset.label}: no data`
     ),
   });
 
   document.getElementById('w-card-title').textContent =
-    `Median Monthly Earnings · union members · ${wState.currency === 'Median Earnings (USD)' ? 'USD' : 'Local Currency'} · ${wState.group} · ${wState.age}`;
-  updateStatCards('w-stats-row', wActive, c => getEarningsSeries(c, years), v => v.toFixed(2));
+    `Median Monthly Earnings · ${currLabel}`;
+
+  renderCombinationKey(combos);
+
+  const primaryCombo = combos[0];
+  updateStatCards(
+    'w-stats-row', wActive,
+    c => getEarningsSeries(c, primaryCombo.unionStatus, primaryCombo.sex, primaryCombo.ageBand, years),
+    v => v.toFixed(0)
+  );
+}
+
+// ─── COMBINATION KEY ──────────────────────────────────────────────────────────
+function renderCombinationKey(combos) {
+  const el = document.getElementById('w-combo-key');
+  if (combos.length <= 1) { el.style.display = 'none'; return; }
+  el.style.display = 'block';
+  el.innerHTML = combos.map((combo, ci) => {
+    const label = [combo.unionStatus, combo.sex, combo.ageBand].join(' · ');
+    return `<div class="combo-key-row"><span class="combo-sym">${DASH_LABELS[ci]}</span><span>${label}</span></div>`;
+  }).join('');
 }
 
 // ─── STAT CARDS ───────────────────────────────────────────────────────────────
@@ -576,14 +709,14 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn) {
 // ─── TAB SWITCH ───────────────────────────────────────────────────────────────
 function switchTab(tab) {
   document.getElementById('panel-union').classList.toggle('active', tab === 'union');
-  document.getElementById('panel-earnings').classList.toggle('active',  tab === 'earnings');
+  document.getElementById('panel-earnings').classList.toggle('active', tab === 'earnings');
   document.getElementById('tab-union').className = 'tab-btn' + (tab === 'union' ? ' au' : '');
-  document.getElementById('tab-earnings').className  = 'tab-btn' + (tab === 'earnings'  ? ' aw' : '');
+  document.getElementById('tab-earnings').className = 'tab-btn' + (tab === 'earnings' ? ' aw' : '');
 
-  // Lazy-init earnings tab on first visit
   if (tab === 'earnings' && !earningsTabInited && wLoaded) {
     earningsTabInited = true;
     renderPills('w-pills', W_COUNTRIES, wActive, () => drawEarningsChart());
+    renderWFilterPills();
     document.getElementById('w-controls').style.display = 'flex';
     document.getElementById('w-card').style.display = 'block';
     drawEarningsChart();
@@ -594,8 +727,6 @@ function switchTab(tab) {
 document.getElementById('u-sel-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
 document.getElementById('u-sel-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
 document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawEarningsChart(); });
-document.getElementById('w-sel-group').addEventListener('change', e => { wState.group = e.target.value; drawEarningsChart(); });
-document.getElementById('w-sel-age').addEventListener('change',   e => { wState.age   = e.target.value; drawEarningsChart(); });
 
 // ─── CSV DOWNLOAD ─────────────────────────────────────────────────────────────
 function downloadCSV(type) {

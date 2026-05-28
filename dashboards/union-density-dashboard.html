@@ -331,6 +331,10 @@ layout: null
         </select>
       </div>
       <div class="cg">
+        <span class="cl">Industry</span>
+        <select id="w-sel-industry"></select>
+      </div>
+      <div class="cg">
         <span class="cl">Union Status</span>
         <div class="multi-select" id="w-ms-union">
           <button class="ms-trigger" id="w-ms-union-trigger">Unionized Workers</button>
@@ -396,6 +400,7 @@ const COUNTRY_COLORS = {
 const W_UNION_STATUS_OPTIONS = ['Unionized Workers', 'All Workers'];
 const W_SEX_OPTIONS          = ['Total', 'Men', 'Women'];
 const AGE_BAND_ORDER         = ['All Ages', '15-24', '25-54', '55+'];
+const INDUSTRY_ORDER         = ['All Industries','Agriculture','Mining','Manufacturing','Construction','Commerce & Transport','Public Administration','Services'];
 const MAX_COMBINATIONS       = 4;
 
 // Chart.js borderDash patterns and matching text symbols for the inline key
@@ -404,7 +409,7 @@ const DASH_LABELS   = ['————', '– – –', '· · · ·', '–·–·
 
 // ─── STATE ───────────────────────────────────────────────────────────────────
 let U_ROWS = [], U_COUNTRIES = [], U_AGE_BANDS = [], U_YEARS = [];
-let W_ROWS = [], W_COUNTRIES = [], W_AGE_BANDS = [], W_YEARS = [];
+let W_ROWS = [], W_COUNTRIES = [], W_AGE_BANDS = [], W_INDUSTRIES = [], W_YEARS = [];
 let W_CURRENCY_MAP = {};
 let uActive = new Set(), wActive = new Set();
 let uChart, wChart;
@@ -413,6 +418,7 @@ let uLoaded = false, wLoaded = false, earningsTabInited = false;
 const uState = { group: 'Total', age: 'All Ages' };
 const wState = {
   currency:      'Median Earnings (USD)',
+  industry:      'All Industries',
   unionStatuses: new Set(['Unionized Workers']),
   sexGroups:     new Set(['Total']),
   ageBands:      new Set(),
@@ -451,6 +457,8 @@ Promise.allSettled([
     wActive     = new Set(W_COUNTRIES);
     wState.ageBands = new Set([W_AGE_BANDS.includes('All Ages') ? 'All Ages' : W_AGE_BANDS[0]]);
     W_CURRENCY_MAP  = Object.fromEntries(W_ROWS.filter(r => r.Currency).map(r => [r.Country, r.Currency]));
+    W_INDUSTRIES    = [...new Set(W_ROWS.map(r => r.Industry))].sort((a,b) => INDUSTRY_ORDER.indexOf(a) - INDUSTRY_ORDER.indexOf(b));
+    populateSelect('w-sel-industry', W_INDUSTRIES, wState.industry);
     wLoaded     = true;
   } else {
     document.getElementById('tab-earnings').style.display = 'none';
@@ -593,6 +601,7 @@ function getEarningsSeries(country, unionStatus, sex, ageBand, years) {
   const lookup = {};
   W_ROWS.filter(r =>
     r.Country === country &&
+    r.Industry === wState.industry &&
     r['Union Status'] === unionStatus &&
     r.Sex === sex &&
     r['Age Band'] === ageBand
@@ -819,6 +828,7 @@ function switchTab(tab) {
 document.getElementById('u-sel-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
 document.getElementById('u-sel-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
 document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawEarningsChart(); });
+document.getElementById('w-sel-industry').addEventListener('change', e => { wState.industry = e.target.value; drawEarningsChart(); });
 
 ['w-ms-union', 'w-ms-sex', 'w-ms-age'].forEach(baseId => {
   document.getElementById(baseId + '-trigger').addEventListener('click', e => {

@@ -132,7 +132,7 @@ layout: null
   .pill.on { background: var(--surf2); }
   .pill:hover { border-color: var(--text); color: var(--text); }
 
-  /* MULTI-SELECT DROPDOWNS (earnings panel) */
+  /* MULTI-SELECT DROPDOWNS */
   .multi-select { position: relative; }
   .ms-trigger {
     appearance: none; background: var(--surface);
@@ -144,8 +144,8 @@ layout: null
     background-repeat: no-repeat; background-position: right 12px center;
     transition: border-color 0.2s;
   }
-  .earnings-panel .ms-trigger:hover { border-color: var(--aw); }
-  .ms-trigger.open { border-color: var(--aw); }
+  .earnings-panel .ms-trigger:hover, .earnings-panel .ms-trigger.open { border-color: var(--aw); }
+  .union-panel .ms-trigger:hover, .union-panel .ms-trigger.open { border-color: var(--au); }
   .ms-dropdown {
     display: none; position: absolute; top: calc(100% + 4px); left: 0;
     background: var(--bg); border: 1.5px solid var(--border); border-radius: 3px;
@@ -159,11 +159,15 @@ layout: null
     transition: background 0.12s; user-select: none; white-space: nowrap;
   }
   .ms-item:hover { background: var(--surf2); }
-  .ms-item.checked { background: #eaf3fb; color: var(--aw); font-weight: 500; }
-  .ms-item.checked:hover { background: #daeaf7; }
+  .earnings-panel .ms-item.checked { background: #eaf3fb; color: var(--aw); font-weight: 500; }
+  .earnings-panel .ms-item.checked:hover { background: #daeaf7; }
+  .union-panel .ms-item.checked { background: #fdecea; color: var(--au); font-weight: 500; }
+  .union-panel .ms-item.checked:hover { background: #fad5d2; }
   .ms-item.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
   .ms-item.no-click { cursor: default; pointer-events: none; }
-  .ms-item input[type="checkbox"] { accent-color: var(--aw); cursor: pointer; flex-shrink: 0; }
+  .ms-item input[type="checkbox"] { cursor: pointer; flex-shrink: 0; }
+  .earnings-panel .ms-item input[type="checkbox"] { accent-color: var(--aw); }
+  .union-panel .ms-item input[type="checkbox"] { accent-color: var(--au); }
 
   /* CAP NOTE */
   .cap-note {
@@ -311,17 +315,26 @@ layout: null
   <div class="panel union-panel active" id="panel-union">
     <div class="controls" id="u-controls" style="display:none">
       <div class="cg">
-        <span class="cl">Group</span>
-        <select id="u-sel-group">
-          <option value="Total">All workers (Total)</option>
-          <option value="Men">Men</option>
-          <option value="Women">Women</option>
-        </select>
+        <span class="cl">Industry</span>
+        <select id="u-sel-industry"></select>
       </div>
       <div class="cg">
-        <span class="cl">Age band</span>
-        <select id="u-sel-age"></select>
+        <span class="cl">Group</span>
+        <div class="multi-select" id="u-ms-sex">
+          <button class="ms-trigger" id="u-ms-sex-trigger">Total</button>
+          <div class="ms-dropdown" id="u-ms-sex-dropdown"></div>
+        </div>
       </div>
+      <div class="cg">
+        <span class="cl">Age Band</span>
+        <div class="multi-select" id="u-ms-age">
+          <button class="ms-trigger" id="u-ms-age-trigger">All Ages</button>
+          <div class="ms-dropdown" id="u-ms-age-dropdown"></div>
+        </div>
+      </div>
+    </div>
+    <div class="cap-note" id="u-cap-note" style="display:none">
+      &#8856; Combination limit reached — deselect an option to add another
     </div>
     <div class="pills" id="u-pills"></div>
     <div class="card union-card" id="u-card" style="display:none">
@@ -329,10 +342,12 @@ layout: null
         <span class="card-title" id="u-card-title">Trade union density (%) over time</span>
       </div>
       <canvas id="u-chart"></canvas>
+      <div class="combo-key" id="u-combo-key" style="display:none"></div>
       <div class="gap-note">
         <span class="gap-dash"></span>
         Gaps indicate years with no survey data available.
       </div>
+      <div class="industry-note" id="u-industry-note" style="display:none"></div>
     </div>
     <div class="stats-row" id="u-stats-row"></div>
   </div>
@@ -426,14 +441,18 @@ const DASH_PATTERNS = [[], [8, 4], [2, 3], [10, 3, 2, 3]];
 const DASH_LABELS   = ['————', '– – –', '· · · ·', '–·–·–'];
 
 // ─── STATE ───────────────────────────────────────────────────────────────────
-let U_ROWS = [], U_COUNTRIES = [], U_AGE_BANDS = [], U_YEARS = [];
+let U_ROWS = [], U_COUNTRIES = [], U_AGE_BANDS = [], U_INDUSTRIES = [], U_YEARS = [];
 let W_ROWS = [], W_COUNTRIES = [], W_AGE_BANDS = [], W_INDUSTRIES = [], W_YEARS = [];
 let W_CURRENCY_MAP = {};
 let uActive = new Set(), wActive = new Set();
 let uChart, wChart;
 let uLoaded = false, wLoaded = false, earningsTabInited = false;
 
-const uState = { group: 'Total', age: 'All Ages' };
+const uState = {
+  industry:  'All Industries',
+  sexGroups: new Set(['Total']),
+  ageBands:  new Set(),
+};
 const wState = {
   currency:      'Median Earnings (USD)',
   industry:      'All Industries',
@@ -449,19 +468,22 @@ Promise.allSettled([
 ]).then(([unionResult, earningsResult]) => {
 
   if (unionResult.status === 'fulfilled') {
-    U_ROWS      = unionResult.value;
-    U_COUNTRIES = [...new Set(U_ROWS.map(r => r.Country))].sort();
-    U_AGE_BANDS = [...new Set(U_ROWS.map(r => r['Age Band']))].sort();
-    U_YEARS     = [...new Set(U_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
-    uActive     = new Set(U_COUNTRIES);
-    uState.age  = U_AGE_BANDS.includes('All Ages') ? 'All Ages' : U_AGE_BANDS[0];
-    uLoaded     = true;
-    populateSelect('u-sel-age', U_AGE_BANDS, uState.age);
+    U_ROWS       = unionResult.value;
+    U_COUNTRIES  = [...new Set(U_ROWS.map(r => r.Country))].sort();
+    U_AGE_BANDS  = [...new Set(U_ROWS.map(r => r['Age Band']))]
+      .sort((a, b) => AGE_BAND_ORDER.indexOf(a) - AGE_BAND_ORDER.indexOf(b));
+    U_YEARS      = [...new Set(U_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
+    U_INDUSTRIES = [...new Set(U_ROWS.map(r => r.Industry))].sort((a,b) => INDUSTRY_ORDER.indexOf(a) - INDUSTRY_ORDER.indexOf(b));
+    uActive      = new Set(U_COUNTRIES);
+    uState.ageBands = new Set([U_AGE_BANDS.includes('All Ages') ? 'All Ages' : U_AGE_BANDS[0]]);
+    populateSelect('u-sel-industry', U_INDUSTRIES, uState.industry);
     renderPills('u-pills', U_COUNTRIES, uActive, () => drawUnionChart());
+    renderUFilterPills();
     drawUnionChart();
     document.getElementById('u-controls').style.display = 'flex';
     document.getElementById('u-card').style.display = 'block';
     document.getElementById('status-bar-union').classList.add('hidden');
+    uLoaded = true;
   } else {
     showError('status-bar-union', 'union_density_data.json', unionResult.reason.message);
   }
@@ -524,6 +546,86 @@ function renderPills(containerId, countries, activeSet, onUpdate) {
     });
     el.appendChild(pill);
   });
+}
+
+// ─── UNION MULTI-SELECT DROPDOWNS ────────────────────────────────────────────
+function getCombinationCountU() {
+  return uState.sexGroups.size * uState.ageBands.size;
+}
+
+function wouldExceedCapU(dimension) {
+  const nS = uState.sexGroups.size + (dimension === 'sex' ? 1 : 0);
+  const nA = uState.ageBands.size  + (dimension === 'age' ? 1 : 0);
+  return nS * nA > MAX_COMBINATIONS;
+}
+
+function renderUFilterPills() {
+  renderFilterDimensionU('u-ms-sex', 'sex', W_SEX_OPTIONS, uState.sexGroups);
+  renderFilterDimensionU('u-ms-age', 'age', U_AGE_BANDS,   uState.ageBands);
+  document.getElementById('u-cap-note').style.display =
+    getCombinationCountU() >= MAX_COMBINATIONS ? 'block' : 'none';
+}
+
+function renderFilterDimensionU(baseId, dimension, options, stateSet) {
+  const dropdown = document.getElementById(baseId + '-dropdown');
+  const trigger  = document.getElementById(baseId + '-trigger');
+
+  dropdown.innerHTML = '';
+  options.forEach(opt => {
+    const isActive    = stateSet.has(opt);
+    const isLast      = isActive && stateSet.size === 1;
+    const wouldExceed = !isActive && wouldExceedCapU(dimension);
+    const disabled    = isLast || wouldExceed;
+
+    const item = document.createElement('label');
+    item.className = 'ms-item'
+      + (isActive    ? ' checked'  : '')
+      + (wouldExceed ? ' disabled' : '')
+      + (isLast      ? ' no-click' : '');
+
+    const cb = document.createElement('input');
+    cb.type    = 'checkbox';
+    cb.checked  = isActive;
+    cb.disabled = disabled;
+    cb.addEventListener('change', () => {
+      if (stateSet.has(opt)) stateSet.delete(opt);
+      else stateSet.add(opt);
+      renderUFilterPills();
+      drawUnionChart();
+    });
+
+    item.appendChild(cb);
+    item.appendChild(document.createTextNode(opt));
+    dropdown.appendChild(item);
+  });
+
+  const selected = [...stateSet];
+  trigger.textContent = selected.length === 1 ? selected[0] : `${selected.length} selected`;
+}
+
+function getCombinationsU() {
+  const combos = [];
+  for (const s of uState.sexGroups)
+    for (const a of uState.ageBands)
+      combos.push({ sex: s, ageBand: a });
+  return combos;
+}
+
+function renderUnionCombinationKey(combos) {
+  const el = document.getElementById('u-combo-key');
+  if (combos.length <= 1) { el.style.display = 'none'; return; }
+  el.style.display = 'block';
+  el.innerHTML = combos.map((combo, ci) => {
+    const label = [combo.sex, combo.ageBand].join(' · ');
+    return `<div class="combo-key-row"><span class="combo-sym">${DASH_LABELS[ci]}</span><span>${label}</span></div>`;
+  }).join('');
+}
+
+function updateUnionIndustryNote() {
+  const el = document.getElementById('u-industry-note');
+  if (uState.industry === 'All Industries') { el.style.display = 'none'; return; }
+  el.innerHTML = 'Industry data reflect a crosswalk to a harmonised ISIC 7-sector classification. Coverage and sector boundaries can vary by country and survey year (e.g., Guatemala does not report a separate Mining sector). For more information see the <span class="note-flag">methodology paper</span> (forthcoming).';
+  el.style.display = 'block';
 }
 
 // ─── EARNINGS MULTI-SELECT DROPDOWNS ─────────────────────────────────────────
@@ -605,13 +707,17 @@ function fmtEarnings(v) {
 }
 
 // ─── SERIES GETTERS ───────────────────────────────────────────────────────────
-function getUnionSeries(country, years) {
+function getUnionSeries(country, sex, ageBand, years) {
   const lookup = {};
-  U_ROWS.filter(r => r.Country === country && r.Sex === uState.group && r['Age Band'] === uState.age)
-    .forEach(r => {
-      const v = r['Trade Union Density (%)'];
-      lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
-    });
+  U_ROWS.filter(r =>
+    r.Country === country &&
+    r.Industry === uState.industry &&
+    r.Sex === sex &&
+    r['Age Band'] === ageBand
+  ).forEach(r => {
+    const v = r['Trade Union Density (%)'];
+    lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
+  });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
 }
 
@@ -672,18 +778,30 @@ function makeOptions(yCallback, tooltipLabel) {
 
 // ─── DRAW UNION CHART ─────────────────────────────────────────────────────────
 function drawUnionChart() {
-  const years    = U_YEARS;
-  const datasets = [...uActive].map(c => {
-    const color = COUNTRY_COLORS[c] || '#888';
-    const data  = getUnionSeries(c, years);
-    return {
-      label: c, data,
-      borderColor: color, backgroundColor: color + '20',
-      borderWidth: 2.5,
-      pointRadius: data.map(v => v !== null ? 3 : 0),
-      pointHoverRadius: 6, pointBackgroundColor: color,
-      fill: false, tension: 0.35, spanGaps: false,
-    };
+  const years  = U_YEARS;
+  const combos = getCombinationsU();
+
+  const datasets = [];
+  [...uActive].forEach(country => {
+    const color = COUNTRY_COLORS[country] || '#888';
+    combos.forEach((combo, ci) => {
+      const data = getUnionSeries(country, combo.sex, combo.ageBand, years);
+      datasets.push({
+        label: `${country} · ${combo.sex} · ${combo.ageBand}`,
+        country,
+        data,
+        borderColor: color,
+        backgroundColor: color + '20',
+        borderWidth: 2.5,
+        borderDash: DASH_PATTERNS[ci],
+        pointRadius: data.map(v => v !== null ? 3 : 0),
+        pointHoverRadius: 6,
+        pointBackgroundColor: color,
+        fill: false,
+        tension: 0.35,
+        spanGaps: false,
+      });
+    });
   });
 
   if (uChart) uChart.destroy();
@@ -696,9 +814,19 @@ function drawUnionChart() {
     ),
   });
 
-  document.getElementById('u-card-title').textContent =
-    `Trade union density (%) · ${uState.group} · ${uState.age}`;
-  updateStatCards('u-stats-row', uActive, c => getUnionSeries(c, years), v => v.toFixed(1) + '%', years, v => v.toFixed(1) + ' p.p.');
+  document.getElementById('u-card-title').textContent = 'Trade union density (%)';
+
+  renderUnionCombinationKey(combos);
+  updateUnionIndustryNote();
+
+  const primaryCombo = combos[0];
+  updateStatCards(
+    'u-stats-row', uActive,
+    c => getUnionSeries(c, primaryCombo.sex, primaryCombo.ageBand, years),
+    v => v.toFixed(1) + '%',
+    years,
+    v => v.toFixed(1) + ' p.p.'
+  );
 }
 
 // ─── DRAW EARNINGS CHART ──────────────────────────────────────────────────────
@@ -852,10 +980,16 @@ function switchTab(tab) {
 }
 
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
-document.getElementById('u-sel-group').addEventListener('change', e => { uState.group = e.target.value; drawUnionChart(); });
-document.getElementById('u-sel-age').addEventListener('change',   e => { uState.age   = e.target.value; drawUnionChart(); });
+document.getElementById('u-sel-industry').addEventListener('change', e => { uState.industry = e.target.value; drawUnionChart(); });
 document.getElementById('w-sel-currency').addEventListener('change', e => { wState.currency = e.target.value; drawEarningsChart(); });
 document.getElementById('w-sel-industry').addEventListener('change', e => { wState.industry = e.target.value; drawEarningsChart(); });
+
+['u-ms-sex', 'u-ms-age'].forEach(baseId => {
+  document.getElementById(baseId + '-trigger').addEventListener('click', e => {
+    e.stopPropagation();
+    toggleDropdown(baseId);
+  });
+});
 
 ['w-ms-union', 'w-ms-sex', 'w-ms-age'].forEach(baseId => {
   document.getElementById(baseId + '-trigger').addEventListener('click', e => {

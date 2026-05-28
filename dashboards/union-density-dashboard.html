@@ -208,6 +208,23 @@ layout: null
   }
   .gap-dash { display: inline-block; width: 22px; border-top: 2px dashed var(--muted); flex-shrink: 0; }
 
+  /* INDUSTRY NOTE */
+  .industry-note {
+    margin-top: 8px;
+    padding: 9px 13px;
+    background: var(--surf2);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .industry-note .note-flag {
+    color: var(--text);
+    font-weight: 500;
+  }
+
   /* STAT CARDS */
   .stats-row {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
@@ -370,6 +387,7 @@ layout: null
         <span class="gap-dash"></span>
         Gaps indicate years with no survey data available.
       </div>
+      <div class="industry-note" id="w-industry-note" style="display:none"></div>
     </div>
     <div class="stats-row" id="w-stats-row"></div>
   </div>
@@ -749,6 +767,7 @@ function drawEarningsChart() {
     `Median Monthly Earnings · ${titleCurr}`;
 
   renderCombinationKey(combos);
+  updateIndustryNote();
 
   const primaryCombo = combos[0];
   updateStatCards(
@@ -762,6 +781,14 @@ function drawEarningsChart() {
     },
     years
   );
+}
+
+// ─── INDUSTRY NOTE ────────────────────────────────────────────────────────────
+function updateIndustryNote() {
+  const el = document.getElementById('w-industry-note');
+  if (wState.industry === 'All Industries') { el.style.display = 'none'; return; }
+  el.innerHTML = 'Industry data reflect a crosswalk to a harmonised ISIC 7-sector classification. Coverage and sector boundaries can vary by country and survey year (e.g., Guatemala does not report a separate Mining sector). For more information see the <span class="note-flag">methodology paper</span> (forthcoming).';
+  el.style.display = 'block';
 }
 
 // ─── COMBINATION KEY ──────────────────────────────────────────────────────────

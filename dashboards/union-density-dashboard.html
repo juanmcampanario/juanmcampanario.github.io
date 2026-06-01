@@ -359,6 +359,7 @@ layout: null
         <span class="cl">Currency</span>
         <select id="w-sel-currency">
           <option value="Median Earnings (USD)">USD</option>
+          <option value="Median Earnings (PPP)">PPP (Intl. $)</option>
           <option value="Median Earnings (Local Currency)">Local Currency</option>
         </select>
       </div>
@@ -859,11 +860,15 @@ function drawEarningsChart() {
   });
 
   if (wChart) wChart.destroy();
-  const isUSD = wState.currency === 'Median Earnings (USD)';
+  const isUSD  = wState.currency === 'Median Earnings (USD)';
+  const isPPP  = wState.currency === 'Median Earnings (PPP)';
+  const isLCU  = wState.currency === 'Median Earnings (Local Currency)';
   const activeList = [...wActive];
   let yCallback;
   if (isUSD) {
     yCallback = v => '$' + fmtEarnings(v);
+  } else if (isPPP) {
+    yCallback = v => 'Intl. $' + fmtEarnings(v);
   } else if (activeList.length === 1) {
     const code = W_CURRENCY_MAP[activeList[0]] || '';
     yCallback = v => fmtEarnings(v) + (code ? ' ' + code : '');
@@ -871,7 +876,8 @@ function drawEarningsChart() {
     yCallback = v => fmtEarnings(v);
   }
 
-  const currLabel = isUSD ? 'USD' : 'Local Currency';
+  const activeCodes = [...wActive].map(c => W_CURRENCY_MAP[c]).filter(Boolean).join(' · ');
+  const titleCurr = isUSD ? 'USD' : isPPP ? 'PPP (Intl. $)' : `Local Currency — ${activeCodes}`;
   wChart = new Chart(document.getElementById('w-chart'), {
     type: 'line',
     data: { labels: years, datasets },
@@ -880,17 +886,16 @@ function drawEarningsChart() {
       ctx => {
         if (ctx.parsed.y === null) return ` ${ctx.dataset.label}: no data`;
         const val = fmtEarnings(ctx.parsed.y);
-        if (wState.currency === 'Median Earnings (Local Currency)') {
+        if (isLCU) {
           const code = W_CURRENCY_MAP[ctx.dataset.country] || '';
           return ` ${ctx.dataset.label}: ${val} ${code}`;
         }
+        if (isPPP) return ` ${ctx.dataset.label}: Intl. $${val}`;
         return ` ${ctx.dataset.label}: $${val}`;
       }
     ),
   });
 
-  const activeCodes = [...wActive].map(c => W_CURRENCY_MAP[c]).filter(Boolean).join(' · ');
-  const titleCurr = wState.currency === 'Median Earnings (USD)' ? 'USD' : `Local Currency — ${activeCodes}`;
   document.getElementById('w-card-title').textContent =
     `Median Monthly Earnings · ${titleCurr}`;
 

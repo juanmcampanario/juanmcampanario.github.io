@@ -910,6 +910,7 @@ function drawEarningsChart() {
     (v, country) => {
       const formatted = fmtEarnings(v);
       if (isUSD) return '$' + formatted;
+      if (isPPP) return 'Intl. $' + formatted;
       const code = W_CURRENCY_MAP[country] || '';
       return formatted + (code ? ' ' + code : '');
     },

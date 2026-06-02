@@ -954,7 +954,9 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years, changeF
     };
   });
 
-  document.getElementById(rowId).innerHTML = cards.map(({ c, latest, latestYear, prevYear, change }) => {
+  const rowEl = document.getElementById(rowId);
+  if (!rowEl) return;
+  rowEl.innerHTML = cards.map(({ c, latest, latestYear, prevYear, change }) => {
     const color   = COUNTRY_COLORS[c] || '#888';
     const val     = latest !== null ? formatFn(latest, c) : '—';
     const inYear  = latestYear ? `<span class="sv-year">in ${latestYear}</span>` : '';

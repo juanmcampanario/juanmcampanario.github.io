@@ -247,7 +247,7 @@ layout: null
   .up   { color: #27ae60; }
   .down { color: #c0392b; }
   .na   { color: var(--muted); font-style: italic; }
-  .sv-year { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); margin-left: 7px; vertical-align: middle; letter-spacing: 0.04em; }
+  .sc-yr { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); margin-top: 3px; letter-spacing: 0.04em; }
 
   /* FOOTER */
   .footer {
@@ -957,17 +957,18 @@ function updateStatCards(rowId, activeSet, getSeriesFn, formatFn, years, changeF
   const rowEl = document.getElementById(rowId);
   if (!rowEl) return;
   rowEl.innerHTML = cards.map(({ c, latest, latestYear, prevYear, change }) => {
-    const color   = COUNTRY_COLORS[c] || '#888';
-    const val     = latest !== null ? formatFn(latest, c) : '—';
-    const inYear  = latestYear ? `<span class="sv-year">in ${latestYear}</span>` : '';
-    const yearRange = (prevYear && latestYear) ? ` <span class="sy">(${prevYear} → ${latestYear})</span>` : '';
-    const chg     = change !== null
-      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${changeFmtFn(Math.abs(change), c)}</span>${yearRange}`
+    const color     = COUNTRY_COLORS[c] || '#888';
+    const val       = latest !== null ? formatFn(latest, c) : '—';
+    const inYear    = latestYear ? `<span class="sy">in ${latestYear}</span>` : '';
+    const yearRange = (prevYear && latestYear) ? `${prevYear} → ${latestYear}` : '';
+    const chg       = change !== null
+      ? `<span class="${change >= 0 ? 'up' : 'down'}">${change >= 0 ? '↑' : '↓'} ${changeFmtFn(Math.abs(change), c)}</span>`
       : `<span class="na">no recent data</span>`;
     return `<div class="scard" style="border-left: 3px solid ${color}">
-      <div class="sl"><span>${c}</span></div>
-      <div class="sv">${val}${inYear}</div>
+      <div class="sl"><span>${c}</span>${inYear}</div>
+      <div class="sv">${val}</div>
       <div class="sc">${chg}</div>
+      ${yearRange ? `<div class="sc-yr">${yearRange}</div>` : ''}
     </div>`;
   }).join('');
 }

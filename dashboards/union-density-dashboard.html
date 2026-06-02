@@ -869,7 +869,7 @@ function drawEarningsChart() {
   if (isUSD) {
     yCallback = v => '$' + fmtEarnings(v);
   } else if (isPPP) {
-    yCallback = v => 'Intl. $' + fmtEarnings(v);
+    yCallback = v => '$' + fmtEarnings(v);
   } else if (activeList.length === 1) {
     const code = W_CURRENCY_MAP[activeList[0]] || '';
     yCallback = v => fmtEarnings(v) + (code ? ' ' + code : '');
@@ -891,7 +891,7 @@ function drawEarningsChart() {
           const code = W_CURRENCY_MAP[ctx.dataset.country] || '';
           return ` ${ctx.dataset.label}: ${val} ${code}`;
         }
-        if (isPPP) return ` ${ctx.dataset.label}: Intl. $${val}`;
+        if (isPPP) return ` ${ctx.dataset.label}: ${val}`;
         return ` ${ctx.dataset.label}: $${val}`;
       }
     ),
@@ -910,7 +910,7 @@ function drawEarningsChart() {
     (v, country) => {
       const formatted = fmtEarnings(v);
       if (isUSD) return '$' + formatted;
-      if (isPPP) return 'Intl. $' + formatted;
+      if (isPPP) return '$' + formatted;
       const code = W_CURRENCY_MAP[country] || '';
       return formatted + (code ? ' ' + code : '');
     },

@@ -1017,7 +1017,7 @@ document.addEventListener('click', e => {
 function downloadCSV(type) {
   const rows = type === 'union' ? U_ROWS : W_ROWS;
   if (!rows.length) return;
-  const headers = Object.keys(rows[0]);
+  const headers = Object.keys(rows[0]).filter(h => h !== 'Observations');
   const csv = [
     headers.join(','),
     ...rows.map(r => headers.map(h => {

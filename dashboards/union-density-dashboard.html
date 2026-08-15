@@ -346,7 +346,7 @@ layout: null
       <div class="combo-key" id="u-combo-key" style="display:none"></div>
       <div class="gap-note">
         <span class="gap-dash"></span>
-        Gaps indicate years with no survey data available.
+        Gaps indicate years with no survey data available, or where the underlying sample is too small to be reliable (fewer than 200 observations) — those estimates are still available in the CSV download.
       </div>
       <div class="industry-note" id="u-industry-note" style="display:none"></div>
     </div>
@@ -402,7 +402,7 @@ layout: null
       <div class="combo-key" id="w-combo-key" style="display:none"></div>
       <div class="gap-note">
         <span class="gap-dash"></span>
-        Gaps indicate years with no survey data available.
+        Gaps indicate years with no survey data available, or where the underlying sample is too small to be reliable (fewer than 200 observations) — those estimates are still available in the CSV download.
       </div>
       <div class="industry-note" id="w-industry-note" style="display:none"></div>
     </div>
@@ -718,7 +718,7 @@ function getUnionSeries(country, sex, ageBand, years) {
     r['Age Band'] === ageBand
   ).forEach(r => {
     const v = r['Trade Union Density (%)'];
-    lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
+    lookup[+r.Year] = (v === null || v === undefined || v === '' || r['Data Quality Note']) ? null : +v;
   });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
 }
@@ -733,7 +733,7 @@ function getEarningsSeries(country, unionStatus, sex, ageBand, years) {
     r['Age Band'] === ageBand
   ).forEach(r => {
     const v = r[wState.currency];
-    lookup[+r.Year] = (v === null || v === undefined || v === '') ? null : +v;
+    lookup[+r.Year] = (v === null || v === undefined || v === '' || r['Data Quality Note']) ? null : +v;
   });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
 }

@@ -664,7 +664,7 @@ function renderUnionCombinationKey(combos) {
 function updateUnionIndustryNote() {
   const el = document.getElementById('u-industry-note');
   if (uState.industry === 'All Industries') { el.style.display = 'none'; return; }
-  el.innerHTML = 'Industry data reflect a crosswalk to a harmonised ISIC 7-sector classification. Coverage and sector boundaries can vary by country and survey year (e.g., Guatemala does not report a separate Mining sector). For more information see the <span class="note-flag">methodology paper</span> (forthcoming).';
+  el.innerHTML = 'Industry data reflect a crosswalk to a harmonised ISIC 7-sector classification. Coverage and sector boundaries can vary by country and survey year (e.g., Guatemala does not report a separate Mining sector). For more information see the <a href="/research/union_methodology.pdf" target="_blank" class="note-flag" style="text-decoration:underline;">methodology paper</a>.';
   el.style.display = 'block';
 }
 
@@ -971,7 +971,7 @@ function drawEarningsChart() {
 function updateIndustryNote() {
   const el = document.getElementById('w-industry-note');
   if (wState.industry === 'All Industries') { el.style.display = 'none'; return; }
-  el.innerHTML = 'Industry data reflect a crosswalk to a harmonised ISIC 7-sector classification. Coverage and sector boundaries can vary by country and survey year (e.g., Guatemala does not report a separate Mining sector). For more information see the <span class="note-flag">methodology paper</span> (forthcoming).';
+  el.innerHTML = 'Industry data reflect a crosswalk to a harmonised ISIC 7-sector classification. Coverage and sector boundaries can vary by country and survey year (e.g., Guatemala does not report a separate Mining sector). For more information see the <a href="/research/union_methodology.pdf" target="_blank" class="note-flag" style="text-decoration:underline;">methodology paper</a>.';
   el.style.display = 'block';
 }
 

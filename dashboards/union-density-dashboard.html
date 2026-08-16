@@ -131,6 +131,7 @@ layout: null
   .pill .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .pill.on { background: var(--surf2); }
   .pill:hover { border-color: var(--text); color: var(--text); }
+  .pill.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
 
   /* MULTI-SELECT DROPDOWNS */
   .multi-select { position: relative; }
@@ -437,6 +438,7 @@ const W_SEX_OPTIONS          = ['Total', 'Men', 'Women'];
 const AGE_BAND_ORDER         = ['All Ages', '15-24', '25-54', '55+'];
 const INDUSTRY_ORDER         = ['All Industries','Agriculture','Mining','Manufacturing','Construction','Commerce & Transport','Public Administration','Services'];
 const MAX_COMBINATIONS       = 4;
+const MAX_SERIES             = 10;
 
 // Chart.js borderDash patterns and matching text symbols for the inline key
 const DASH_PATTERNS = [[], [8, 4], [2, 3], [10, 3, 2, 3]];
@@ -479,7 +481,6 @@ Promise.allSettled([
     uActive      = new Set(U_COUNTRIES);
     uState.ageBands = new Set([U_AGE_BANDS.includes('All Ages') ? 'All Ages' : U_AGE_BANDS[0]]);
     populateSelect('u-sel-industry', U_INDUSTRIES, uState.industry);
-    renderPills('u-pills', U_COUNTRIES, uActive, () => drawUnionChart());
     renderUFilterPills();
     drawUnionChart();
     document.getElementById('u-controls').style.display = 'flex';
@@ -529,23 +530,27 @@ function populateSelect(id, options, selected) {
 }
 
 // ─── COUNTRY PILLS ────────────────────────────────────────────────────────────
-function renderPills(containerId, countries, activeSet, onUpdate) {
+function renderPills(containerId, countries, activeSet, onUpdate, getComboCount) {
   const el = document.getElementById(containerId);
   el.innerHTML = '';
+  const comboCount = getComboCount ? getComboCount() : 1;
   countries.forEach(c => {
-    const color  = COUNTRY_COLORS[c] || '#888';
-    const active = activeSet.has(c);
+    const color       = COUNTRY_COLORS[c] || '#888';
+    const active      = activeSet.has(c);
+    const wouldExceed = !active && (activeSet.size + 1) * comboCount > MAX_SERIES;
     const pill   = document.createElement('div');
-    pill.className = 'pill' + (active ? ' on' : '');
+    pill.className = 'pill' + (active ? ' on' : '') + (wouldExceed ? ' disabled' : '');
     pill.style.color       = active ? color : '#777777';
     pill.style.borderColor = active ? color : '#e5e5e5';
     pill.innerHTML = `<span class="dot" style="background:${active ? color : '#e5e5e5'}"></span>${c}`;
-    pill.addEventListener('click', () => {
-      if (activeSet.has(c)) { if (activeSet.size === 1) return; activeSet.delete(c); }
-      else activeSet.add(c);
-      renderPills(containerId, countries, activeSet, onUpdate);
-      onUpdate();
-    });
+    if (!wouldExceed) {
+      pill.addEventListener('click', () => {
+        if (activeSet.has(c)) { if (activeSet.size === 1) return; activeSet.delete(c); }
+        else activeSet.add(c);
+        renderPills(containerId, countries, activeSet, onUpdate, getComboCount);
+        onUpdate();
+      });
+    }
     el.appendChild(pill);
   });
 }
@@ -558,14 +563,15 @@ function getCombinationCountU() {
 function wouldExceedCapU(dimension) {
   const nS = uState.sexGroups.size + (dimension === 'sex' ? 1 : 0);
   const nA = uState.ageBands.size  + (dimension === 'age' ? 1 : 0);
-  return nS * nA > MAX_COMBINATIONS;
+  return nS * nA > MAX_COMBINATIONS || nS * nA * uActive.size > MAX_SERIES;
 }
 
 function renderUFilterPills() {
   renderFilterDimensionU('u-ms-sex', 'sex', W_SEX_OPTIONS, uState.sexGroups);
   renderFilterDimensionU('u-ms-age', 'age', U_AGE_BANDS,   uState.ageBands);
+  renderPills('u-pills', U_COUNTRIES, uActive, () => drawUnionChart(), getCombinationCountU);
   document.getElementById('u-cap-note').style.display =
-    getCombinationCountU() >= MAX_COMBINATIONS ? 'block' : 'none';
+    (getCombinationCountU() >= MAX_COMBINATIONS || getCombinationCountU() * uActive.size >= MAX_SERIES) ? 'block' : 'none';
 }
 
 function renderFilterDimensionU(baseId, dimension, options, stateSet) {
@@ -639,7 +645,7 @@ function wouldExceedCap(dimension) {
   const nU = wState.unionStatuses.size + (dimension === 'union' ? 1 : 0);
   const nS = wState.sexGroups.size     + (dimension === 'sex'   ? 1 : 0);
   const nA = wState.ageBands.size      + (dimension === 'age'   ? 1 : 0);
-  return nU * nS * nA > MAX_COMBINATIONS;
+  return nU * nS * nA > MAX_COMBINATIONS || nU * nS * nA * wActive.size > MAX_SERIES;
 }
 
 function closeAllDropdowns() {
@@ -662,8 +668,9 @@ function renderWFilterPills() {
   renderFilterDimension('w-ms-union', 'union', W_UNION_STATUS_OPTIONS, wState.unionStatuses);
   renderFilterDimension('w-ms-sex',   'sex',   W_SEX_OPTIONS,          wState.sexGroups);
   renderFilterDimension('w-ms-age',   'age',   W_AGE_BANDS,            wState.ageBands);
+  renderPills('w-pills', W_COUNTRIES, wActive, () => drawEarningsChart(), getCombinationCount);
   document.getElementById('w-cap-note').style.display =
-    getCombinationCount() >= MAX_COMBINATIONS ? 'block' : 'none';
+    (getCombinationCount() >= MAX_COMBINATIONS || getCombinationCount() * wActive.size >= MAX_SERIES) ? 'block' : 'none';
 }
 
 function renderFilterDimension(baseId, dimension, options, stateSet) {
@@ -982,7 +989,6 @@ function switchTab(tab) {
 
   if (tab === 'earnings' && !earningsTabInited && wLoaded) {
     earningsTabInited = true;
-    renderPills('w-pills', W_COUNTRIES, wActive, () => drawEarningsChart());
     renderWFilterPills();
     document.getElementById('w-controls').style.display = 'flex';
     document.getElementById('w-card').style.display = 'block';

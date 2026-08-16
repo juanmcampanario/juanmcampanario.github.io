@@ -6,13 +6,13 @@ layout: null
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="light dark">
 <title>Latin America's Unions</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    color-scheme: light;
+    color-scheme: light dark;
     --bg:       #ffffff;
     --surface:  #f8f8f8;
     --surf2:    #f4f4f4;
@@ -21,11 +21,43 @@ layout: null
     --muted:    #777777;
     --au:       #c0392b;
     --aw:       #2980b9;
+    --up:       #27ae60;
+    --down:     #c0392b;
+    --err-bg:       #fff0f0;
+    --err-text:     #a00000;
+    --err-border:   #ee8888;
+    --au-tint:       #fdecea;
+    --au-tint-hover: #fad5d2;
+    --aw-tint:       #eaf3fb;
+    --aw-tint-hover: #daeaf7;
+    --shadow:   rgba(0,0,0,0.08);
     --colombia: #c0392b;
     --mexico:   #27ae60;
     --brazil:   #2980b9;
     --peru:     #e67e22;
     --guatemala:#8e44ad;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:       #121214;
+      --surface:  #1b1c1f;
+      --surf2:    #202226;
+      --border:   #34363b;
+      --text:     #e8e8ea;
+      --muted:    #96969c;
+      --au:       #e0574a;
+      --aw:       #5b9bd5;
+      --up:       #2ecc71;
+      --down:     #e0574a;
+      --err-bg:       #3a1a1a;
+      --err-text:     #ff7a7a;
+      --err-border:   #7a3030;
+      --au-tint:       #3a2220;
+      --au-tint-hover: #472a27;
+      --aw-tint:       #1c2c38;
+      --aw-tint-hover: #22374a;
+      --shadow:   rgba(0,0,0,0.4);
+    }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -52,7 +84,7 @@ layout: null
   }
   h1 em { font-style: italic; color: var(--au); }
   .sub {
-    font-size: 14px; color: #000000; font-weight: 300;
+    font-size: 14px; color: var(--text); font-weight: 300;
     max-width: 540px; line-height: 1.7; margin-bottom: 40px;
   }
 
@@ -63,7 +95,7 @@ layout: null
     font-family: 'DM Mono', monospace; font-size: 12px;
   }
   .status-bar.loading { background: var(--surf2); color: var(--muted); border: 1px solid var(--border); }
-  .status-bar.error   { background: #fff0f0; color: #a00; border: 1px solid #e88; }
+  .status-bar.error   { background: var(--err-bg); color: var(--err-text); border: 1px solid var(--err-border); }
   .status-bar.hidden  { display: none; }
   .spinner {
     width: 14px; height: 14px; border: 2px solid var(--border);
@@ -150,7 +182,7 @@ layout: null
   .ms-dropdown {
     display: none; position: absolute; top: calc(100% + 4px); left: 0;
     background: var(--bg); border: 1.5px solid var(--border); border-radius: 3px;
-    z-index: 100; min-width: 100%; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    z-index: 100; min-width: 100%; box-shadow: 0 4px 16px var(--shadow);
   }
   .ms-dropdown.open { display: block; }
   .ms-item {
@@ -160,10 +192,10 @@ layout: null
     transition: background 0.12s; user-select: none; white-space: nowrap;
   }
   .ms-item:hover { background: var(--surf2); }
-  .earnings-panel .ms-item.checked { background: #eaf3fb; color: var(--aw); font-weight: 500; }
-  .earnings-panel .ms-item.checked:hover { background: #daeaf7; }
-  .union-panel .ms-item.checked { background: #fdecea; color: var(--au); font-weight: 500; }
-  .union-panel .ms-item.checked:hover { background: #fad5d2; }
+  .earnings-panel .ms-item.checked { background: var(--aw-tint); color: var(--aw); font-weight: 500; }
+  .earnings-panel .ms-item.checked:hover { background: var(--aw-tint-hover); }
+  .union-panel .ms-item.checked { background: var(--au-tint); color: var(--au); font-weight: 500; }
+  .union-panel .ms-item.checked:hover { background: var(--au-tint-hover); }
   .ms-item.disabled { opacity: 0.38; cursor: not-allowed; pointer-events: none; }
   .ms-item.no-click { cursor: default; pointer-events: none; }
   .ms-item input[type="checkbox"] { cursor: pointer; flex-shrink: 0; }
@@ -245,8 +277,8 @@ layout: null
   .sy { text-transform: none; letter-spacing: 0.04em; }
   .sv { font-family: 'DM Serif Display', serif; font-size: 1.5rem; color: var(--text); line-height: 1; }
   .sc { font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 5px; }
-  .up   { color: #27ae60; }
-  .down { color: #c0392b; }
+  .up   { color: var(--up); }
+  .down { color: var(--down); }
   .na   { color: var(--muted); font-style: italic; }
   .sc-yr { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); margin-top: 3px; letter-spacing: 0.04em; }
 
@@ -254,17 +286,17 @@ layout: null
   .footer {
     margin-top: 52px; text-align: left;
     font-family: 'DM Sans', sans-serif; font-size: 10px;
-    letter-spacing: 0.07em; color: #000000;
+    letter-spacing: 0.07em; color: var(--text);
   }
-  .footer a { color: #000000; }
+  .footer a { color: var(--text); }
   .download-row { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
   .dl-btn {
     display: inline-flex; align-items: center; gap: 7px;
-    padding: 8px 16px; border: 1.5px solid #000; background: #fff;
+    padding: 8px 16px; border: 1.5px solid var(--text); background: var(--bg);
     font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500;
-    cursor: pointer; color: #000; text-decoration: none; transition: background 0.15s, color 0.15s;
+    cursor: pointer; color: var(--text); text-decoration: none; transition: background 0.15s, color 0.15s;
   }
-  .dl-btn:hover { background: #000; color: #fff; }
+  .dl-btn:hover { background: var(--text); color: var(--bg); }
 
   @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -540,9 +572,9 @@ function renderPills(containerId, countries, activeSet, onUpdate, getComboCount)
     const wouldExceed = !active && (activeSet.size + 1) * comboCount > MAX_SERIES;
     const pill   = document.createElement('div');
     pill.className = 'pill' + (active ? ' on' : '') + (wouldExceed ? ' disabled' : '');
-    pill.style.color       = active ? color : '#777777';
-    pill.style.borderColor = active ? color : '#e5e5e5';
-    pill.innerHTML = `<span class="dot" style="background:${active ? color : '#e5e5e5'}"></span>${c}`;
+    pill.style.color       = active ? color : '';
+    pill.style.borderColor = active ? color : '';
+    pill.innerHTML = `<span class="dot" style="background:${active ? color : 'var(--border)'}"></span>${c}`;
     if (!wouldExceed) {
       pill.addEventListener('click', () => {
         if (activeSet.has(c)) { if (activeSet.size === 1) return; activeSet.delete(c); }
@@ -755,15 +787,25 @@ function getCombinations() {
 }
 
 // ─── CHART OPTIONS ────────────────────────────────────────────────────────────
+function chartTheme() {
+  const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  return dark
+    ? { grid: 'rgba(255,255,255,0.08)', border: '#34363b', tick: '#96969c',
+        tooltipBg: '#1b1c1f', tooltipBorder: '#34363b', tooltipTitle: '#96969c', tooltipBody: '#e8e8ea' }
+    : { grid: 'rgba(0,0,0,0.06)', border: '#e5e5e5', tick: '#777777',
+        tooltipBg: '#ffffff', tooltipBorder: '#e5e5e5', tooltipTitle: '#777777', tooltipBody: '#222222' };
+}
+
 function makeOptions(yCallback, tooltipLabel) {
+  const t = chartTheme();
   return {
     responsive: true,
     interaction: { mode: 'index', intersect: false },
     plugins: {
       legend: { display: false },
       tooltip: {
-        backgroundColor: '#ffffff', borderColor: '#e5e5e5', borderWidth: 1,
-        titleColor: '#777777', bodyColor: '#222222',
+        backgroundColor: t.tooltipBg, borderColor: t.tooltipBorder, borderWidth: 1,
+        titleColor: t.tooltipTitle, bodyColor: t.tooltipBody,
         titleFont: { family: 'DM Mono', size: 10 },
         bodyFont:  { family: 'DM Sans', size: 13 },
         padding: 12,
@@ -772,13 +814,13 @@ function makeOptions(yCallback, tooltipLabel) {
     },
     scales: {
       x: {
-        grid: { color: 'rgba(0,0,0,0.06)' }, border: { color: '#e5e5e5' },
-        ticks: { color: '#777777', font: { family: 'DM Mono', size: 11 }, maxTicksLimit: 12 },
+        grid: { color: t.grid }, border: { color: t.border },
+        ticks: { color: t.tick, font: { family: 'DM Mono', size: 11 }, maxTicksLimit: 12 },
       },
       y: {
         min: 0,
-        grid: { color: 'rgba(0,0,0,0.06)' }, border: { color: '#e5e5e5' },
-        ticks: { color: '#777777', font: { family: 'DM Mono', size: 11 }, callback: yCallback },
+        grid: { color: t.grid }, border: { color: t.border },
+        ticks: { color: t.tick, font: { family: 'DM Mono', size: 11 }, callback: yCallback },
       },
     },
     animation: { duration: 420, easing: 'easeInOutQuart' },
@@ -1017,6 +1059,11 @@ document.getElementById('w-sel-industry').addEventListener('change', e => { wSta
 
 document.addEventListener('click', e => {
   if (!e.target.closest('.multi-select')) closeAllDropdowns();
+});
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+  if (uLoaded) drawUnionChart();
+  if (wLoaded && earningsTabInited) drawEarningsChart();
 });
 
 // ─── CSV DOWNLOAD ─────────────────────────────────────────────────────────────

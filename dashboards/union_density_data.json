@@ -20160,6 +20160,966 @@
     "Data Quality Note":""
   },
   {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Brazil",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
     "Country":"Peru",
     "Year":2012.0,
     "Industry":"All Industries",
@@ -40317,6 +41277,966 @@
     "Age Band":"55+",
     "Trade Union Density (%)":3.6,
     "Observations":768.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.2,
+    "Observations":24652.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":4600.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.0,
+    "Observations":15975.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":3.2,
+    "Observations":4077.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.1,
+    "Observations":14107.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.1,
+    "Observations":2822.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.0,
+    "Observations":8793.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":2.7,
+    "Observations":2492.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.3,
+    "Observations":10545.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":1778.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.1,
+    "Observations":7182.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":4.0,
+    "Observations":1585.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.2,
+    "Observations":4232.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":897.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.1,
+    "Observations":2580.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.5,
+    "Observations":755.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.2,
+    "Observations":2838.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":693.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.2,
+    "Observations":1586.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.4,
+    "Observations":559.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.1,
+    "Observations":1394.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":204.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.0,
+    "Observations":994.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.1,
+    "Observations":196.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.6,
+    "Observations":638.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":89.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.2,
+    "Observations":466.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":2.8,
+    "Observations":83.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.9,
+    "Observations":580.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":81.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.5,
+    "Observations":419.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":2.9,
+    "Observations":80.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.0,
+    "Observations":58.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":8.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.0,
+    "Observations":47.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":3.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.3,
+    "Observations":2013.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":419.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.2,
+    "Observations":1340.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.3,
+    "Observations":254.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.3,
+    "Observations":1374.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":302.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.2,
+    "Observations":892.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.4,
+    "Observations":180.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.2,
+    "Observations":639.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":117.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.1,
+    "Observations":448.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.9,
+    "Observations":74.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.4,
+    "Observations":2341.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.2,
+    "Observations":414.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.5,
+    "Observations":1614.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.3,
+    "Observations":313.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.5,
+    "Observations":2192.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.3,
+    "Observations":390.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.6,
+    "Observations":1498.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.3,
+    "Observations":304.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.0,
+    "Observations":149.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":24.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.0,
+    "Observations":116.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":9.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.0,
+    "Observations":3690.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":1061.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.1,
+    "Observations":2255.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":374.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.0,
+    "Observations":2164.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":618.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.0,
+    "Observations":1278.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":268.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.1,
+    "Observations":1526.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":443.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.2,
+    "Observations":977.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":106.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":3.5,
+    "Observations":2562.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.3,
+    "Observations":200.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.0,
+    "Observations":1850.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":6.3,
+    "Observations":512.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":3.6,
+    "Observations":1468.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.6,
+    "Observations":101.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.0,
+    "Observations":1036.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":6.3,
+    "Observations":331.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":3.3,
+    "Observations":1094.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":99.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.0,
+    "Observations":814.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":6.4,
+    "Observations":181.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.9,
+    "Observations":9176.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":1520.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.5,
+    "Observations":5870.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":5.0,
+    "Observations":1786.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.1,
+    "Observations":3491.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":637.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.7,
+    "Observations":2084.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":5.1,
+    "Observations":770.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.8,
+    "Observations":5685.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.0,
+    "Observations":883.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.4,
+    "Observations":3786.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Peru",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":4.9,
+    "Observations":1016.0,
     "Data Quality Note":""
   },
   {
@@ -60480,6 +62400,966 @@
     "Data Quality Note":""
   },
   {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":9.6,
+    "Observations":119168.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":4.9,
+    "Observations":18316.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":11.3,
+    "Observations":80349.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.3,
+    "Observations":20503.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":8.7,
+    "Observations":68852.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":4.6,
+    "Observations":11435.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":10.3,
+    "Observations":45053.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.1,
+    "Observations":12364.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":10.8,
+    "Observations":50316.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":5.4,
+    "Observations":6881.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":12.6,
+    "Observations":35296.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.5,
+    "Observations":8139.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.7,
+    "Observations":9582.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.8,
+    "Observations":1534.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.9,
+    "Observations":5536.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.1,
+    "Observations":2512.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.6,
+    "Observations":8388.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.9,
+    "Observations":1346.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":0.7,
+    "Observations":4754.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.1,
+    "Observations":2288.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.4,
+    "Observations":1194.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.3,
+    "Observations":188.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":2.0,
+    "Observations":782.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":224.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":28.9,
+    "Observations":706.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":14.9,
+    "Observations":45.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":28.9,
+    "Observations":575.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":42.4,
+    "Observations":86.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":29.2,
+    "Observations":599.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":11.3,
+    "Observations":36.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":29.5,
+    "Observations":488.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":40.8,
+    "Observations":75.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":27.0,
+    "Observations":107.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":26.7,
+    "Observations":9.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":25.3,
+    "Observations":87.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":77.9,
+    "Observations":11.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":17.3,
+    "Observations":19932.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":15.1,
+    "Observations":3641.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":19.2,
+    "Observations":13826.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":10.3,
+    "Observations":2465.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":18.4,
+    "Observations":11571.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":15.2,
+    "Observations":2223.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":20.4,
+    "Observations":7921.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":12.3,
+    "Observations":1427.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":15.8,
+    "Observations":8361.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":14.9,
+    "Observations":1418.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":17.5,
+    "Observations":5905.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.5,
+    "Observations":1038.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.0,
+    "Observations":11156.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.7,
+    "Observations":1852.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.3,
+    "Observations":7402.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.5,
+    "Observations":1902.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":0.9,
+    "Observations":10709.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.7,
+    "Observations":1793.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.1,
+    "Observations":7045.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.5,
+    "Observations":1871.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.5,
+    "Observations":447.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.3,
+    "Observations":59.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":5.4,
+    "Observations":357.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.0,
+    "Observations":31.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":3.4,
+    "Observations":27771.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":2.7,
+    "Observations":4554.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":4.1,
+    "Observations":18357.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.6,
+    "Observations":4860.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.4,
+    "Observations":15349.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":3.1,
+    "Observations":2547.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":5.2,
+    "Observations":10146.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":2.5,
+    "Observations":2656.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.3,
+    "Observations":12422.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":2.2,
+    "Observations":2007.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":2.8,
+    "Observations":8211.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.7,
+    "Observations":2204.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":28.1,
+    "Observations":5025.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":6.2,
+    "Observations":289.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":26.7,
+    "Observations":3807.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":39.6,
+    "Observations":929.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":25.2,
+    "Observations":2761.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":7.4,
+    "Observations":164.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":22.8,
+    "Observations":2026.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":37.5,
+    "Observations":571.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":31.9,
+    "Observations":2264.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":4.4,
+    "Observations":125.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":31.4,
+    "Observations":1781.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":43.6,
+    "Observations":358.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":13.0,
+    "Observations":44996.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":3.1,
+    "Observations":6401.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":15.5,
+    "Observations":30846.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":11.4,
+    "Observations":7749.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":13.5,
+    "Observations":19475.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":2.9,
+    "Observations":3326.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":16.3,
+    "Observations":12673.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":13.5,
+    "Observations":3476.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":12.6,
+    "Observations":25521.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":3.4,
+    "Observations":3075.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":14.9,
+    "Observations":18173.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Mexico",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":9.7,
+    "Observations":4273.0,
+    "Data Quality Note":""
+  },
+  {
     "Country":"Colombia",
     "Year":2012.0,
     "Industry":"All Industries",
@@ -80637,6 +83517,966 @@
     "Age Band":"55+",
     "Trade Union Density (%)":17.9,
     "Observations":4575.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.9,
+    "Observations":188428.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6,
+    "Observations":25070.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":4.8,
+    "Observations":135732.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":9.4,
+    "Observations":27626.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.6,
+    "Observations":99274.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.7,
+    "Observations":13879.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":4.6,
+    "Observations":69304.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":7.7,
+    "Observations":16091.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":5.3,
+    "Observations":89154.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.5,
+    "Observations":11191.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":5.0,
+    "Observations":66428.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":12.0,
+    "Observations":11535.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.4,
+    "Observations":12743.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.8,
+    "Observations":1769.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":2.8,
+    "Observations":7837.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.8,
+    "Observations":3137.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.6,
+    "Observations":11097.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.7,
+    "Observations":1515.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.0,
+    "Observations":6625.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.9,
+    "Observations":2957.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.8,
+    "Observations":1646.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":2.6,
+    "Observations":254.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.8,
+    "Observations":1212.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":0.6,
+    "Observations":180.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":7.0,
+    "Observations":1796.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":3.3,
+    "Observations":208.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":8.0,
+    "Observations":1373.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":5.9,
+    "Observations":215.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":7.5,
+    "Observations":1542.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":3.3,
+    "Observations":180.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":8.7,
+    "Observations":1162.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":6.0,
+    "Observations":200.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":3.3,
+    "Observations":254.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":3.4,
+    "Observations":28.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.2,
+    "Observations":211.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":5.1,
+    "Observations":15.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":3.1,
+    "Observations":19877.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.8,
+    "Observations":2911.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":3.3,
+    "Observations":14726.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":3.5,
+    "Observations":2240.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":4.2,
+    "Observations":12580.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":2.7,
+    "Observations":1907.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":4.4,
+    "Observations":9065.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":4.6,
+    "Observations":1608.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.3,
+    "Observations":7297.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.2,
+    "Observations":1004.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.5,
+    "Observations":5661.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.0,
+    "Observations":632.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.3,
+    "Observations":11721.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.4,
+    "Observations":1490.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.4,
+    "Observations":8494.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.4,
+    "Observations":1737.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.2,
+    "Observations":10346.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":0.3,
+    "Observations":1358.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.4,
+    "Observations":7331.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.3,
+    "Observations":1657.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.0,
+    "Observations":1375.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.0,
+    "Observations":132.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":2.1,
+    "Observations":1163.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":1.5,
+    "Observations":80.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.1,
+    "Observations":42979.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6,
+    "Observations":7267.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":2.1,
+    "Observations":30900.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":3.0,
+    "Observations":4812.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":2.3,
+    "Observations":25580.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.5,
+    "Observations":4259.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":2.4,
+    "Observations":17776.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":3.2,
+    "Observations":3545.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":1.7,
+    "Observations":17399.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6,
+    "Observations":3008.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":1.7,
+    "Observations":13124.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":2.4,
+    "Observations":1267.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":14.8,
+    "Observations":10135.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":5.1,
+    "Observations":520.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":14.2,
+    "Observations":7834.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":21.7,
+    "Observations":1781.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":13.8,
+    "Observations":5645.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":5.5,
+    "Observations":273.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":12.6,
+    "Observations":4440.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":23.3,
+    "Observations":932.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":16.1,
+    "Observations":4490.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":4.7,
+    "Observations":247.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":16.2,
+    "Observations":3394.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":19.9,
+    "Observations":849.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":6.9,
+    "Observations":89177.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6,
+    "Observations":10905.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":6.3,
+    "Observations":64568.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":15.2,
+    "Observations":13704.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":7.1,
+    "Observations":32484.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6,
+    "Observations":4387.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":6.5,
+    "Observations":22905.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":16.0,
+    "Observations":5192.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":6.7,
+    "Observations":56693.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":1.6,
+    "Observations":6518.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":6.2,
+    "Observations":41663.0,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Colombia",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":14.7,
+    "Observations":8512.0,
     "Data Quality Note":""
   },
   {
@@ -100798,5 +104638,965 @@
     "Trade Union Density (%)":0.0,
     "Observations":57.0,
     "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"All Industries",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Agriculture",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Mining",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Manufacturing",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Construction",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Commerce & Transport",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Public Administration",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Total",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Men",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"All Ages",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"15-24",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"25-54",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
+  },
+  {
+    "Country":"Guatemala",
+    "Year":2025.0,
+    "Industry":"Services",
+    "Sex":"Women",
+    "Age Band":"55+",
+    "Trade Union Density (%)":null,
+    "Observations":null,
+    "Data Quality Note":""
   }
 ]

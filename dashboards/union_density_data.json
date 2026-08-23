@@ -94085,8 +94085,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":5.8,
+    "Observations":13557.0,
     "Data Quality Note":""
   },
   {
@@ -94095,8 +94095,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.7,
+    "Observations":3656.0,
     "Data Quality Note":""
   },
   {
@@ -94105,8 +94105,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":7.2,
+    "Observations":8526.0,
     "Data Quality Note":""
   },
   {
@@ -94115,8 +94115,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":6.9,
+    "Observations":1375.0,
     "Data Quality Note":""
   },
   {
@@ -94125,8 +94125,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":4.6,
+    "Observations":8213.0,
     "Data Quality Note":""
   },
   {
@@ -94135,8 +94135,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.9,
+    "Observations":2295.0,
     "Data Quality Note":""
   },
   {
@@ -94145,8 +94145,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":5.5,
+    "Observations":5030.0,
     "Data Quality Note":""
   },
   {
@@ -94155,8 +94155,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":4.8,
+    "Observations":888.0,
     "Data Quality Note":""
   },
   {
@@ -94165,8 +94165,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":8.0,
+    "Observations":5344.0,
     "Data Quality Note":""
   },
   {
@@ -94175,8 +94175,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.4,
+    "Observations":1361.0,
     "Data Quality Note":""
   },
   {
@@ -94185,8 +94185,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":10.2,
+    "Observations":3496.0,
     "Data Quality Note":""
   },
   {
@@ -94195,8 +94195,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":12.0,
+    "Observations":487.0,
     "Data Quality Note":""
   },
   {
@@ -94205,8 +94205,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.1,
+    "Observations":1977.0,
     "Data Quality Note":""
   },
   {
@@ -94215,8 +94215,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":4.0,
+    "Observations":535.0,
     "Data Quality Note":""
   },
   {
@@ -94225,8 +94225,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.8,
+    "Observations":1149.0,
     "Data Quality Note":""
   },
   {
@@ -94235,8 +94235,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.7,
+    "Observations":293.0,
     "Data Quality Note":""
   },
   {
@@ -94245,8 +94245,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.0,
+    "Observations":1643.0,
     "Data Quality Note":""
   },
   {
@@ -94255,8 +94255,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.6,
+    "Observations":433.0,
     "Data Quality Note":""
   },
   {
@@ -94265,8 +94265,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.9,
+    "Observations":944.0,
     "Data Quality Note":""
   },
   {
@@ -94275,8 +94275,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.8,
+    "Observations":266.0,
     "Data Quality Note":""
   },
   {
@@ -94285,8 +94285,8 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.6,
+    "Observations":334.0,
     "Data Quality Note":""
   },
   {
@@ -94295,9 +94295,9 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":5.8,
+    "Observations":102.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94305,8 +94305,8 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.7,
+    "Observations":205.0,
     "Data Quality Note":""
   },
   {
@@ -94315,9 +94315,9 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":27.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94445,8 +94445,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.8,
+    "Observations":2144.0,
     "Data Quality Note":""
   },
   {
@@ -94455,8 +94455,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.1,
+    "Observations":592.0,
     "Data Quality Note":""
   },
   {
@@ -94465,8 +94465,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.1,
+    "Observations":1395.0,
     "Data Quality Note":""
   },
   {
@@ -94475,9 +94475,9 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":2.7,
+    "Observations":157.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94485,8 +94485,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.1,
+    "Observations":1372.0,
     "Data Quality Note":""
   },
   {
@@ -94495,8 +94495,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.7,
+    "Observations":383.0,
     "Data Quality Note":""
   },
   {
@@ -94505,8 +94505,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.4,
+    "Observations":880.0,
     "Data Quality Note":""
   },
   {
@@ -94515,9 +94515,9 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":2.8,
+    "Observations":109.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94525,8 +94525,8 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.0,
+    "Observations":772.0,
     "Data Quality Note":""
   },
   {
@@ -94535,8 +94535,8 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.9,
+    "Observations":209.0,
     "Data Quality Note":""
   },
   {
@@ -94545,8 +94545,8 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.4,
+    "Observations":515.0,
     "Data Quality Note":""
   },
   {
@@ -94555,9 +94555,9 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":2.3,
+    "Observations":48.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94565,8 +94565,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.9,
+    "Observations":1400.0,
     "Data Quality Note":""
   },
   {
@@ -94575,8 +94575,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.4,
+    "Observations":445.0,
     "Data Quality Note":""
   },
   {
@@ -94585,8 +94585,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.7,
+    "Observations":812.0,
     "Data Quality Note":""
   },
   {
@@ -94595,9 +94595,9 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.4,
+    "Observations":143.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94605,8 +94605,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.9,
+    "Observations":1360.0,
     "Data Quality Note":""
   },
   {
@@ -94615,8 +94615,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.3,
+    "Observations":436.0,
     "Data Quality Note":""
   },
   {
@@ -94625,8 +94625,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.7,
+    "Observations":784.0,
     "Data Quality Note":""
   },
   {
@@ -94635,9 +94635,9 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.4,
+    "Observations":140.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94645,9 +94645,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":2.6,
+    "Observations":40.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94655,9 +94655,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":4.8,
+    "Observations":9.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94665,9 +94665,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":2.1,
+    "Observations":28.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94675,9 +94675,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":3.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94685,8 +94685,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.7,
+    "Observations":3285.0,
     "Data Quality Note":""
   },
   {
@@ -94695,8 +94695,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.0,
+    "Observations":1209.0,
     "Data Quality Note":""
   },
   {
@@ -94705,8 +94705,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.6,
+    "Observations":1889.0,
     "Data Quality Note":""
   },
   {
@@ -94715,9 +94715,9 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.5,
+    "Observations":187.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94725,8 +94725,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.7,
+    "Observations":1998.0,
     "Data Quality Note":""
   },
   {
@@ -94735,8 +94735,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.5,
+    "Observations":720.0,
     "Data Quality Note":""
   },
   {
@@ -94745,8 +94745,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.3,
+    "Observations":1141.0,
     "Data Quality Note":""
   },
   {
@@ -94755,9 +94755,9 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":137.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94765,8 +94765,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.8,
+    "Observations":1287.0,
     "Data Quality Note":""
   },
   {
@@ -94775,8 +94775,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.2,
+    "Observations":489.0,
     "Data Quality Note":""
   },
   {
@@ -94785,8 +94785,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.3,
+    "Observations":748.0,
     "Data Quality Note":""
   },
   {
@@ -94795,9 +94795,9 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":2.2,
+    "Observations":50.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94805,8 +94805,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":29.0,
+    "Observations":2089.0,
     "Data Quality Note":""
   },
   {
@@ -94815,8 +94815,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":10.7,
+    "Observations":215.0,
     "Data Quality Note":""
   },
   {
@@ -94825,8 +94825,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":31.4,
+    "Observations":1597.0,
     "Data Quality Note":""
   },
   {
@@ -94835,8 +94835,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":32.1,
+    "Observations":277.0,
     "Data Quality Note":""
   },
   {
@@ -94845,8 +94845,8 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":26.4,
+    "Observations":885.0,
     "Data Quality Note":""
   },
   {
@@ -94855,9 +94855,9 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":11.4,
+    "Observations":84.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94865,8 +94865,8 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":29.0,
+    "Observations":667.0,
     "Data Quality Note":""
   },
   {
@@ -94875,9 +94875,9 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":24.2,
+    "Observations":134.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94885,8 +94885,8 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":31.2,
+    "Observations":1204.0,
     "Data Quality Note":""
   },
   {
@@ -94895,9 +94895,9 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":10.1,
+    "Observations":131.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94905,8 +94905,8 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":33.5,
+    "Observations":930.0,
     "Data Quality Note":""
   },
   {
@@ -94915,9 +94915,9 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":40.4,
+    "Observations":143.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -94925,8 +94925,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.1,
+    "Observations":2662.0,
     "Data Quality Note":""
   },
   {
@@ -94935,8 +94935,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.4,
+    "Observations":660.0,
     "Data Quality Note":""
   },
   {
@@ -94945,8 +94945,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.8,
+    "Observations":1684.0,
     "Data Quality Note":""
   },
   {
@@ -94955,8 +94955,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.7,
+    "Observations":318.0,
     "Data Quality Note":""
   },
   {
@@ -94965,8 +94965,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.3,
+    "Observations":955.0,
     "Data Quality Note":""
   },
   {
@@ -94975,8 +94975,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.2,
+    "Observations":239.0,
     "Data Quality Note":""
   },
   {
@@ -94985,8 +94985,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.7,
+    "Observations":614.0,
     "Data Quality Note":""
   },
   {
@@ -94995,9 +94995,9 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":7.3,
+    "Observations":102.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -95005,8 +95005,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.4,
+    "Observations":1707.0,
     "Data Quality Note":""
   },
   {
@@ -95015,8 +95015,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.8,
+    "Observations":421.0,
     "Data Quality Note":""
   },
   {
@@ -95025,8 +95025,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.3,
+    "Observations":1070.0,
     "Data Quality Note":""
   },
   {
@@ -95035,8 +95035,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.0,
+    "Observations":216.0,
     "Data Quality Note":""
   },
   {
@@ -104645,8 +104645,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":5.9,
+    "Observations":26911.0,
     "Data Quality Note":""
   },
   {
@@ -104655,8 +104655,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.7,
+    "Observations":7035.0,
     "Data Quality Note":""
   },
   {
@@ -104665,8 +104665,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":7.2,
+    "Observations":17173.0,
     "Data Quality Note":""
   },
   {
@@ -104675,8 +104675,8 @@
     "Industry":"All Industries",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":7.8,
+    "Observations":2703.0,
     "Data Quality Note":""
   },
   {
@@ -104685,8 +104685,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":4.6,
+    "Observations":16674.0,
     "Data Quality Note":""
   },
   {
@@ -104695,8 +104695,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.1,
+    "Observations":4589.0,
     "Data Quality Note":""
   },
   {
@@ -104705,8 +104705,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":5.2,
+    "Observations":10338.0,
     "Data Quality Note":""
   },
   {
@@ -104715,8 +104715,8 @@
     "Industry":"All Industries",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":6.3,
+    "Observations":1747.0,
     "Data Quality Note":""
   },
   {
@@ -104725,8 +104725,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":8.5,
+    "Observations":10237.0,
     "Data Quality Note":""
   },
   {
@@ -104735,8 +104735,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.8,
+    "Observations":2446.0,
     "Data Quality Note":""
   },
   {
@@ -104745,8 +104745,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":10.8,
+    "Observations":6835.0,
     "Data Quality Note":""
   },
   {
@@ -104755,8 +104755,8 @@
     "Industry":"All Industries",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":11.5,
+    "Observations":956.0,
     "Data Quality Note":""
   },
   {
@@ -104765,8 +104765,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.2,
+    "Observations":3824.0,
     "Data Quality Note":""
   },
   {
@@ -104775,8 +104775,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.7,
+    "Observations":1011.0,
     "Data Quality Note":""
   },
   {
@@ -104785,8 +104785,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.1,
+    "Observations":2326.0,
     "Data Quality Note":""
   },
   {
@@ -104795,8 +104795,8 @@
     "Industry":"Agriculture",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.5,
+    "Observations":487.0,
     "Data Quality Note":""
   },
   {
@@ -104805,8 +104805,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.3,
+    "Observations":3211.0,
     "Data Quality Note":""
   },
   {
@@ -104815,8 +104815,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.9,
+    "Observations":879.0,
     "Data Quality Note":""
   },
   {
@@ -104825,8 +104825,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.1,
+    "Observations":1888.0,
     "Data Quality Note":""
   },
   {
@@ -104835,8 +104835,8 @@
     "Industry":"Agriculture",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.6,
+    "Observations":444.0,
     "Data Quality Note":""
   },
   {
@@ -104845,8 +104845,8 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.7,
+    "Observations":613.0,
     "Data Quality Note":""
   },
   {
@@ -104855,9 +104855,9 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":1.5,
+    "Observations":132.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -104865,8 +104865,8 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.8,
+    "Observations":438.0,
     "Data Quality Note":""
   },
   {
@@ -104875,9 +104875,9 @@
     "Industry":"Agriculture",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":43.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105005,8 +105005,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.0,
+    "Observations":4425.0,
     "Data Quality Note":""
   },
   {
@@ -105015,8 +105015,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.8,
+    "Observations":1198.0,
     "Data Quality Note":""
   },
   {
@@ -105025,8 +105025,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.0,
+    "Observations":2921.0,
     "Data Quality Note":""
   },
   {
@@ -105035,8 +105035,8 @@
     "Industry":"Manufacturing",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.0,
+    "Observations":306.0,
     "Data Quality Note":""
   },
   {
@@ -105045,8 +105045,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.8,
+    "Observations":2855.0,
     "Data Quality Note":""
   },
   {
@@ -105055,8 +105055,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":4.0,
+    "Observations":784.0,
     "Data Quality Note":""
   },
   {
@@ -105065,8 +105065,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.7,
+    "Observations":1864.0,
     "Data Quality Note":""
   },
   {
@@ -105075,8 +105075,8 @@
     "Industry":"Manufacturing",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.6,
+    "Observations":207.0,
     "Data Quality Note":""
   },
   {
@@ -105085,8 +105085,8 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.2,
+    "Observations":1570.0,
     "Data Quality Note":""
   },
   {
@@ -105095,8 +105095,8 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.2,
+    "Observations":414.0,
     "Data Quality Note":""
   },
   {
@@ -105105,8 +105105,8 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.7,
+    "Observations":1057.0,
     "Data Quality Note":""
   },
   {
@@ -105115,9 +105115,9 @@
     "Industry":"Manufacturing",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":1.7,
+    "Observations":99.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105125,8 +105125,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.7,
+    "Observations":2871.0,
     "Data Quality Note":""
   },
   {
@@ -105135,8 +105135,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.8,
+    "Observations":905.0,
     "Data Quality Note":""
   },
   {
@@ -105145,8 +105145,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.6,
+    "Observations":1697.0,
     "Data Quality Note":""
   },
   {
@@ -105155,8 +105155,8 @@
     "Industry":"Construction",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.7,
+    "Observations":269.0,
     "Data Quality Note":""
   },
   {
@@ -105165,8 +105165,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.7,
+    "Observations":2798.0,
     "Data Quality Note":""
   },
   {
@@ -105175,8 +105175,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.8,
+    "Observations":894.0,
     "Data Quality Note":""
   },
   {
@@ -105185,8 +105185,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.6,
+    "Observations":1640.0,
     "Data Quality Note":""
   },
   {
@@ -105195,8 +105195,8 @@
     "Industry":"Construction",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.7,
+    "Observations":264.0,
     "Data Quality Note":""
   },
   {
@@ -105205,9 +105205,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":73.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105215,9 +105215,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":11.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105225,9 +105225,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":57.0,
+    "Data Quality Note":"Few Observations: Between 51 and 100 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105235,9 +105235,9 @@
     "Industry":"Construction",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":0.0,
+    "Observations":5.0,
+    "Data Quality Note":"Few Observations: Between 0 and 50 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105245,8 +105245,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.9,
+    "Observations":6427.0,
     "Data Quality Note":""
   },
   {
@@ -105255,8 +105255,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.0,
+    "Observations":2224.0,
     "Data Quality Note":""
   },
   {
@@ -105265,8 +105265,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.0,
+    "Observations":3790.0,
     "Data Quality Note":""
   },
   {
@@ -105275,8 +105275,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.1,
+    "Observations":413.0,
     "Data Quality Note":""
   },
   {
@@ -105285,8 +105285,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.9,
+    "Observations":4078.0,
     "Data Quality Note":""
   },
   {
@@ -105295,8 +105295,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.5,
+    "Observations":1363.0,
     "Data Quality Note":""
   },
   {
@@ -105305,8 +105305,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.6,
+    "Observations":2417.0,
     "Data Quality Note":""
   },
   {
@@ -105315,8 +105315,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.9,
+    "Observations":298.0,
     "Data Quality Note":""
   },
   {
@@ -105325,8 +105325,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.1,
+    "Observations":2349.0,
     "Data Quality Note":""
   },
   {
@@ -105335,8 +105335,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.1,
+    "Observations":861.0,
     "Data Quality Note":""
   },
   {
@@ -105345,8 +105345,8 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.8,
+    "Observations":1373.0,
     "Data Quality Note":""
   },
   {
@@ -105355,9 +105355,9 @@
     "Industry":"Commerce & Transport",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":1.8,
+    "Observations":115.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105365,8 +105365,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":29.3,
+    "Observations":4308.0,
     "Data Quality Note":""
   },
   {
@@ -105375,8 +105375,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":12.0,
+    "Observations":456.0,
     "Data Quality Note":""
   },
   {
@@ -105385,8 +105385,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":31.7,
+    "Observations":3225.0,
     "Data Quality Note":""
   },
   {
@@ -105395,8 +105395,8 @@
     "Industry":"Public Administration",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":31.9,
+    "Observations":627.0,
     "Data Quality Note":""
   },
   {
@@ -105405,8 +105405,8 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":26.1,
+    "Observations":1818.0,
     "Data Quality Note":""
   },
   {
@@ -105415,9 +105415,9 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
-    "Data Quality Note":""
+    "Trade Union Density (%)":15.0,
+    "Observations":190.0,
+    "Data Quality Note":"Few Observations: Between 101 and 199 Observations"
   },
   {
     "Country":"Guatemala",
@@ -105425,8 +105425,8 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":27.4,
+    "Observations":1306.0,
     "Data Quality Note":""
   },
   {
@@ -105435,8 +105435,8 @@
     "Industry":"Public Administration",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":28.8,
+    "Observations":322.0,
     "Data Quality Note":""
   },
   {
@@ -105445,8 +105445,8 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":32.1,
+    "Observations":2490.0,
     "Data Quality Note":""
   },
   {
@@ -105455,8 +105455,8 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":9.3,
+    "Observations":266.0,
     "Data Quality Note":""
   },
   {
@@ -105465,8 +105465,8 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":35.3,
+    "Observations":1919.0,
     "Data Quality Note":""
   },
   {
@@ -105475,8 +105475,8 @@
     "Industry":"Public Administration",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":36.0,
+    "Observations":305.0,
     "Data Quality Note":""
   },
   {
@@ -105485,8 +105485,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.4,
+    "Observations":5056.0,
     "Data Quality Note":""
   },
   {
@@ -105495,8 +105495,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.0,
+    "Observations":1241.0,
     "Data Quality Note":""
   },
   {
@@ -105505,8 +105505,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.1,
+    "Observations":3214.0,
     "Data Quality Note":""
   },
   {
@@ -105515,8 +105515,8 @@
     "Industry":"Services",
     "Sex":"Total",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":1.2,
+    "Observations":601.0,
     "Data Quality Note":""
   },
   {
@@ -105525,8 +105525,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.6,
+    "Observations":1914.0,
     "Data Quality Note":""
   },
   {
@@ -105535,8 +105535,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.6,
+    "Observations":479.0,
     "Data Quality Note":""
   },
   {
@@ -105545,8 +105545,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":2.2,
+    "Observations":1223.0,
     "Data Quality Note":""
   },
   {
@@ -105555,8 +105555,8 @@
     "Industry":"Services",
     "Sex":"Men",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":3.1,
+    "Observations":212.0,
     "Data Quality Note":""
   },
   {
@@ -105565,8 +105565,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"All Ages",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.5,
+    "Observations":3142.0,
     "Data Quality Note":""
   },
   {
@@ -105575,8 +105575,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"15-24",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.9,
+    "Observations":762.0,
     "Data Quality Note":""
   },
   {
@@ -105585,8 +105585,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"25-54",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.5,
+    "Observations":1991.0,
     "Data Quality Note":""
   },
   {
@@ -105595,8 +105595,8 @@
     "Industry":"Services",
     "Sex":"Women",
     "Age Band":"55+",
-    "Trade Union Density (%)":null,
-    "Observations":null,
+    "Trade Union Density (%)":0.0,
+    "Observations":389.0,
     "Data Quality Note":""
   }
 ]

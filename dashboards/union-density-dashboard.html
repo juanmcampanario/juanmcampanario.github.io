@@ -436,13 +436,15 @@ layout: null
     </div>
     Sources: Author calculations based on national surveys, USD conversions using the World Bank's <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF" target="_blank" style="color:var(--muted);text-decoration:underline;">Official Exchange Rate (LCU per US$)</a>, PPP conversions using the World Bank's <a href="https://databank.worldbank.org/source/world-development-indicators/Series/PA.NUS.PPP#" target="_blank" style="color:var(--muted);text-decoration:underline;">PPP Conversion Factor, GDP (LCU per International $)</a>. Dashboard built with the assistance of Claude (Anthropic).
     <br><br>
-    <strong>Cite as:</strong> Campanario, Juan. <em>Trade Union Density Estimates for Latin America</em>. Dataset. 2026.
-    <span id="data-years"></span>
+    <strong>Cite as:</strong> Campanario, Juan. <em>Trade Union Density Estimates for Latin America</em>. Dataset. 2026. Retrieved <span id="retrieved-date"></span> from <a href="https://juanmcampanario.github.io/dashboards/union-density-dashboard.html" style="color:var(--text);text-decoration:underline;">https://juanmcampanario.github.io/dashboards/union-density-dashboard.html</a>.
   </div>
 </div>
 
 <script>
 // ─── CONSTANTS ────────────────────────────────────────────────────────────────
+document.getElementById('retrieved-date').textContent =
+  new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
 const COUNTRY_COLORS = {
   Brazil:    '#2980b9',
   Colombia:  '#c0392b',

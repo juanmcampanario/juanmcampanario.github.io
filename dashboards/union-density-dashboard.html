@@ -7,6 +7,12 @@ layout: null
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="color-scheme" content="light dark">
+<meta name="description" content="Interactive dashboard of trade union density and median monthly earnings across Brazil, Colombia, Guatemala, Mexico, and Peru, built from harmonized national household survey data.">
+<meta property="og:title" content="Trade Union Density in Latin America">
+<meta property="og:description" content="Interactive dashboard of trade union density and median monthly earnings across Brazil, Colombia, Guatemala, Mexico, and Peru.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23c0392b'/%3E%3Crect x='7' y='16' width='4' height='10' fill='%23faf7f2'/%3E%3Crect x='14' y='10' width='4' height='16' fill='%23faf7f2'/%3E%3Crect x='21' y='6' width='4' height='20' fill='%23faf7f2'/%3E%3C/svg%3E">
 <title>Latin America's Unions</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
@@ -154,12 +160,13 @@ layout: null
   /* COUNTRY PILLS */
   .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
   .pill {
-    display: flex; align-items: center; gap: 7px;
+    appearance: none; display: flex; align-items: center; gap: 7px;
     padding: 7px 13px; border-radius: 2px;
     border: 1.5px solid var(--border); background: var(--surface);
     font-family: 'DM Mono', monospace; font-size: 11px;
     cursor: pointer; transition: all 0.15s; color: var(--muted); user-select: none;
   }
+  .pill:disabled { cursor: not-allowed; }
   .pill .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .pill.on { background: var(--surf2); }
   .pill:hover { border-color: var(--text); color: var(--text); }
@@ -330,18 +337,18 @@ layout: null
   <div class="panel union-panel active" id="panel-union">
     <div class="controls" id="u-controls" style="display:none">
       <div class="cg">
-        <span class="cl">Industry</span>
+        <label class="cl" for="u-sel-industry">Industry</label>
         <select id="u-sel-industry"></select>
       </div>
       <div class="cg">
-        <span class="cl">Group</span>
+        <label class="cl" for="u-ms-sex-trigger">Group</label>
         <div class="multi-select" id="u-ms-sex">
           <button class="ms-trigger" id="u-ms-sex-trigger">Total</button>
           <div class="ms-dropdown" id="u-ms-sex-dropdown"></div>
         </div>
       </div>
       <div class="cg">
-        <span class="cl">Age Band</span>
+        <label class="cl" for="u-ms-age-trigger">Age Band</label>
         <div class="multi-select" id="u-ms-age">
           <button class="ms-trigger" id="u-ms-age-trigger">All Ages</button>
           <div class="ms-dropdown" id="u-ms-age-dropdown"></div>
@@ -370,7 +377,7 @@ layout: null
   <div class="panel earnings-panel" id="panel-earnings">
     <div class="controls" id="w-controls" style="display:none">
       <div class="cg">
-        <span class="cl">Currency</span>
+        <label class="cl" for="w-sel-currency">Currency</label>
         <select id="w-sel-currency">
           <option value="Median Earnings (USD)">USD</option>
           <option value="Median Earnings (PPP)" selected>PPP (Intl. $)</option>
@@ -378,25 +385,25 @@ layout: null
         </select>
       </div>
       <div class="cg">
-        <span class="cl">Industry</span>
+        <label class="cl" for="w-sel-industry">Industry</label>
         <select id="w-sel-industry"></select>
       </div>
       <div class="cg">
-        <span class="cl">Union Status</span>
+        <label class="cl" for="w-ms-union-trigger">Union Status</label>
         <div class="multi-select" id="w-ms-union">
           <button class="ms-trigger" id="w-ms-union-trigger">Unionized Workers</button>
           <div class="ms-dropdown" id="w-ms-union-dropdown"></div>
         </div>
       </div>
       <div class="cg">
-        <span class="cl">Group</span>
+        <label class="cl" for="w-ms-sex-trigger">Group</label>
         <div class="multi-select" id="w-ms-sex">
           <button class="ms-trigger" id="w-ms-sex-trigger">Total</button>
           <div class="ms-dropdown" id="w-ms-sex-dropdown"></div>
         </div>
       </div>
       <div class="cg">
-        <span class="cl">Age Band</span>
+        <label class="cl" for="w-ms-age-trigger">Age Band</label>
         <div class="multi-select" id="w-ms-age">
           <button class="ms-trigger" id="w-ms-age-trigger">All Ages</button>
           <div class="ms-dropdown" id="w-ms-age-dropdown"></div>
@@ -461,7 +468,7 @@ let W_ROWS = [], W_COUNTRIES = [], W_AGE_BANDS = [], W_INDUSTRIES = [], W_YEARS 
 let W_CURRENCY_MAP = {};
 let uActive = new Set(), wActive = new Set();
 let uChart, wChart;
-let uLoaded = false, wLoaded = false, earningsTabInited = false;
+let uLoaded = false, wLoaded = false, wLoading = false, earningsTabInited = false;
 
 const uState = {
   industry:  'All Industries',
@@ -477,13 +484,12 @@ const wState = {
 };
 
 // ─── LOAD DATA ────────────────────────────────────────────────────────────────
-Promise.allSettled([
-  fetch('union_density_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
-  fetch('median_earnings_data.json').then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
-]).then(([unionResult, earningsResult]) => {
-
-  if (unionResult.status === 'fulfilled') {
-    U_ROWS       = unionResult.value;
+// Union density loads immediately; earnings data (larger file) loads lazily
+// the first time the user opens that tab, so it's never fetched unnecessarily.
+fetch('union_density_data.json')
+  .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+  .then(rows => {
+    U_ROWS       = rows;
     U_COUNTRIES  = [...new Set(U_ROWS.map(r => r.Country))].sort();
     U_AGE_BANDS  = [...new Set(U_ROWS.map(r => r['Age Band']))]
       .sort((a, b) => AGE_BAND_ORDER.indexOf(a) - AGE_BAND_ORDER.indexOf(b));
@@ -498,32 +504,43 @@ Promise.allSettled([
     document.getElementById('u-card').style.display = 'block';
     document.getElementById('status-bar-union').classList.add('hidden');
     uLoaded = true;
-  } else {
-    showError('status-bar-union', 'union_density_data.json', unionResult.reason.message);
-  }
-
-  if (earningsResult.status === 'fulfilled') {
-    W_ROWS      = earningsResult.value;
-    W_COUNTRIES = [...new Set(W_ROWS.map(r => r.Country))].sort();
-    W_AGE_BANDS = [...new Set(W_ROWS.map(r => r['Age Band']))]
-      .sort((a, b) => AGE_BAND_ORDER.indexOf(a) - AGE_BAND_ORDER.indexOf(b));
-    W_YEARS     = [...new Set(W_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
-    wActive     = new Set(W_COUNTRIES);
-    wState.ageBands = new Set([W_AGE_BANDS.includes('All Ages') ? 'All Ages' : W_AGE_BANDS[0]]);
-    W_CURRENCY_MAP  = Object.fromEntries(W_ROWS.filter(r => r.Currency).map(r => [r.Country, r.Currency]));
-    W_INDUSTRIES    = [...new Set(W_ROWS.map(r => r.Industry))].sort((a,b) => INDUSTRY_ORDER.indexOf(a) - INDUSTRY_ORDER.indexOf(b));
-    populateSelect('w-sel-industry', W_INDUSTRIES, wState.industry);
-    wLoaded     = true;
-  } else {
-    document.getElementById('tab-earnings').style.display = 'none';
-  }
-
-  if (uLoaded) {
     document.getElementById('tab-bar').style.display = 'flex';
     document.getElementById('footer').style.display = 'block';
-    document.getElementById('data-years').textContent = '';
-  }
-});
+  })
+  .catch(err => showError('status-bar-union', 'union_density_data.json', err.message));
+
+function loadEarningsData() {
+  if (wLoaded || wLoading) return;
+  wLoading = true;
+  document.getElementById('status-bar-earnings').style.display = 'flex';
+  fetch('median_earnings_data.json')
+    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(rows => {
+      W_ROWS      = rows;
+      W_COUNTRIES = [...new Set(W_ROWS.map(r => r.Country))].sort();
+      W_AGE_BANDS = [...new Set(W_ROWS.map(r => r['Age Band']))]
+        .sort((a, b) => AGE_BAND_ORDER.indexOf(a) - AGE_BAND_ORDER.indexOf(b));
+      W_YEARS     = [...new Set(W_ROWS.map(r => +r.Year))].sort((a,b) => a-b);
+      wActive     = new Set(W_COUNTRIES);
+      wState.ageBands = new Set([W_AGE_BANDS.includes('All Ages') ? 'All Ages' : W_AGE_BANDS[0]]);
+      W_CURRENCY_MAP  = Object.fromEntries(W_ROWS.filter(r => r.Currency).map(r => [r.Country, r.Currency]));
+      W_INDUSTRIES    = [...new Set(W_ROWS.map(r => r.Industry))].sort((a,b) => INDUSTRY_ORDER.indexOf(a) - INDUSTRY_ORDER.indexOf(b));
+      populateSelect('w-sel-industry', W_INDUSTRIES, wState.industry);
+      wLoaded = true;
+      document.getElementById('status-bar-earnings').style.display = 'none';
+      initEarningsTab();
+    })
+    .catch(err => showError('status-bar-earnings', 'median_earnings_data.json', err.message));
+}
+
+function initEarningsTab() {
+  if (earningsTabInited || !wLoaded) return;
+  earningsTabInited = true;
+  renderWFilterPills();
+  document.getElementById('w-controls').style.display = 'flex';
+  document.getElementById('w-card').style.display = 'block';
+  drawEarningsChart();
+}
 
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
 function showError(barId, filename, msg) {
@@ -549,19 +566,20 @@ function renderPills(containerId, countries, activeSet, onUpdate, getComboCount)
     const color       = COUNTRY_COLORS[c] || '#888';
     const active      = activeSet.has(c);
     const wouldExceed = !active && (activeSet.size + 1) * comboCount > MAX_SERIES;
-    const pill   = document.createElement('div');
+    const pill   = document.createElement('button');
+    pill.type = 'button';
     pill.className = 'pill' + (active ? ' on' : '') + (wouldExceed ? ' disabled' : '');
+    pill.disabled = wouldExceed;
+    pill.setAttribute('aria-pressed', String(active));
     pill.style.color       = active ? color : '';
     pill.style.borderColor = active ? color : '';
     pill.innerHTML = `<span class="dot" style="background:${active ? color : 'var(--border)'}"></span>${c}`;
-    if (!wouldExceed) {
-      pill.addEventListener('click', () => {
-        if (activeSet.has(c)) { if (activeSet.size === 1) return; activeSet.delete(c); }
-        else activeSet.add(c);
-        renderPills(containerId, countries, activeSet, onUpdate, getComboCount);
-        onUpdate();
-      });
-    }
+    pill.addEventListener('click', () => {
+      if (activeSet.has(c)) { if (activeSet.size === 1) return; activeSet.delete(c); }
+      else activeSet.add(c);
+      renderPills(containerId, countries, activeSet, onUpdate, getComboCount);
+      onUpdate();
+    });
     el.appendChild(pill);
   });
 }
@@ -991,12 +1009,9 @@ function switchTab(tab) {
   document.getElementById('tab-union').className = 'tab-btn' + (tab === 'union' ? ' au' : '');
   document.getElementById('tab-earnings').className = 'tab-btn' + (tab === 'earnings' ? ' aw' : '');
 
-  if (tab === 'earnings' && !earningsTabInited && wLoaded) {
-    earningsTabInited = true;
-    renderWFilterPills();
-    document.getElementById('w-controls').style.display = 'flex';
-    document.getElementById('w-card').style.display = 'block';
-    drawEarningsChart();
+  if (tab === 'earnings') {
+    if (wLoaded) initEarningsTab();
+    else loadEarningsData();
   }
 }
 

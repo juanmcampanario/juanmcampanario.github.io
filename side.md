@@ -1,6 +1,13 @@
 # Side Projects
 During my limited free time, I enjoy creating new datasets and highlighting new insights about topics. 
 
+### Latin America's Unions
+Trade union density data for Latin America is sparse; the ILO and the OECD cover some countries, and neither has data on earnings for unionized workers. I developed harmonized estimates of union density and median monthly earnings for Brazil, Colombia, Guatemala, Mexico, and Peru, using each country's national household or labor force survey; together these countries make up over two-thirds of the region's workforce. The interactive dashboard breaks the numbers down by sex, age, and industry, and the underlying data can be downloaded.
+
+[Explore the dashboard](/dashboards/union-density-dashboard.html){:target="_blank"} | [Read the methodology](/research/union_methodology.pdf){:target="_blank"}
+
+---
+
 ### McDonalds Locations 
 In the car with a friend, she said it would be cool to be able to make maps of store fronts. I decided to spend time between graduating and starting my first job writing code to do exactly that for McDonalds. The code will be posted soon, but for now click here to download the resulting [map](https://drive.google.com/file/d/1Ly7ZYq2VvAfSJLOJTnsvvgPAKqrO3YiL/view?usp=drive_link){:target="_blank"}.
 

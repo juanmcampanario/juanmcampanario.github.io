@@ -1,4 +1,4 @@
-# Side Projects
+# Projects
 During my limited free time, I enjoy creating new datasets and highlighting new insights about topics. 
 
 ### Latin America's Unions

@@ -376,7 +376,7 @@ layout: null
       <div class="combo-key" id="u-combo-key" style="display:none"></div>
       <div class="gap-note">
         <span class="gap-dash"></span>
-        Gaps indicate years with no survey data available, or where the underlying sample is too small to be reliable (effective sample size under 200, accounting for survey weights) — those estimates are still available in the CSV download.
+        Gaps indicate years with no survey data available, too few effective observations (accounting for survey weights), or too high a coefficient of variation to be reliable — those estimates are still available in the CSV download.
       </div>
     </div>
     <div class="stats-row" id="u-stats-row"></div>
@@ -758,7 +758,12 @@ function getUnionSeries(country, sex, ageBand, years) {
     r['Age Band'] === ageBand
   ).forEach(r => {
     const v = r['Trade Union Density (%)'];
-    lookup[+r.Year] = (v === null || v === undefined || v === '' || r['Data Quality Note']) ? null : +v;
+    const note = r['Data Quality Note'];
+    // "Use with Caution" cells are shown (the estimate is usable, just less
+    // precise); only "Suppressed" notes (too few effective observations, or
+    // CV too high) hide the point, same as a true data gap.
+    const suppress = note && note.indexOf('Suppressed') === 0;
+    lookup[+r.Year] = (v === null || v === undefined || v === '' || suppress) ? null : +v;
   });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
 }

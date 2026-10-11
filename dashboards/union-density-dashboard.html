@@ -788,6 +788,11 @@ function getEarningsSeries(country, unionStatus, sex, ageBand, years) {
     r['Age Band'] === ageBand
   ).forEach(r => {
     const v = r[wState.currency];
+    // Unlike getUnionSeries, this suppresses on ANY non-empty note -- correct
+    // today because Median Earnings Excel File.py's notes are all
+    // below-the-floor tiers with no "show but flag" tier. If a caution tier
+    // is ever added here to match union density, switch to the same
+    // startsWith('Suppressed') check used there.
     lookup[+r.Year] = (v === null || v === undefined || v === '' || r['Data Quality Note']) ? null : +v;
   });
   return years.map(y => lookup[y] !== undefined ? lookup[y] : null);
@@ -1036,8 +1041,18 @@ function switchTab(tab) {
   document.getElementById('tab-earnings').className = 'tab-btn' + (tab === 'earnings' ? ' aw' : '');
 
   if (tab === 'earnings') {
-    if (wLoaded) initEarningsTab();
-    else loadEarningsData();
+    if (wLoaded) {
+      // If the earnings download button triggered the data load (and thus
+      // the first chart build) while this panel was still display:none,
+      // the canvas was 0x0 at creation and Chart.js may not have
+      // auto-corrected once made visible. Rebuild rather than rely on
+      // resize detection -- drawEarningsChart() already safely destroys
+      // the previous instance (same pattern the dark-mode handler uses).
+      if (earningsTabInited) drawEarningsChart();
+      else initEarningsTab();
+    } else {
+      loadEarningsData();
+    }
   }
 }
 
@@ -1080,6 +1095,9 @@ async function downloadCSV(type) {
   }
   const rows = type === 'union' ? U_ROWS : W_ROWS;
   if (!rows.length) return;
+  // Observations (raw N) is excluded from the download even though it's in the
+  // source JSON -- raw N alone isn't a reliability measure (Data Quality Note
+  // and Standard Error already cover that) and could be misread as one.
   const headers = Object.keys(rows[0]).filter(h => h !== 'Observations');
   const csv = [
     headers.join(','),

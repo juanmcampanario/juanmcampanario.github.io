@@ -480,6 +480,7 @@ let W_CURRENCY_MAP = {};
 let uActive = new Set(), wActive = new Set();
 let uChart, wChart;
 let uLoaded = false, wLoaded = false, wLoading = false, earningsTabInited = false;
+let earningsDataPromise = null;
 
 const uState = {
   industry:  'All Industries',
@@ -521,10 +522,14 @@ fetch('union_density_data.json')
   .catch(err => showError('status-bar-union', 'union_density_data.json', err.message));
 
 function loadEarningsData() {
-  if (wLoaded || wLoading) return;
+  // Returns a promise that resolves once W_ROWS is populated, so callers
+  // other than the tab switch (e.g. the earnings download button, which can
+  // be clicked before the user ever opens that tab) can await the same
+  // in-flight fetch instead of only checking a boolean flag.
+  if (earningsDataPromise) return earningsDataPromise;
   wLoading = true;
   document.getElementById('status-bar-earnings').style.display = 'flex';
-  fetch('median_earnings_data.json')
+  earningsDataPromise = fetch('median_earnings_data.json')
     .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
     .then(rows => {
       W_ROWS      = rows;
@@ -541,7 +546,12 @@ function loadEarningsData() {
       document.getElementById('status-bar-earnings').style.display = 'none';
       initEarningsTab();
     })
-    .catch(err => showError('status-bar-earnings', 'median_earnings_data.json', err.message));
+    .catch(err => {
+      earningsDataPromise = null; // allow retrying after a failed fetch
+      showError('status-bar-earnings', 'median_earnings_data.json', err.message);
+      throw err;
+    });
+  return earningsDataPromise;
 }
 
 function initEarningsTab() {
@@ -1060,7 +1070,14 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () 
 });
 
 // ─── CSV DOWNLOAD ─────────────────────────────────────────────────────────────
-function downloadCSV(type) {
+async function downloadCSV(type) {
+  // Earnings data loads lazily on first visit to that tab (see
+  // loadEarningsData) -- the download buttons live in the shared footer and
+  // are visible from the union tab too, so a click here can arrive before
+  // W_ROWS is ever populated. Without this, the button just did nothing.
+  if (type === 'earnings' && !W_ROWS.length) {
+    try { await loadEarningsData(); } catch { return; }
+  }
   const rows = type === 'union' ? U_ROWS : W_ROWS;
   if (!rows.length) return;
   const headers = Object.keys(rows[0]).filter(h => h !== 'Observations');
